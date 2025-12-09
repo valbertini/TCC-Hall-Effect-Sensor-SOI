@@ -5,7 +5,7 @@
 	(uuid "47032d33-7038-4871-a5b9-c8b9c3fb37c1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Instrumentation:INA333xxDGK"
+		(symbol "Amplifier_Instrumentation:INA128"
 			(pin_names
 				(offset 0.127)
 			)
@@ -21,7 +21,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "INA333xxDGK"
+			(property "Value" "INA128"
 				(at 3.81 -3.175 0)
 				(effects
 					(font
@@ -30,16 +30,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina333.pdf"
+			(property "Footprint" ""
 				(at 2.54 0 0)
 				(effects
 					(font
@@ -48,7 +39,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Zero Drift, Micropower Instrumentation Amplifier G = 1 + 100kOhm/Rg, VSSOP-8"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina128.pdf"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "instrumentation opamp amplifier"
+			(property "ki_keywords" "instrumentation opamp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "VSSOP*3x3mm*P0.65mm*"
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +75,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "INA333xxDGK_0_1"
+			(symbol "INA128_0_1"
 				(polyline
 					(pts
 						(xy 7.62 0) (xy -5.08 6.35) (xy -5.08 -6.35) (xy 7.62 0)
@@ -89,7 +89,7 @@
 					)
 				)
 			)
-			(symbol "INA333xxDGK_1_1"
+			(symbol "INA128_1_1"
 				(pin input line
 					(at -7.62 5.08 0)
 					(length 2.54)
@@ -1633,518 +1633,398 @@
 		)
 	)
 	(junction
-		(at 138.43 73.66)
+		(at 121.92 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1bb6407a-c834-4376-8502-75b4cef66a50")
+		(uuid "15658a99-dac9-4c82-b5dd-f5e7018ba5cb")
 	)
 	(junction
-		(at 186.69 62.23)
+		(at 121.92 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22fc0a29-74a9-4d8a-aecc-67b34e1d690a")
-	)
-	(junction
-		(at 146.05 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c3b7ad5-a714-4cbc-bf9e-9473e8d4f0ed")
-	)
-	(junction
-		(at 146.05 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6086c3e8-7a90-460a-b9df-e6f00351e00c")
-	)
-	(junction
-		(at 201.93 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f8606e9-37a0-4495-8c12-eaf7c200d1a0")
-	)
-	(junction
-		(at 146.05 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d90c517b-57b5-4e2d-a55a-dbbd18ffc84c")
+		(uuid "4b104fc7-cb8c-4afd-832d-957c92e38fdb")
 	)
 	(wire
 		(pts
-			(xy 237.49 73.66) (xy 224.79 73.66)
+			(xy 119.38 116.84) (xy 118.11 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06580c08-f7ca-4dfb-bb1c-f39616f93527")
+		(uuid "01422f5e-0e26-4f07-b367-632cf99b774d")
 	)
 	(wire
 		(pts
-			(xy 134.62 92.71) (xy 132.08 92.71)
+			(xy 157.48 90.17) (xy 153.67 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0afd86ad-a929-4dee-965e-ee5335e2d69a")
+		(uuid "04356720-16f4-4b3d-91b4-d1c6522fa984")
 	)
 	(wire
 		(pts
-			(xy 201.93 90.17) (xy 214.63 90.17)
+			(xy 207.01 90.17) (xy 214.63 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11557af5-c80c-4288-8215-546e3aee9702")
+		(uuid "048ef70a-5ef8-4355-b146-cb628c70a34a")
 	)
 	(wire
 		(pts
-			(xy 138.43 68.58) (xy 179.07 68.58)
+			(xy 115.57 111.76) (xy 115.57 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a4e79aa-67a0-4b4c-8990-b1b4270eee0b")
+		(uuid "1d108d30-ebc4-448e-97d8-2b8e6378e1f0")
 	)
 	(wire
 		(pts
-			(xy 138.43 68.58) (xy 138.43 73.66)
+			(xy 121.92 109.22) (xy 121.92 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e664e12-783d-4880-9336-3332097aaec0")
+		(uuid "1f229797-60bb-4763-9410-2fc24d3894f4")
 	)
 	(wire
 		(pts
-			(xy 130.81 104.14) (xy 146.05 104.14)
+			(xy 121.92 72.39) (xy 153.67 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "222df8fa-7073-4bc8-bb8e-cc4c61278abf")
+		(uuid "20861574-e34f-4e5b-b031-c7311cd48ab5")
 	)
 	(wire
 		(pts
-			(xy 132.08 81.28) (xy 132.08 92.71)
+			(xy 157.48 80.01) (xy 153.67 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26d3e530-539e-4280-bd1f-0031243ef2f8")
+		(uuid "3a888829-c297-43b9-ba3a-8a2f1b9045cd")
 	)
 	(wire
 		(pts
-			(xy 224.79 81.28) (xy 237.49 81.28)
+			(xy 207.01 87.63) (xy 214.63 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2957f501-fb10-4ea2-8740-62b7744dec19")
+		(uuid "42839e05-b499-456f-b436-a6da03fd36fc")
 	)
 	(wire
 		(pts
-			(xy 214.63 90.17) (xy 214.63 86.36)
+			(xy 104.14 109.22) (xy 121.92 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "295d0474-42d0-4409-b7fb-37b3d216f793")
+		(uuid "47e6e506-15ce-423e-952e-778231448489")
 	)
 	(wire
 		(pts
-			(xy 146.05 44.45) (xy 146.05 62.23)
+			(xy 105.41 95.25) (xy 100.33 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4289d120-2ee1-4e23-9679-a2f290a7053b")
+		(uuid "515260ab-77af-4ab3-9fd7-425d44e16e02")
 	)
 	(wire
 		(pts
-			(xy 106.68 71.12) (xy 121.92 71.12)
+			(xy 109.22 116.84) (xy 110.49 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "482666d1-2c2f-4503-b643-b58949e25ddb")
+		(uuid "5593e313-3654-47e6-b5eb-7938b6adac22")
 	)
 	(wire
 		(pts
-			(xy 127 81.28) (xy 127 90.17)
+			(xy 207.01 82.55) (xy 207.01 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50f0adf4-7281-46f4-afca-0ff127932a1f")
+		(uuid "58dbdc7f-642b-4728-9ecf-da3418ac1b43")
 	)
 	(wire
 		(pts
-			(xy 189.23 90.17) (xy 201.93 90.17)
+			(xy 207.01 85.09) (xy 214.63 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5328de1f-02d1-4235-b72e-f9b5b9c3114e")
+		(uuid "5eff300a-61bd-4f87-a1a4-c96ddc2836ca")
 	)
 	(wire
 		(pts
-			(xy 127 90.17) (xy 146.05 90.17)
+			(xy 100.33 69.85) (xy 105.41 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fde8060-792e-49ef-979d-ac61ee8a1c3b")
+		(uuid "633f68bc-8dc5-4357-bd4d-e7e4320fa481")
 	)
 	(wire
 		(pts
-			(xy 127 92.71) (xy 127 96.52)
+			(xy 100.33 83.82) (xy 77.47 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "653f1868-ccd7-4d31-b413-7e70d9e101d0")
+		(uuid "79b28ec2-b0c7-42ea-b12c-ef59ce9136aa")
 	)
 	(wire
 		(pts
-			(xy 201.93 90.17) (xy 201.93 99.06)
+			(xy 207.01 92.71) (xy 214.63 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7040e34b-d201-4ad4-9117-f04a8a12a227")
+		(uuid "80454b8d-44de-48a2-8366-8264188067a0")
 	)
 	(wire
 		(pts
-			(xy 138.43 73.66) (xy 137.16 73.66)
+			(xy 114.3 120.65) (xy 114.3 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79233bc8-5e18-42ae-ba80-43546fb81bec")
+		(uuid "87f882f2-49cc-4680-8f8f-97718abd32f3")
 	)
 	(wire
 		(pts
-			(xy 113.03 73.66) (xy 106.68 73.66)
+			(xy 100.33 95.25) (xy 100.33 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bf500e2-9e48-41e2-aebe-40e7004c2d7a")
+		(uuid "88773ad3-2f2a-43f1-b9bb-94267fcb9e14")
 	)
 	(wire
 		(pts
-			(xy 224.79 73.66) (xy 224.79 71.12)
+			(xy 104.14 74.93) (xy 104.14 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c009141-be40-4311-983a-890e89a64246")
+		(uuid "8bd2acd4-d80f-487b-95a0-4226c4b7fd20")
 	)
 	(wire
 		(pts
-			(xy 189.23 90.17) (xy 189.23 81.28)
+			(xy 115.57 111.76) (xy 119.38 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82d85aaa-f10f-4770-9bfe-669b0dd5c22f")
+		(uuid "98f9f571-2f30-4ae9-b2d6-04fa31576502")
 	)
 	(wire
 		(pts
-			(xy 214.63 63.5) (xy 214.63 62.23)
+			(xy 105.41 100.33) (xy 104.14 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85c9a32b-d77c-46ea-a8ae-cd173480aa0f")
+		(uuid "a1c26547-55bc-4014-95b8-34cddcb7290d")
 	)
 	(wire
 		(pts
-			(xy 127 62.23) (xy 146.05 62.23)
+			(xy 175.26 85.09) (xy 186.69 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dda7089-5672-4ae7-8e4e-add59ac0f448")
+		(uuid "a36e28d6-3d63-43f5-a44f-6d496322e3cd")
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 186.69 90.17)
+			(xy 100.33 83.82) (xy 100.33 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9555ae6d-c8d4-4ceb-aa12-e2db36b1f0d9")
+		(uuid "aa398b44-3332-4ddc-9407-1bb263dd21a8")
 	)
 	(wire
 		(pts
-			(xy 146.05 62.23) (xy 186.69 62.23)
+			(xy 153.67 80.01) (xy 153.67 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9617e968-dcbc-4479-b110-b443bd1c3516")
+		(uuid "af35e70c-864f-4997-8965-0f83fc7bf3f0")
 	)
 	(wire
 		(pts
-			(xy 186.69 81.28) (xy 186.69 90.17)
+			(xy 121.92 97.79) (xy 120.65 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "964951d4-1252-459e-b3ec-6ca6eef44906")
+		(uuid "b3a1a9d1-6f0b-4249-ae13-4f8d456b2e19")
 	)
 	(wire
 		(pts
-			(xy 196.85 73.66) (xy 204.47 73.66)
+			(xy 113.03 105.41) (xy 113.03 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a195f43b-8218-4861-94c4-94625e1a5f85")
+		(uuid "b7403de4-23f5-4d7f-a490-f28ee22b2ba0")
 	)
 	(wire
 		(pts
-			(xy 146.05 104.14) (xy 146.05 125.73)
+			(xy 100.33 86.36) (xy 77.47 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a623b5eb-0dfe-43be-9807-67069ccc3c53")
+		(uuid "bbc1441b-36fe-4af5-8ca9-fa7a2134d8c9")
 	)
 	(wire
 		(pts
-			(xy 127 62.23) (xy 127 66.04)
+			(xy 109.22 111.76) (xy 109.22 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7954d23-1229-4a36-81b4-55d8d82a061e")
+		(uuid "c0dc189d-5b5e-4f39-9eff-c9a55bc74886")
 	)
 	(wire
 		(pts
-			(xy 134.62 96.52) (xy 134.62 92.71)
+			(xy 153.67 90.17) (xy 153.67 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a859f9ca-cce9-4508-bb48-d72197fa31b3")
+		(uuid "c30eec11-5cad-4a5c-bb26-7ddee7750c2a")
 	)
 	(wire
 		(pts
-			(xy 121.92 76.2) (xy 120.65 76.2)
+			(xy 121.92 72.39) (xy 120.65 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac05fc5d-42a9-4c24-b66a-4be31e037b06")
+		(uuid "ce5aba92-ccc7-489a-bf78-ba9dacf912f2")
 	)
 	(wire
 		(pts
-			(xy 224.79 78.74) (xy 237.49 78.74)
+			(xy 119.38 111.76) (xy 119.38 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af88aa7f-5052-47bf-ab57-9f082edfa8a3")
+		(uuid "d891c2f2-5225-44db-9a0a-b1dbd0b3b46c")
 	)
 	(wire
 		(pts
-			(xy 113.03 87.63) (xy 140.97 87.63)
+			(xy 104.14 100.33) (xy 104.14 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b371d5cb-efbc-4470-8255-1ad054d346c1")
+		(uuid "d968ce7f-d53b-4446-8146-0d413ea3a194")
 	)
 	(wire
 		(pts
-			(xy 130.81 100.33) (xy 130.81 104.14)
+			(xy 121.92 83.82) (xy 121.92 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b392f1e0-50e2-4aa8-b517-98dc58144fcc")
+		(uuid "da13b17d-21e6-4f7a-841e-df62b12ef59e")
 	)
 	(wire
 		(pts
-			(xy 224.79 76.2) (xy 237.49 76.2)
+			(xy 105.41 74.93) (xy 104.14 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b61d4dad-8b2e-453d-b92e-896a3b353b86")
+		(uuid "db69a40b-c16b-4a45-8315-2427122de936")
 	)
 	(wire
 		(pts
-			(xy 140.97 87.63) (xy 140.97 78.74)
+			(xy 153.67 97.79) (xy 121.92 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba699abc-8a16-40f1-92df-dee10adba63a")
+		(uuid "de659ad3-52f1-406a-ac38-c93c6cdac6f8")
 	)
 	(wire
 		(pts
-			(xy 186.69 66.04) (xy 186.69 62.23)
+			(xy 113.03 111.76) (xy 109.22 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc2e2e39-b030-43bb-8d05-5d9c54bdb4ab")
+		(uuid "e7a91300-5086-4fa6-8a1f-328b9cf44d73")
 	)
 	(wire
 		(pts
-			(xy 113.03 73.66) (xy 113.03 87.63)
+			(xy 104.14 83.82) (xy 121.92 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf881eff-1f81-401c-bc36-cbd11238a63e")
-	)
-	(wire
-		(pts
-			(xy 120.65 76.2) (xy 120.65 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3a0c349-7764-4c06-990b-0a1d5746f817")
-	)
-	(wire
-		(pts
-			(xy 129.54 92.71) (xy 127 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d64e9d5f-2726-4ea8-8410-3650a90a721b")
-	)
-	(wire
-		(pts
-			(xy 138.43 85.09) (xy 138.43 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8904c1b-33a1-493a-a3be-68748334b00e")
-	)
-	(wire
-		(pts
-			(xy 120.65 85.09) (xy 138.43 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2661fd4-9997-401d-b0df-a146409cd9bb")
-	)
-	(wire
-		(pts
-			(xy 140.97 78.74) (xy 179.07 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f46adfdf-0f74-4152-91ed-1b5bbf38e0d7")
-	)
-	(wire
-		(pts
-			(xy 146.05 90.17) (xy 146.05 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f94863f1-535b-4df7-aab9-c4a2cb741013")
-	)
-	(wire
-		(pts
-			(xy 214.63 62.23) (xy 186.69 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fadb3a81-8dda-4324-9568-35d485ed0e37")
-	)
-	(wire
-		(pts
-			(xy 129.54 81.28) (xy 129.54 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffe479e6-17eb-46e5-aa2a-bf9676893d8b")
+		(uuid "f04875ec-c492-4735-8577-947ce6c5aed9")
 	)
 	(symbol
-		(lib_id "Amplifier_Instrumentation:INA333xxDGK")
-		(at 186.69 73.66 0)
+		(lib_id "power:+5V")
+		(at 110.49 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "359d5334-7d92-47a9-a153-35c6e0247654")
-		(property "Reference" "U2"
-			(at 192.532 66.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA333xxDGK"
-			(at 194.564 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 186.69 81.28 0)
+		(uuid "217ba5be-c271-44e2-a1e8-77b32ff82cb1")
+		(property "Reference" "#PWR07"
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,78 +2032,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina333.pdf"
-			(at 189.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zero Drift, Micropower Instrumentation Amplifier G = 1 + 100kOhm/Rg, VSSOP-8"
-			(at 186.69 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "048c005a-5910-4fe2-9793-c11a8e07402f")
-		)
-		(pin "7"
-			(uuid "c1dc2d17-66c2-47ce-aa66-b9f8743088c0")
-		)
-		(pin "4"
-			(uuid "bd161209-c283-4ac8-b9d0-b13ca841292d")
-		)
-		(pin "8"
-			(uuid "83e7aacf-1c92-4848-96f5-c14296e15c41")
-		)
-		(pin "6"
-			(uuid "98f7d0c5-dc72-4f06-90ea-cac29f23d036")
-		)
-		(pin "1"
-			(uuid "de347616-7f21-4616-b9a6-c151f77beb83")
-		)
-		(pin "3"
-			(uuid "3f55738b-555c-46fb-982f-943ef4760484")
-		)
-		(pin "5"
-			(uuid "a5fc18b6-36aa-4cc3-bb62-114e81ac5a31")
-		)
-		(instances
-			(project ""
-				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5V")
-		(at 146.05 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "411a199d-5b7f-4803-8238-496f11665f9c")
-		(property "Reference" "#PWR02"
-			(at 146.05 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 146.05 130.81 0)
+		(property "Value" "+5V"
+			(at 107.442 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 125.73 0)
+			(at 110.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +2050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 125.73 0)
+			(at 110.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,157 +2058,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 146.05 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b343bc2-142f-4e0d-9926-951b5c1980be")
-		)
-		(instances
-			(project ""
-				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL071")
-		(at 129.54 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64a11af6-1f92-411b-8e71-583b5c99cdbf")
-		(property "Reference" "U1"
-			(at 132.588 67.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL071"
-			(at 133.096 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 133.35 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 129.54 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "99afab9b-d829-4fe5-ab16-f5bb3922d813")
-		)
-		(pin "5"
-			(uuid "a3692433-eeb6-497e-a5da-102c33081c3f")
-		)
-		(pin "8"
-			(uuid "8ded74bc-a401-4704-bce4-2f8e62a7152d")
-		)
-		(pin "6"
-			(uuid "48eef319-7486-4bc2-94cf-2c00bf2e9d58")
-		)
-		(pin "3"
-			(uuid "3bb8941e-14ab-49bd-b8ce-1df4cb890bc6")
-		)
-		(pin "7"
-			(uuid "0e123d22-740f-4141-8242-29f4ff79915a")
-		)
-		(pin "2"
-			(uuid "d35bec27-a975-4bc7-9094-11e5a077b938")
-		)
-		(pin "1"
-			(uuid "47e79972-41b6-4001-a043-6abeff38538f")
-		)
-		(instances
-			(project ""
-				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Trim")
-		(at 130.81 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f6e158e-8a58-4aeb-8dbb-a2988039c747")
-		(property "Reference" "RV1"
-			(at 119.38 93.726 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Offset_TrimPot"
-			(at 118.11 96.012 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Trim-potentiometer"
-			(at 130.81 96.52 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 110.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,18 +2068,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d8c8c744-a310-4581-804d-1cfae3d3821c")
-		)
-		(pin "3"
-			(uuid "10ee036e-ed87-4d87-935d-e6fd2c8e9680")
-		)
-		(pin "2"
-			(uuid "d0afe450-c382-4926-97b3-b151bb51eb5d")
+			(uuid "7c809913-c755-4767-a390-14ccf1b349f8")
 		)
 		(instances
-			(project ""
+			(project "TCC Circuito"
 				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
-					(reference "RV1")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2426,16 +2081,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 99.06 0)
+		(at 167.64 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74923285-98d5-4b9d-a58f-0dcafa644f16")
-		(property "Reference" "#PWR03"
-			(at 201.93 105.41 0)
+		(uuid "2184ea50-ab33-4be0-acd5-71068de9801b")
+		(property "Reference" "#PWR011"
+			(at 167.64 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2098,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 104.14 0)
+			(at 171.45 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 99.06 0)
+			(at 167.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 99.06 0)
+			(at 167.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +2124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 99.06 0)
+			(at 167.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,56 +2133,44 @@
 			)
 		)
 		(pin "1"
-			(uuid "72122369-ab09-4eae-93c3-25f49cf1b38f")
+			(uuid "32d544e4-74ee-48b1-af43-740baafaf5a0")
 		)
 		(instances
-			(project ""
+			(project "TCC Circuito"
 				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
-					(reference "#PWR03")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Analog_ADC:ADS1115IDGS")
-		(at 214.63 76.2 0)
+		(lib_id "Amplifier_Operational:TL071")
+		(at 113.03 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "849a4ee6-23ca-4287-9d96-07926692a594")
-		(property "Reference" "U3"
-			(at 216.7733 60.96 0)
+		(uuid "2eb1d4c4-f042-40b7-9526-566267f1c141")
+		(property "Reference" "U1"
+			(at 116.078 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "ADS1115IDGS"
-			(at 216.7733 63.5 0)
+		(property "Value" "TL071"
+			(at 116.586 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 214.63 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1113.pdf"
-			(at 213.36 99.06 0)
+		(property "Footprint" ""
+			(at 114.3 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,8 +2178,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
-			(at 214.63 76.2 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 116.84 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 113.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,37 +2197,396 @@
 			)
 		)
 		(pin "4"
-			(uuid "48fcb35c-9fb4-45f9-a698-a9b889c5f905")
-		)
-		(pin "7"
-			(uuid "d8b3c23a-5d50-4b2c-a33c-e7f84ade8cda")
-		)
-		(pin "2"
-			(uuid "895e3973-57f3-4977-925c-dbaa7df4ac9b")
-		)
-		(pin "9"
-			(uuid "f3b48c86-dbad-43c9-abdd-0b33e93e7321")
+			(uuid "d2193218-503b-4b5b-bf41-a90bbca0e766")
 		)
 		(pin "5"
-			(uuid "f58e36eb-6a38-4047-b099-bf02b1cc0dfb")
-		)
-		(pin "6"
-			(uuid "316427ee-0247-40b8-84e3-c8e91c63f854")
-		)
-		(pin "3"
-			(uuid "1bdc5a6b-7042-424b-86a2-69de4890d0ab")
-		)
-		(pin "10"
-			(uuid "2b7735af-749b-4306-bf21-45b922045282")
+			(uuid "1110ec37-78ce-45fc-8e8f-0182ff8710ad")
 		)
 		(pin "8"
-			(uuid "3b3f2596-f907-4a20-bdc8-afec75da9bef")
+			(uuid "0553cd1f-2633-4ba0-b989-5d271c6c6d91")
+		)
+		(pin "6"
+			(uuid "fd71bfb0-99a0-4bd3-9198-bc9337854f56")
+		)
+		(pin "3"
+			(uuid "59489f5d-c955-44ce-b994-43771e8ab122")
+		)
+		(pin "7"
+			(uuid "55f89e97-703b-42c7-bab6-eaf8fe06e3a3")
+		)
+		(pin "2"
+			(uuid "32a305ff-d1a8-47bd-904a-039156d9e5d9")
 		)
 		(pin "1"
-			(uuid "8c26bf24-c5b2-431a-a23b-50562d17730a")
+			(uuid "3f7b1baa-b9d3-46dc-8b6f-a77a7f490a79")
 		)
 		(instances
-			(project ""
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 110.49 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72f6ec7e-a2a7-43cf-9be9-8dd76f4857b2")
+		(property "Reference" "#PWR05"
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 107.188 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c03c2183-4b73-4d27-96aa-6198a9ad8640")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 110.49 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75fad978-17e4-43a3-b1c7-f4875e944d24")
+		(property "Reference" "#PWR04"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 107.442 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5471d9a-c2bc-46a4-9dc8-4d80565384e8")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 110.49 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84a52605-f02c-4e21-843c-9a40e3788f25")
+		(property "Reference" "#PWR06"
+			(at 110.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 107.188 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f52eeb2e-55a5-43ff-9626-031c2d62738e")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL071")
+		(at 113.03 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84a57261-91db-4eea-b342-0bd1a2e01eda")
+		(property "Reference" "U2"
+			(at 116.078 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL071"
+			(at 116.586 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fdf95f59-43f0-46d5-b366-7fbbdd6b9449")
+		)
+		(pin "5"
+			(uuid "39f2c526-cb5b-43a3-8f93-39a4b53e3f6c")
+		)
+		(pin "8"
+			(uuid "d78f8014-e156-4d22-9117-b62d59b74681")
+		)
+		(pin "6"
+			(uuid "8d787259-357c-4d9f-9a3d-c4b2f767c0bc")
+		)
+		(pin "3"
+			(uuid "974a8d46-9992-4a33-b7da-265b2aa6072e")
+		)
+		(pin "7"
+			(uuid "40467b7b-daac-4367-88cd-16ad9460980c")
+		)
+		(pin "2"
+			(uuid "27c1bcfc-68f7-4efe-bcaa-46f275b685a6")
+		)
+		(pin "1"
+			(uuid "c5c15776-a768-4607-8ed5-53561e212fe1")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Instrumentation:INA128")
+		(at 165.1 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86ee8f80-15fd-49c5-960f-e7010445da5f")
+		(property "Reference" "U3"
+			(at 169.418 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA128"
+			(at 170.688 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina128.pdf"
+			(at 167.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "348a6c9c-bad9-4678-8353-cd4d5c62a26f")
+		)
+		(pin "1"
+			(uuid "3baccabf-cd3f-4c90-95a8-714d0ed96d1f")
+		)
+		(pin "2"
+			(uuid "8fb77bb7-8eea-4754-94d1-8e5fb55735fe")
+		)
+		(pin "4"
+			(uuid "7fbe337e-7408-4114-86e1-dc670ed0f3ae")
+		)
+		(pin "5"
+			(uuid "9438aefb-944f-4342-8c8a-5695a1fc2d83")
+		)
+		(pin "6"
+			(uuid "ce4947de-ce69-4615-a1d0-638f9844b07a")
+		)
+		(pin "8"
+			(uuid "fcf7ede1-e950-49a5-8455-491eba852183")
+		)
+		(pin "7"
+			(uuid "d686febc-80b8-4f20-9264-8d6c32c512d7")
+		)
+		(instances
+			(project "TCC Circuito"
 				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
 					(reference "U3")
 					(unit 1)
@@ -2586,16 +2596,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 242.57 76.2 0)
+		(at 219.71 87.63 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "93a77700-556b-44f9-a934-fb11828fed70")
+		(uuid "97854699-4708-40ea-aa5d-99cc25631eba")
 		(property "Reference" "J2"
-			(at 241.935 68.58 0)
+			(at 219.075 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2613,7 @@
 			)
 		)
 		(property "Value" "Rasp pico"
-			(at 242.316 70.358 0)
+			(at 219.456 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 76.2 0)
+			(at 219.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2630,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 76.2 0)
+			(at 219.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2639,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 242.57 76.2 0)
+			(at 219.71 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,19 +2648,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "61138859-382d-42e7-8b8b-45ea79c2530e")
+			(uuid "08c2380b-fd17-473c-901a-c253f8eacd7a")
 		)
 		(pin "3"
-			(uuid "6343079f-3715-491d-a9e3-0dd5fa107781")
+			(uuid "148fb5d5-4581-4e73-b79a-47cd0ac00e31")
 		)
 		(pin "4"
-			(uuid "b4740764-8523-49f0-b2d0-129f48d2e43d")
+			(uuid "ae69231c-41b7-4a79-abc4-04601e2942c4")
 		)
 		(pin "1"
-			(uuid "89148335-16ba-4e13-a32b-c8f85314252f")
+			(uuid "4184e627-6ff9-4476-808a-75410cc6734b")
 		)
 		(instances
-			(project ""
+			(project "TCC Circuito"
 				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
 					(reference "J2")
 					(unit 1)
@@ -2659,17 +2669,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 146.05 44.45 0)
+		(lib_id "power:-5V")
+		(at 114.3 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e9af030-21ff-4363-98f9-bb50f7109b0b")
-		(property "Reference" "#PWR01"
-			(at 146.05 48.26 0)
+		(uuid "a779a133-e842-4222-96be-83c1e6544498")
+		(property "Reference" "#PWR08"
+			(at 114.3 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,8 +2686,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 146.05 39.37 0)
+		(property "Value" "-5V"
+			(at 110.998 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 44.45 0)
+			(at 114.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 44.45 0)
+			(at 114.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,8 +2712,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 146.05 44.45 0)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 114.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,36 +2722,37 @@
 			)
 		)
 		(pin "1"
-			(uuid "8eb8d4e5-0a93-4d19-b38a-bacdf0e32882")
+			(uuid "8fbb8247-0860-4878-944a-88ff020a9d14")
 		)
 		(instances
-			(project ""
+			(project "TCC Circuito"
 				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
-					(reference "#PWR01")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 101.6 71.12 0)
+		(lib_id "power:+5V")
+		(at 196.85 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d1d4e8c2-b914-4c3f-8c0b-580abb9363eb")
-		(property "Reference" "J1"
-			(at 102.108 65.024 0)
+		(uuid "b3b83fb4-bca4-4842-b146-9cb56bfbe741")
+		(property "Reference" "#PWR012"
+			(at 196.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "Sensor HALL"
-			(at 100.838 67.818 0)
+		(property "Value" "+5V"
+			(at 193.802 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2760,71 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 71.12 0)
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 196.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db3019c9-57b4-49d5-8d39-92f0209e4e8a")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 114.3 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "babdd61e-525c-4377-8efb-cc62817cb3fc")
+		(property "Reference" "RV1"
+			(at 114.046 113.792 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Offset_TrimPot"
+			(at 104.648 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2833,142 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 71.12 0)
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df77a498-fa1c-40b0-aaa3-534b9d78b983")
+		)
+		(pin "3"
+			(uuid "4e685840-cd3d-4cf5-ba66-b3695835e9df")
+		)
+		(pin "2"
+			(uuid "3996943d-2da9-40a1-8db3-dca029c25afd")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be3aefa6-3681-43b6-8aa4-4dfa0421f63f")
+		(property "Reference" "#PWR013"
+			(at 196.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "995f42f6-2e3e-4754-8d55-8a4d810f50c8")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 72.39 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1d4e8c2-b914-4c3f-8c0b-580abb9363eb")
+		(property "Reference" "J1"
+			(at 72.898 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Sensor HALL"
+			(at 71.628 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2977,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 101.6 71.12 0)
+			(at 72.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,6 +2995,230 @@
 			(project ""
 				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 165.1 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbc6887b-cb59-4c1f-98f2-f8158bc6d594")
+		(property "Reference" "#PWR09"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 162.052 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdc6f209-6505-444f-a0b9-6d166282cbce")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 165.1 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "effa003b-e3dc-4439-b34a-a92f00b83bae")
+		(property "Reference" "#PWR010"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 161.798 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77e6b62d-fa38-408d-83cc-a95927e1cfe0")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_ADC:ADS1115IDGS")
+		(at 196.85 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd90f794-ce22-4f2c-a659-138e836038b7")
+		(property "Reference" "U4"
+			(at 198.9933 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1115IDGS"
+			(at 198.9933 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1113.pdf"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d4d4277b-d3b6-42f1-97bb-07e3ae8b80cb")
+		)
+		(pin "7"
+			(uuid "9cf94105-61b0-451f-8c12-333996883d2f")
+		)
+		(pin "2"
+			(uuid "40f1bda9-8f0a-4b15-af6e-c86ba7e8229e")
+		)
+		(pin "9"
+			(uuid "ec1281b3-2ab6-4e17-8dc1-c3ea928ab188")
+		)
+		(pin "5"
+			(uuid "57bcf6a7-eca5-495a-9d72-9d6c835ad3a7")
+		)
+		(pin "6"
+			(uuid "a94dbaae-5a78-4a18-a08a-c10a79db2884")
+		)
+		(pin "3"
+			(uuid "8d4c28a9-1f42-4c7e-a43b-547c818b95c6")
+		)
+		(pin "10"
+			(uuid "a771fadf-4c10-48b1-905d-b4016561a213")
+		)
+		(pin "8"
+			(uuid "565a6749-60e4-48d8-9ecd-15f2a45f80e7")
+		)
+		(pin "1"
+			(uuid "5403e81e-5c28-4aae-983f-c2f3e8a1b6a0")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "U4")
 					(unit 1)
 				)
 			)
