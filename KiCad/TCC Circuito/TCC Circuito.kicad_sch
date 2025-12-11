@@ -895,6 +895,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1140,6 +1344,269 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Potentiometer_Trim"
 			(pin_names
 				(offset 1.016)
@@ -1294,6 +1761,191 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Nidec_CAS-120A1"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Nidec_CAS-120A1"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1633,6 +2285,12 @@
 		)
 	)
 	(junction
+		(at 137.16 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1291df4c-bf28-46bd-bc79-f78349cb3246")
+	)
+	(junction
 		(at 121.92 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1643,6 +2301,36 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b104fc7-cb8c-4afd-832d-957c92e38fdb")
+	)
+	(junction
+		(at 203.2 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72423f09-4204-4520-a7bc-80da5c6976fe")
+	)
+	(junction
+		(at 161.29 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8393d299-090c-4b88-ab24-41fc043249ee")
+	)
+	(junction
+		(at 137.16 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5b83796-615d-4314-be03-bc684aceb86f")
+	)
+	(junction
+		(at 203.2 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2e34f6c-5e8e-4e3a-8943-915bff042eba")
+	)
+	(junction
+		(at 203.2 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa8fff70-94a9-472d-838a-c7631b4ef7ca")
 	)
 	(wire
 		(pts
@@ -1676,6 +2364,56 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 102.87) (xy 161.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05108190-1d0e-4d3d-915b-4b7f457127e4")
+	)
+	(wire
+		(pts
+			(xy 161.29 128.27) (xy 161.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080ff981-9b72-47d2-8d8d-90b4cb9a16c6")
+	)
+	(wire
+		(pts
+			(xy 203.2 132.08) (xy 203.2 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1505f221-a4c2-43ec-839a-034a7657092a")
+	)
+	(wire
+		(pts
+			(xy 139.7 125.73) (xy 139.7 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b7dfee-342d-4db5-b412-f680e1cd0798")
+	)
+	(wire
+		(pts
+			(xy 203.2 110.49) (xy 208.28 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b44d667-9baf-4a65-a94c-f377c627bbb5")
+	)
+	(wire
+		(pts
 			(xy 115.57 111.76) (xy 115.57 105.41)
 		)
 		(stroke
@@ -1706,6 +2444,56 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 87.63) (xy 137.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299d5e44-2dcf-45c4-afbd-fc36051f1bc1")
+	)
+	(wire
+		(pts
+			(xy 196.85 121.92) (xy 203.2 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d273c06-16e2-4a64-9545-22ce7513f3dc")
+	)
+	(wire
+		(pts
+			(xy 203.2 121.92) (xy 203.2 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d64f140-35d5-4b5e-95ff-2009a0cfe9fc")
+	)
+	(wire
+		(pts
+			(xy 137.16 87.63) (xy 137.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f0df45-b4af-45b7-9358-4b3171baf335")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 137.16 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b12203-5a7f-4589-a83e-a4c6d080fe12")
+	)
+	(wire
+		(pts
 			(xy 157.48 80.01) (xy 153.67 80.01)
 		)
 		(stroke
@@ -1713,6 +2501,16 @@
 			(type default)
 		)
 		(uuid "3a888829-c297-43b9-ba3a-8a2f1b9045cd")
+	)
+	(wire
+		(pts
+			(xy 125.73 140.97) (xy 137.16 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b86c995-4941-4482-bbeb-78bed031ab90")
 	)
 	(wire
 		(pts
@@ -1776,6 +2574,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 124.46) (xy 208.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631fd9e6-43ce-4566-b162-41b24ced46e1")
+	)
+	(wire
+		(pts
 			(xy 100.33 69.85) (xy 105.41 69.85)
 		)
 		(stroke
@@ -1783,6 +2591,46 @@
 			(type default)
 		)
 		(uuid "633f68bc-8dc5-4357-bd4d-e7e4320fa481")
+	)
+	(wire
+		(pts
+			(xy 214.63 124.46) (xy 208.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f394565-0f54-4ca2-a432-e75ac6fd3dc4")
+	)
+	(wire
+		(pts
+			(xy 125.73 82.55) (xy 125.73 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a66643-370d-4e73-84ad-3aeb7aaea4e0")
+	)
+	(wire
+		(pts
+			(xy 208.28 119.38) (xy 208.28 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76040de4-d1d0-44b3-9103-ace67dccda9d")
+	)
+	(wire
+		(pts
+			(xy 161.29 140.97) (xy 137.16 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764d403b-3acd-40a8-aa3c-af60652e6dcb")
 	)
 	(wire
 		(pts
@@ -1796,6 +2644,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 133.35) (xy 203.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa82a1f-91b0-4edb-ab8a-c8121c9d2e3f")
+	)
+	(wire
+		(pts
+			(xy 203.2 133.35) (xy 208.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c10ad5c-e1d7-4483-bcf4-2d94767ef893")
+	)
+	(wire
+		(pts
 			(xy 207.01 92.71) (xy 214.63 92.71)
 		)
 		(stroke
@@ -1803,6 +2671,26 @@
 			(type default)
 		)
 		(uuid "80454b8d-44de-48a2-8366-8264188067a0")
+	)
+	(wire
+		(pts
+			(xy 137.16 140.97) (xy 137.16 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81fa6b7f-8692-48b8-a0ce-1bf35dba3ee7")
+	)
+	(wire
+		(pts
+			(xy 161.29 128.27) (xy 163.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8571cf71-f9bc-43a6-a307-ae602c9e6f26")
 	)
 	(wire
 		(pts
@@ -1836,6 +2724,36 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 125.73) (xy 158.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec5b16a-9c9f-4e4f-b854-aa3cee74242d")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 161.29 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961af55b-15d0-45a1-8b98-219dfac34d8f")
+	)
+	(wire
+		(pts
+			(xy 163.83 115.57) (xy 163.83 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98157353-0189-4496-b8bf-d159846d3798")
+	)
+	(wire
+		(pts
 			(xy 115.57 111.76) (xy 119.38 111.76)
 		)
 		(stroke
@@ -1843,6 +2761,26 @@
 			(type default)
 		)
 		(uuid "98f9f571-2f30-4ae9-b2d6-04fa31576502")
+	)
+	(wire
+		(pts
+			(xy 203.2 119.38) (xy 203.2 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99792eb2-f5cb-4f87-93e3-78cd82ef74af")
+	)
+	(wire
+		(pts
+			(xy 214.63 119.38) (xy 208.28 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1879b31-2a4a-4af6-8ea7-0918dac27cf0")
 	)
 	(wire
 		(pts
@@ -1863,6 +2801,26 @@
 			(type default)
 		)
 		(uuid "a36e28d6-3d63-43f5-a44f-6d496322e3cd")
+	)
+	(wire
+		(pts
+			(xy 134.62 125.73) (xy 134.62 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a857218b-1ea2-4cc7-b68f-9d5e09ac019a")
+	)
+	(wire
+		(pts
+			(xy 157.48 82.55) (xy 125.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9021bff-68e0-4d32-b1f5-ac5e13ba9570")
 	)
 	(wire
 		(pts
@@ -1896,6 +2854,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 125.73) (xy 163.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d91e3f-40fd-451e-b9aa-f37d47bc36b6")
+	)
+	(wire
+		(pts
 			(xy 113.03 105.41) (xy 113.03 111.76)
 		)
 		(stroke
@@ -1916,6 +2884,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 121.92) (xy 214.63 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf59418c-493e-4962-8d80-2236851d0a5c")
+	)
+	(wire
+		(pts
 			(xy 109.22 111.76) (xy 109.22 116.84)
 		)
 		(stroke
@@ -1933,6 +2911,36 @@
 			(type default)
 		)
 		(uuid "c30eec11-5cad-4a5c-bb26-7ddee7750c2a")
+	)
+	(wire
+		(pts
+			(xy 161.29 128.27) (xy 158.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a32396-827d-49e9-97ea-70fe0ba6ad48")
+	)
+	(wire
+		(pts
+			(xy 158.75 115.57) (xy 158.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d59039-e781-4aa3-b0b9-2c0e1adf809f")
+	)
+	(wire
+		(pts
+			(xy 203.2 110.49) (xy 203.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd704b89-36be-41ed-874a-2726023e8a90")
 	)
 	(wire
 		(pts
@@ -1996,6 +3004,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 109.22) (xy 203.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29afa76-c7c2-4432-a1f7-459a167e8a74")
+	)
+	(wire
+		(pts
 			(xy 113.03 111.76) (xy 109.22 111.76)
 		)
 		(stroke
@@ -2013,6 +3031,99 @@
 			(type default)
 		)
 		(uuid "f04875ec-c492-4735-8577-947ce6c5aed9")
+	)
+	(wire
+		(pts
+			(xy 134.62 115.57) (xy 134.62 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4755dd6-782b-46eb-a4e3-d1e3ea82cdf0")
+	)
+	(wire
+		(pts
+			(xy 139.7 115.57) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd501ef1-6b89-4823-8a27-13d9a5d2c614")
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 137.16 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00dd64f7-e447-40d9-a553-ac4dfa27d134")
+		(property "Reference" "SW1"
+			(at 142.24 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Relay1"
+			(at 142.24 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 129.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 137.16 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bd97a93f-68c5-418f-85fc-21f39b23ca02")
+		)
+		(pin "1"
+			(uuid "86aa4c49-7f10-41c8-82a3-9a62a24ad3d9")
+		)
+		(pin "2"
+			(uuid "461c0025-340b-4e4c-b38c-2cd8c2e61cf7")
+		)
+		(instances
+			(project ""
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2230,6 +3341,205 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 196.85 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c861c12-ef78-4b9e-92bc-6f21256cfa0b")
+		(property "Reference" "#PWR01"
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 192.786 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d440c04a-3e2b-48f4-9e03-1256e5833a73")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51bc8c72-3d3d-423c-9237-d24e32a3e667")
+		(property "Reference" "RG5"
+			(at 165.608 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100M"
+			(at 165.608 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.052 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58ec8301-2464-4d39-a8ed-194bec531401")
+		)
+		(pin "2"
+			(uuid "f69a2b39-a944-430d-90d6-6a284129e299")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "RG5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 203.2 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bc2672b-5c63-4713-9dad-ea924dc284df")
+		(property "Reference" "#PWR014"
+			(at 203.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 199.898 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5373cd80-9f1c-4248-ba9d-fe91cd3357c9")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-5V")
 		(at 110.49 105.41 180)
 		(unit 1)
@@ -2295,16 +3605,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 110.49 64.77 0)
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 137.16 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "75fad978-17e4-43a3-b1c7-f4875e944d24")
-		(property "Reference" "#PWR04"
-			(at 110.49 68.58 0)
+		(fields_autoplaced yes)
+		(uuid "789dc84e-0749-4ca9-a433-16fe073c2901")
+		(property "Reference" "SW2"
+			(at 142.24 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Relay3"
+			(at 142.24 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 147.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,16 +3641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 107.442 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 64.77 0)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 144.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,8 +3650,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 110.49 64.77 0)
+		(property "Description" "Switch, single pole double throw"
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,22 +3659,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 110.49 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "b386e146-6b02-42ba-9622-193df7776971")
 		)
 		(pin "1"
-			(uuid "a5471d9a-c2bc-46a4-9dc8-4d80565384e8")
+			(uuid "a0e04fbe-9d24-424a-bc15-91ff871a2008")
+		)
+		(pin "2"
+			(uuid "2a824b7c-1e06-4643-84d7-05cc2cbc295c")
 		)
 		(instances
 			(project "TCC Circuito"
 				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
-					(reference "#PWR04")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -2510,6 +3828,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 203.2 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86a21c68-3ddb-4174-8282-cd2a64e216cb")
+		(property "Reference" "C1"
+			(at 196.85 115.316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 199.39 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.1652 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a47d6f7-ac9a-4521-b7cc-2fdc5daed352")
+		)
+		(pin "1"
+			(uuid "b02f9802-415f-40a6-86e5-141853d566c2")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Instrumentation:INA128")
 		(at 165.1 85.09 0)
 		(unit 1)
@@ -2519,15 +3904,15 @@
 		(dnp no)
 		(uuid "86ee8f80-15fd-49c5-960f-e7010445da5f")
 		(property "Reference" "U3"
-			(at 169.418 78.232 0)
+			(at 168.402 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "INA128"
-			(at 170.688 81.026 0)
+		(property "Value" "INA122"
+			(at 170.434 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,6 +3974,75 @@
 			(project "TCC Circuito"
 				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a58e86b-4338-4e0c-b0b3-a84ee6e1744d")
+		(property "Reference" "RG1k"
+			(at 141.732 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200"
+			(at 141.732 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.922 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f33225d-62bb-4d1d-86da-d6dfe970a1b7")
+		)
+		(pin "2"
+			(uuid "c2790e70-b629-4a17-a971-6c9d47aff450")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "RG1k")
 					(unit 1)
 				)
 			)
@@ -2663,6 +4117,140 @@
 			(project "TCC Circuito"
 				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 110.49 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99559cde-3a11-44f4-9534-bd5266f65098")
+		(property "Reference" "#PWR03"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 107.442 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67375db9-c7c2-4e74-88c5-ffc1f1a2c890")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a405dfed-81ba-4a58-a897-ea126fd1c217")
+		(property "Reference" "RG100"
+			(at 150.876 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 153.924 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.972 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61d610c3-65ca-4800-8f53-8b383f7638b0")
+		)
+		(pin "2"
+			(uuid "61ee525a-4ec3-40fc-b419-81f0a3aefcba")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "RG100")
 					(unit 1)
 				)
 			)
@@ -2793,6 +4381,77 @@
 			(project "TCC Circuito"
 				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 219.71 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b414d812-f492-4fdb-9fc5-cbc9a2f16063")
+		(property "Reference" "J3"
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fonte"
+			(at 219.075 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f9598474-268c-4dad-9fab-693d683079f5")
+		)
+		(pin "1"
+			(uuid "11cfe950-3737-4d0e-a485-5c6326ce7d6b")
+		)
+		(pin "2"
+			(uuid "f64b2a63-29a0-4cde-939e-730016007340")
+		)
+		(instances
+			(project ""
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2934,6 +4593,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 203.2 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce96d171-2c52-4957-910c-1f9c8363f8f4")
+		(property "Reference" "#PWR02"
+			(at 203.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 200.152 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e8974e6-fd1c-4447-bee1-e866b81dce8f")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 72.39 83.82 0)
 		(unit 1)
@@ -3066,6 +4790,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 203.2 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e294ef3e-8ab5-4628-b6fd-63d9547c46f2")
+		(property "Reference" "C2"
+			(at 197.358 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 199.39 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.1652 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ce75c65-b67f-451d-aae6-00ffbe88d6f2")
+		)
+		(pin "1"
+			(uuid "b59109ce-af26-4f4d-9278-abb8fd484d87")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-5V")
 		(at 165.1 92.71 180)
 		(unit 1)
@@ -3125,6 +4916,148 @@
 			(project "TCC Circuito"
 				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 161.29 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1ca647f-aad6-4d9d-a2cb-b31584289206")
+		(property "Reference" "SW3"
+			(at 166.37 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Relay3"
+			(at 166.37 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 151.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 161.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6d274cd6-297f-46f7-b7b6-133770989a84")
+		)
+		(pin "1"
+			(uuid "1e74467c-96ec-4f50-94d1-dbe2e5c3a8fa")
+		)
+		(pin "2"
+			(uuid "b474c823-5fb7-40e2-9ea0-c02008627170")
+		)
+		(instances
+			(project "TCC Circuito"
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fca07465-6b6a-4fe1-8e68-72db3ba77d26")
+		(property "Reference" "RG10k"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20"
+			(at 130.048 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.842 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "885f34c3-efab-425f-a437-3e0ba6e28beb")
+		)
+		(pin "2"
+			(uuid "b5fc8c7b-747a-48d4-8731-83a288d0deb3")
+		)
+		(instances
+			(project ""
+				(path "/47032d33-7038-4871-a5b9-c8b9c3fb37c1"
+					(reference "RG10k")
 					(unit 1)
 				)
 			)
