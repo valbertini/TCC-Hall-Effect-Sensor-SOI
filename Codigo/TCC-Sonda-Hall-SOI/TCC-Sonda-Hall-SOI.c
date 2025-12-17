@@ -81,10 +81,14 @@ void ads1115_init() {
     config[1] = 0xC8; // 1100 1000 -> AIN0, 0.256V, Continuous
     config[2] = 0xE0; // 1110 0000 -> 860 SPS, Alert Queue Enable (necessário para RDY)
 
-    int ret = i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config, 3, false);
-    if (ret == PICO_ERROR_GENERIC) {
-        printf("Erro: ADS1115 não encontrado no endereço 0x48!\n");
-    }
+     int result = i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config, 3, false);
+
+     if (result == 3) {
+         printf("Configuração enviada com sucesso! (3 bytes confirmados)\n");
+     } else {
+         printf("Erro na comunicação: O ADS1115 não respondeu. (Cod: %d)\n", result);
+     }
+
 }
 
 // ---------- LEITURA ----------
@@ -112,8 +116,19 @@ float compute_average() {
 
 // ---------- MAIN ----------
 int main() {
+    sleep(5000);
     stdio_init_all();
     ads1115_init();
+
+    uint8_t reg = REG_CONFIG;
+    uint8_t read_val[2];
+
+    // Aponta para o registrador de configuração
+    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, &reg, 1, true);
+    // Lê os 2 bytes de configuração que estão lá agora
+    i2c_read_blocking(I2C_PORT, ADS1115_ADDR, read_val, 2, false);
+
+    printf("Configuração atual no chip: 0x%02x%02x\n", read_val[0], read_val[1]);
 
     absolute_time_t last_avg = get_absolute_time();
 
