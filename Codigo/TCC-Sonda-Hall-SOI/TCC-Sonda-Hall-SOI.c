@@ -36,20 +36,17 @@ volatile uint16_t buffer_count = 0;
 // ---------- ISR ALERT ----------
 void alert_isr(uint gpio, uint32_t events) {
     conversion_ready = true;
-    printf("ALERT\n");
 }
 
 // ---------- ADS1115 INIT ----------
 void ads1115_init() {
-
     i2c_init(I2C_PORT, 400 * 1000);
-
     gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
     gpio_pull_up(I2C_SDA);
     gpio_pull_up(I2C_SCL);
 
-    // ALERT/RDY
+    // ALERT/RDY - Garanta que o pull-up interno está forte o suficiente
     gpio_init(ALERT_PIN);
     gpio_set_dir(ALERT_PIN, GPIO_IN);
     gpio_pull_up(ALERT_PIN);
@@ -61,21 +58,33 @@ void ads1115_init() {
         &alert_isr
     );
 
-    // Thresholds primeiro
-    uint8_t hi_thresh[3] = {0x03, 0x80, 0x00}; // 0x8000
-    uint8_t lo_thresh[3] = {0x02, 0x00, 0x00}; // 0x0000
+    // 1. Configurar Hi_thresh para MSB = 1 e Lo_thresh para MSB = 0
+    // Isso ativa o modo Conversion Ready no pino ALERT
+    uint8_t hi_thresh[] = {0x03, 0xFF, 0xFF}; 
+    uint8_t lo_thresh[] = {0x02, 0x00, 0x00}; 
 
     i2c_write_blocking(I2C_PORT, ADS1115_ADDR, hi_thresh, 3, false);
     i2c_write_blocking(I2C_PORT, ADS1115_ADDR, lo_thresh, 3, false);
 
-    // Config
+    // 2. Configuração: 
+    // Bit 15: 0 (No effect em modo contínuo)
+    // Bits 14-12: 100 (AIN0 vs GND)
+    // Bits 11-9: 100 (+/- 0.256V)
+    // Bit 8: 0 (Modo Contínuo)
+    // Bits 7-5: 111 (860 SPS)
+    // Bits 4-2: 000 (Modo ALERT tradicional, mas os thresholds acima forçam o RDY)
+    // Bit 1: 0 (Polaridade ativa baixa)
+    // Bit 0: 0 (Latching desativado - importante para o RDY pulsar em cada amostra)
+    
     uint8_t config[3];
     config[0] = REG_CONFIG;
+    config[1] = 0xC8; // 1100 1000 -> AIN0, 0.256V, Continuous
+    config[2] = 0xE0; // 1110 0000 -> 860 SPS, Alert Queue Enable (necessário para RDY)
 
-    config[1] = 0b01000011; // AIN0, ±0.256V, contínuo
-    config[2] = 0b11100000; // 860 SPS, RDY ativo
-
-    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config, 3, false);
+    int ret = i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config, 3, false);
+    if (ret == PICO_ERROR_GENERIC) {
+        printf("Erro: ADS1115 não encontrado no endereço 0x48!\n");
+    }
 }
 
 // ---------- LEITURA ----------
@@ -111,6 +120,7 @@ int main() {
     while (true) {
 
         if (conversion_ready) {
+    	    printf("ALERT\n");
             conversion_ready = false;
 
             int16_t sample = ads1115_read();
