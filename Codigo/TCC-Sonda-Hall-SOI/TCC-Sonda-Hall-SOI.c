@@ -11,8 +11,10 @@
 #define ADS1115_ADDR 0x48
 
 // ADS1115
-#define REG_CONVERSION 0x00
-#define REG_CONFIG     0x01
+#define REG_CONVERSION      0x00
+#define REG_CONFIG          0x01
+#define REG_THRESHOLD_LO    0x02
+#define REG_THRESHOLD_HI    0x03
 
 // ALERT
 #define ALERT_PIN 6
@@ -102,11 +104,20 @@ float compute_average() {
 
 // ---------- MAIN ----------
 int main() {
-    printf("a");
-    sleep_ms(5000);
     stdio_init_all();
     ads1115_init();
 
+    uint8_t config_data[] = {REG_CONFIG, 0x48, 0xE0};
+
+    int ret = i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config_data, 3, false);
+    
+    if (ret != 3) {
+        printf("ERRO: Falha ao enviar configuração. Bytes enviados: %d\n", ret);
+    } else {
+        printf("Configuração enviada com sucesso!\n");
+    }
+
+    // 3. Verificação (Read-back) imediata
     uint8_t reg_ptr = REG_CONFIG;
     uint8_t read_check[2];
     i2c_write_blocking(I2C_PORT, ADS1115_ADDR, &reg_ptr, 1, true); // Re-aponta para o config
@@ -136,6 +147,13 @@ int main() {
 
             float avg = compute_average();
             printf("Media (100ms): %.6f V | Amostras: %u\n", avg, buffer_count);
+            
+                if (ret != 3) {
+                printf("ERRO: Falha ao enviar configuração. Bytes enviados: %d\n", ret);
+                } else {
+                printf("Configuração enviada com sucesso!\n");
+                }
+
             printf("Confirmando no chip: 0x%02x%02x\n", read_check[0], read_check[1]);
 
         }
