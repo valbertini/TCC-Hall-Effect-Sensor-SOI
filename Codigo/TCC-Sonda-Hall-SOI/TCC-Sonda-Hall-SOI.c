@@ -42,24 +42,39 @@ void alert_isr(uint gpio, uint32_t events) {
 
 // ---------- ADS1115 INIT ----------
 void ads1115_init() {
-    i2c_init(I2C_PORT, 100 * 1000); // Reduzido para 100kHz
+    i2c_init(I2C_PORT, 100 * 1000); // 100kHz
     
     gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
     gpio_pull_up(I2C_SDA);
     gpio_pull_up(I2C_SCL);
 
-    sleep_ms(10); // Pequena pausa para o chip estabilizar
+    sleep_ms(50); // Espera o chip "acordar" totalmente
 
-    uint8_t config_data[] = {0x01, 0x48, 0xE0};
-    int ret = i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config_data, 3, false);
+    // Preparando o pacote completo: [Registrador, MSB, LSB]
+    // 0x01 = Config Register
+    // 0x44 = AIN0 vs GND, +/- 2.048V (mais estável para teste), Contínuo
+    // 0xE0 = 860 SPS, Modo ALERT habilitado
+    uint8_t setup[] = {0x01, 0x44, 0xE0};
 
-    if (ret < 0) {
-        printf("ERRO CRÍTICO: O sensor NÃO respondeu no endereço 0x48!\n");
-        printf("Verifique se o pino ADDR está no GND e se os cabos SDA/SCL não estão invertidos.\n");
+    int ret = i2c_write_blocking(I2C_PORT, ADS1115_ADDR, setup, 3, false);
+
+    if (ret != 3) {
+        printf("Erro no envio! Retorno: %d\n", ret);
     } else {
-        printf("Sucesso! Configuração aceita.\n");
+        printf("Configuração enviada!\n");
     }
+
+    // AGORA A LEITURA DE VOLTA COM CUIDADO
+    uint8_t pointer = 0x01;
+    uint8_t read_buffer[2];
+    
+    // Escreve qual registro quer ler, mas com nostop=true
+    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, &pointer, 1, true);
+    // Lê os 2 bytes
+    i2c_read_blocking(I2C_PORT, ADS1115_ADDR, read_buffer, 2, false);
+
+    printf("Valor REAL no chip: 0x%02x%02x\n", read_buffer[0], read_buffer[1]);
 }
 
 // ---------- LEITURA ----------
