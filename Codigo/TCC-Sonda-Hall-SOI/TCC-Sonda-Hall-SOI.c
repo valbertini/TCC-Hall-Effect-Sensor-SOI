@@ -40,55 +40,41 @@ void alert_isr(uint gpio, uint32_t events) {
 
 // ---------- ADS1115 INIT ----------
 void ads1115_init() {
-    i2c_init(I2C_PORT, 400 * 1000);
+    i2c_init(I2C_PORT, 100 * 1000); // Tente 100kHz primeiro para maior estabilidade
+    
     gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
     gpio_pull_up(I2C_SDA);
     gpio_pull_up(I2C_SCL);
 
-    // ALERT/RDY - Garanta que o pull-up interno está forte o suficiente
-    gpio_init(ALERT_PIN);
-    gpio_set_dir(ALERT_PIN, GPIO_IN);
-    gpio_pull_up(ALERT_PIN);
-
-    gpio_set_irq_enabled_with_callback(
-        ALERT_PIN,
-        GPIO_IRQ_EDGE_FALL,
-        true,
-        &alert_isr
-    );
-
-    // 1. Configurar Hi_thresh para MSB = 1 e Lo_thresh para MSB = 0
-    // Isso ativa o modo Conversion Ready no pino ALERT
-    uint8_t hi_thresh[] = {0x03, 0xFF, 0xFF}; 
-    uint8_t lo_thresh[] = {0x02, 0x00, 0x00}; 
-
+    // 1. Configurar Thresholds (Necessário para o modo RDY)
+    uint8_t hi_thresh[] = {REG_THRESHOLD_HI, 0xFF, 0xFF}; 
     i2c_write_blocking(I2C_PORT, ADS1115_ADDR, hi_thresh, 3, false);
+    
+    uint8_t lo_thresh[] = {REG_THRESHOLD_LO, 0x00, 0x00}; 
     i2c_write_blocking(I2C_PORT, ADS1115_ADDR, lo_thresh, 3, false);
 
-    // 2. Configuração: 
-    // Bit 15: 0 (No effect em modo contínuo)
-    // Bits 14-12: 100 (AIN0 vs GND)
-    // Bits 11-9: 100 (+/- 0.256V)
-    // Bit 8: 0 (Modo Contínuo)
-    // Bits 7-5: 111 (860 SPS)
-    // Bits 4-2: 000 (Modo ALERT tradicional, mas os thresholds acima forçam o RDY)
-    // Bit 1: 0 (Polaridade ativa baixa)
-    // Bit 0: 0 (Latching desativado - importante para o RDY pulsar em cada amostra)
+    // 2. Configurar o Registro de Configuração
+    // Vamos usar valores explícitos:
+    // MSB: 0100 (AIN0-GND) 100 (+/- 0.256V) 0 (Contínuo) -> 0x48
+    // LSB: 111 (860 SPS) 0 (Trad) 0 (Low) 0 (Non-lat) 00 (RDY mode) -> 0xE0
+    uint8_t config_data[] = {REG_CONFIG, 0x48, 0xE0};
+
+    int ret = i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config_data, 3, false);
     
-    uint8_t config[3];
-    config[0] = REG_CONFIG;
-    config[1] = 0xC8; // 1100 1000 -> AIN0, 0.256V, Continuous
-    config[2] = 0xE0; // 1110 0000 -> 860 SPS, Alert Queue Enable (necessário para RDY)
+    if (ret != 3) {
+        printf("ERRO: Falha ao enviar configuração. Bytes enviados: %d\n", ret);
+    } else {
+        printf("Configuração enviada com sucesso!\n");
+    }
 
-     int result = i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config, 3, false);
-
-     if (result == 3) {
-         printf("Configuração enviada com sucesso! (3 bytes confirmados)\n");
-     } else {
-         printf("Erro na comunicação: O ADS1115 não respondeu. (Cod: %d)\n", result);
-     }
-
+    // 3. Verificação (Read-back) imediata
+    uint8_t reg_ptr = REG_CONFIG;
+    uint8_t read_check[2];
+    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, &reg_ptr, 1, true); // Re-aponta para o config
+    i2c_read_blocking(I2C_PORT, ADS1115_ADDR, read_check, 2, false);
+    
+    printf("Confirmando no chip: 0x%02x%02x\n", read_check[0], read_check[1]);
 }
 
 // ---------- LEITURA ----------
@@ -121,15 +107,12 @@ int main() {
     stdio_init_all();
     ads1115_init();
 
-    uint8_t reg = REG_CONFIG;
-    uint8_t read_val[2];
-
-    // Aponta para o registrador de configuração
-    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, &reg, 1, true);
-    // Lê os 2 bytes de configuração que estão lá agora
-    i2c_read_blocking(I2C_PORT, ADS1115_ADDR, read_val, 2, false);
-
-    printf("Configuração atual no chip: 0x%02x%02x\n", read_val[0], read_val[1]);
+    uint8_t reg_ptr = REG_CONFIG;
+    uint8_t read_check[2];
+    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, &reg_ptr, 1, true); // Re-aponta para o config
+    i2c_read_blocking(I2C_PORT, ADS1115_ADDR, read_check, 2, false);
+    
+    printf("Confirmando no chip: 0x%02x%02x\n", read_check[0], read_check[1]);
 
     absolute_time_t last_avg = get_absolute_time();
 
@@ -153,7 +136,7 @@ int main() {
 
             float avg = compute_average();
             printf("Media (100ms): %.6f V | Amostras: %u\n", avg, buffer_count);
-            printf("Configuração atual no chip: 0x%02x%02x\n", read_val[0], read_val[1]);
+            printf("Confirmando no chip: 0x%02x%02x\n", read_check[0], read_check[1]);
 
         }
 
