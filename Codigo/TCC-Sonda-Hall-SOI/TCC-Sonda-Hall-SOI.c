@@ -42,39 +42,29 @@ void alert_isr(uint gpio, uint32_t events) {
 
 // ---------- ADS1115 INIT ----------
 void ads1115_init() {
-    i2c_init(I2C_PORT, 100 * 1000); // 100kHz
+    // 10kHz para ignorar ruídos de protoboard
+    i2c_init(I2C_PORT, 10 * 1000); 
     
     gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
     gpio_pull_up(I2C_SDA);
     gpio_pull_up(I2C_SCL);
 
-    sleep_ms(50); // Espera o chip "acordar" totalmente
+    sleep_ms(100); 
 
-    // Preparando o pacote completo: [Registrador, MSB, LSB]
-    // 0x01 = Config Register
-    // 0x44 = AIN0 vs GND, +/- 2.048V (mais estável para teste), Contínuo
-    // 0xE0 = 860 SPS, Modo ALERT habilitado
-    uint8_t setup[] = {0x01, 0x44, 0xE0};
+    // Configuração para AIN0, +/- 2.048V, Contínuo, 128 SPS (mais estável)
+    // MSB: 0x44 (0100 0100)
+    // LSB: 0x80 (1000 0000) -> O final '00' ativa o ALERT/RDY
+    uint8_t config_packet[] = {0x01, 0x44, 0x80}; 
+    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config_packet, 3, false);
 
-    int ret = i2c_write_blocking(I2C_PORT, ADS1115_ADDR, setup, 3, false);
+    // Ajuste dos Thresholds para modo RDY
+    uint8_t hi_rdy[] = {0x03, 0xFF, 0xFF};
+    uint8_t lo_rdy[] = {0x02, 0x00, 0x00};
+    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, hi_rdy, 3, false);
+    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, lo_rdy, 3, false);
 
-    if (ret != 3) {
-        printf("Erro no envio! Retorno: %d\n", ret);
-    } else {
-        printf("Configuração enviada!\n");
-    }
-
-    // AGORA A LEITURA DE VOLTA COM CUIDADO
-    uint8_t pointer = 0x01;
-    uint8_t read_buffer[2];
-    
-    // Escreve qual registro quer ler, mas com nostop=true
-    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, &pointer, 1, true);
-    // Lê os 2 bytes
-    i2c_read_blocking(I2C_PORT, ADS1115_ADDR, read_buffer, 2, false);
-
-    printf("Valor REAL no chip: 0x%02x%02x\n", read_buffer[0], read_buffer[1]);
+    printf("Configuração enviada em baixa velocidade...\n");
 }
 
 // ---------- LEITURA ----------
@@ -106,6 +96,7 @@ int main() {
     printf("a");
     sleep_ms(5000);
     ads1115_init();
+    ads1115_read();
 
     absolute_time_t last_avg = get_absolute_time();
 
