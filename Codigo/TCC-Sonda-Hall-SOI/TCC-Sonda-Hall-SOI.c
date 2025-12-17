@@ -42,41 +42,24 @@ void alert_isr(uint gpio, uint32_t events) {
 
 // ---------- ADS1115 INIT ----------
 void ads1115_init() {
-    i2c_init(I2C_PORT, 100 * 1000); // Tente 100kHz primeiro para maior estabilidade
+    i2c_init(I2C_PORT, 100 * 1000); // Reduzido para 100kHz
     
     gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
     gpio_pull_up(I2C_SDA);
     gpio_pull_up(I2C_SCL);
 
-    // 1. Configurar Thresholds (Necessário para o modo RDY)
-    uint8_t hi_thresh[] = {REG_THRESHOLD_HI, 0xFF, 0xFF}; 
-    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, hi_thresh, 3, false);
-    
-    uint8_t lo_thresh[] = {REG_THRESHOLD_LO, 0x00, 0x00}; 
-    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, lo_thresh, 3, false);
+    sleep_ms(10); // Pequena pausa para o chip estabilizar
 
-    // 2. Configurar o Registro de Configuração
-    // Vamos usar valores explícitos:
-    // MSB: 0100 (AIN0-GND) 100 (+/- 0.256V) 0 (Contínuo) -> 0x48
-    // LSB: 111 (860 SPS) 0 (Trad) 0 (Low) 0 (Non-lat) 00 (RDY mode) -> 0xE0
-    uint8_t config_data[] = {REG_CONFIG, 0x48, 0xE0};
-
+    uint8_t config_data[] = {0x01, 0x48, 0xE0};
     int ret = i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config_data, 3, false);
-    
-    if (ret != 3) {
-        printf("ERRO: Falha ao enviar configuração. Bytes enviados: %d\n", ret);
-    } else {
-        printf("Configuração enviada com sucesso!\n");
-    }
 
-    // 3. Verificação (Read-back) imediata
-    uint8_t reg_ptr = REG_CONFIG;
-    uint8_t read_check[2];
-    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, &reg_ptr, 1, true); // Re-aponta para o config
-    i2c_read_blocking(I2C_PORT, ADS1115_ADDR, read_check, 2, false);
-    
-    printf("Confirmando no chip: 0x%02x%02x\n", read_check[0], read_check[1]);
+    if (ret < 0) {
+        printf("ERRO CRÍTICO: O sensor NÃO respondeu no endereço 0x48!\n");
+        printf("Verifique se o pino ADDR está no GND e se os cabos SDA/SCL não estão invertidos.\n");
+    } else {
+        printf("Sucesso! Configuração aceita.\n");
+    }
 }
 
 // ---------- LEITURA ----------
