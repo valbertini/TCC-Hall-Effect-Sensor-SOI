@@ -52,7 +52,7 @@ void print_binary(uint16_t value) {
 
 void ads1115_init_debug() {
     // 1. Inicializa I2C em velocidade baixa para evitar ruído
-    i2c_init(I2C_PORT, 10 * 1000); 
+    i2c_init(I2C_PORT, 5 * 1000);
     gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
     gpio_pull_up(I2C_SDA);
@@ -67,8 +67,8 @@ void ads1115_init_debug() {
     i2c_write_blocking(I2C_PORT, ADS1115_ADDR, lo_rdy, 3, false);
 
     // 3. Envia Configuração: AIN0, +/- 2.048V, Contínuo, 128 SPS, ALERT habilitado
-    // Valor desejado: 0x4480 -> 0100 0100 1000 0000
-    uint8_t config_data[] = {REG_CONFIG, 0x44, 0x80};
+    // Valor desejado: 0x4480 -> 0100 1110 1110 1000
+    uint8_t config_data[] = {REG_CONFIG, 0x4E, 0xE8};
     int ret = i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config_data, 3, false);
 
     if (ret != 3) {
@@ -120,7 +120,7 @@ float compute_average() {
 int main() {
     stdio_init_all();
     printf("a");
-    sleep_ms(5000);
+    sleep_ms(2000);
     ads1115_init_debug();
     ads1115_read();
 
@@ -128,9 +128,8 @@ int main() {
 
     while (true) {
 
-        if (conversion_ready) {
-            sleep_ms(1);
-    	    printf("ALERT\n");
+        if (conversion_ready+1) {
+    	    //printf("ALERT\n");
             conversion_ready = false;
 
             int16_t sample = ads1115_read();
