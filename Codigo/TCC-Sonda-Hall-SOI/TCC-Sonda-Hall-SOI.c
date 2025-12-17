@@ -40,31 +40,57 @@ void alert_isr(uint gpio, uint32_t events) {
     conversion_ready = true;
 }
 
-// ---------- ADS1115 INIT ----------
-void ads1115_init() {
-    // 10kHz para ignorar ruídos de protoboard
-    i2c_init(I2C_PORT, 10 * 1000); 
-    
+// Função para imprimir os bits de forma legível
+void print_binary(uint16_t value) {
+    printf("Binario: ");
+    for (int i = 15; i >= 0; i--) {
+        printf("%d", (value >> i) & 1);
+        if (i % 4 == 0 && i != 0) printf(" "); // Espaço para facilitar leitura
+    }
+    printf("\n");
+}
+
+void ads1115_init_debug() {
+    // 1. Inicializa I2C em velocidade baixa para evitar ruído
+    i2c_init(I2C_PORT, 100 * 1000); 
     gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
     gpio_pull_up(I2C_SDA);
     gpio_pull_up(I2C_SCL);
+    sleep_ms(100);
 
-    sleep_ms(100); 
-
-    // Configuração para AIN0, +/- 2.048V, Contínuo, 128 SPS (mais estável)
-    // MSB: 0x44 (0100 0100)
-    // LSB: 0x80 (1000 0000) -> O final '00' ativa o ALERT/RDY
-    uint8_t config_packet[] = {0x01, 0x44, 0x80}; 
-    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config_packet, 3, false);
-
-    // Ajuste dos Thresholds para modo RDY
-    uint8_t hi_rdy[] = {0x03, 0xFF, 0xFF};
-    uint8_t lo_rdy[] = {0x02, 0x00, 0x00};
+    // 2. Configura os Thresholds para modo RDY (Pino ALERT pulsar)
+    // Hi_MSB deve ser 1 e Lo_MSB deve ser 0
+    uint8_t hi_rdy[] = {REG_HI_THRESH, 0x80, 0x00};
+    uint8_t lo_rdy[] = {REG_LO_THRESH, 0x00, 0x00};
     i2c_write_blocking(I2C_PORT, ADS1115_ADDR, hi_rdy, 3, false);
     i2c_write_blocking(I2C_PORT, ADS1115_ADDR, lo_rdy, 3, false);
 
-    printf("Configuração enviada em baixa velocidade...\n");
+    // 3. Envia Configuração: AIN0, +/- 2.048V, Contínuo, 128 SPS, ALERT habilitado
+    // Valor desejado: 0x4480 -> 0100 0100 1000 0000
+    uint8_t config_data[] = {REG_CONFIG, 0x44, 0x80};
+    int ret = i2c_write_blocking(I2C_PORT, ADS1115_ADDR, config_data, 3, false);
+
+    if (ret != 3) {
+        printf("ERRO: O chip nao confirmou o recebimento dos dados!\n");
+    } else {
+        printf("Comando de configuracao enviado!\n");
+    }
+
+    // 4. LEITURA DE VOLTA PARA CONFERIR
+    uint8_t ptr = REG_CONFIG;
+    uint8_t buffer[2];
+    
+    // Aponta para o registro e lê imediatamente
+    i2c_write_blocking(I2C_PORT, ADS1115_ADDR, &ptr, 1, true); 
+    i2c_read_blocking(I2C_PORT, ADS1115_ADDR, buffer, 2, false);
+
+    uint16_t config_lida = (buffer[0] << 8) | buffer[1];
+
+    printf("\n--- ANALISE DO REGISTRADOR ---\n");
+    printf("Hexadecimal: 0x%04X\n", config_lida);
+    print_binary(config_lida);
+    printf("------------------------------\n\n");
 }
 
 // ---------- LEITURA ----------
@@ -103,6 +129,7 @@ int main() {
     while (true) {
 
         if (conversion_ready) {
+            sleep_ms(1);
     	    printf("ALERT\n");
             conversion_ready = false;
 
