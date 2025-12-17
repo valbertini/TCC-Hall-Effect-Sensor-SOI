@@ -116,7 +116,8 @@ float compute_average() {
 
 // ---------- MAIN ----------
 int main() {
-    sleep(5000);
+    printf("a");
+    sleep_ms(5000);
     stdio_init_all();
     ads1115_init();
 
@@ -152,6 +153,8 @@ int main() {
 
             float avg = compute_average();
             printf("Media (100ms): %.6f V | Amostras: %u\n", avg, buffer_count);
+            printf("Configuração atual no chip: 0x%02x%02x\n", read_val[0], read_val[1]);
+
         }
 
         tight_loop_contents();
