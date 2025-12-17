@@ -6,8 +6,8 @@
 
 // I2C
 #define I2C_PORT i2c0
-#define I2C_SCL  4
-#define I2C_SDA  5
+#define I2C_SDA  4 // pino SCL na ADC (o pino SCL da ADC deve ser utilizado com SDA para I2C)
+#define I2C_SCL  5 // pino SDA na ADC (o pino SDA da ADC deve ser utilizado com SCL para I2C)
 #define ADS1115_ADDR 0x48
 
 // ADS1115
@@ -52,7 +52,7 @@ void print_binary(uint16_t value) {
 
 void ads1115_init_debug() {
     // 1. Inicializa I2C em velocidade baixa para evitar ruído
-    i2c_init(I2C_PORT, 100 * 1000); 
+    i2c_init(I2C_PORT, 10 * 1000); 
     gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
     gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
     gpio_pull_up(I2C_SDA);
@@ -61,8 +61,8 @@ void ads1115_init_debug() {
 
     // 2. Configura os Thresholds para modo RDY (Pino ALERT pulsar)
     // Hi_MSB deve ser 1 e Lo_MSB deve ser 0
-    uint8_t hi_rdy[] = {REG_HI_THRESH, 0x80, 0x00};
-    uint8_t lo_rdy[] = {REG_LO_THRESH, 0x00, 0x00};
+    uint8_t hi_rdy[] = {REG_THRESHOLD_HI, 0x80, 0x00};
+    uint8_t lo_rdy[] = {REG_THRESHOLD_LO, 0x00, 0x00};
     i2c_write_blocking(I2C_PORT, ADS1115_ADDR, hi_rdy, 3, false);
     i2c_write_blocking(I2C_PORT, ADS1115_ADDR, lo_rdy, 3, false);
 
@@ -121,7 +121,7 @@ int main() {
     stdio_init_all();
     printf("a");
     sleep_ms(5000);
-    ads1115_init();
+    ads1115_init_debug();
     ads1115_read();
 
     absolute_time_t last_avg = get_absolute_time();
