@@ -1999,3 +1999,1929 @@ Vraw= +34.241 mV | Vcorr=  +0.326 mV | G2 (105.0) | Idx: 2002
 Vraw= +34.312 mV | Vcorr=  +0.327 mV | G2 (105.0) | Idx: 2003
 Vraw= +29.969 mV | Vcorr=  +0.285 mV | G2 (105.0) | Idx: 2004
 Vraw= +27.406 mV | Vcorr=  +0.261 mV | G2 (105.0) | Idx: 2005
+Vraw= +14.622 mV | Vcorr=  +0.139 mV | G2 (105.0) | Idx: 2006
+Vraw= +20.836 mV | Vcorr=  +0.198 mV | G2 (105.0) | Idx: 2007
+Vraw= +32.230 mV | Vcorr=  +0.307 mV | G2 (105.0) | Idx: 2008
+Vraw= +28.984 mV | Vcorr=  +0.276 mV | G2 (105.0) | Idx: 2009
+Vraw= +20.646 mV | Vcorr=  +0.197 mV | G2 (105.0) | Idx: 2010
+Vraw=  +8.217 mV | Vcorr=  +0.078 mV | G2 (105.0) | Idx: 2011
+Vraw= +10.354 mV | Vcorr=  +0.099 mV | G2 (105.0) | Idx: 2012
+Vraw= +13.801 mV | Vcorr=  +0.131 mV | G2 (105.0) | Idx: 2013
+Vraw= +13.903 mV | Vcorr=  +0.132 mV | G2 (105.0) | Idx: 2014
+Vraw= +28.515 mV | Vcorr=  +0.272 mV | G2 (105.0) | Idx: 2015
+Vraw= +19.750 mV | Vcorr=  +0.188 mV | G2 (105.0) | Idx: 2016
+Vraw= +28.450 mV | Vcorr=  +0.271 mV | G2 (105.0) | Idx: 2017
+Vraw= +30.128 mV | Vcorr=  +0.287 mV | G2 (105.0) | Idx: 2018
+Vraw= +30.612 mV | Vcorr=  +0.292 mV | G2 (105.0) | Idx: 2019
+Vraw= +34.704 mV | Vcorr=  +0.331 mV | G2 (105.0) | Idx: 2020
+Vraw= +41.641 mV | Vcorr=  +0.397 mV | G2 (105.0) | Idx: 2021
+Vraw= +39.057 mV | Vcorr=  +0.372 mV | G2 (105.0) | Idx: 2022
+Vraw= +45.155 mV | Vcorr=  +0.430 mV | G2 (105.0) | Idx: 2023
+Vraw= +53.650 mV | Vcorr=  +0.511 mV | G2 (105.0) | Idx: 2024
+Vraw= +55.298 mV | Vcorr=  +0.527 mV | G2 (105.0) | Idx: 2025
+Vraw= +53.692 mV | Vcorr=  +0.511 mV | G2 (105.0) | Idx: 2026
+Vraw= +50.962 mV | Vcorr=  +0.485 mV | G2 (105.0) | Idx: 2027
+Vraw= +61.488 mV | Vcorr=  +0.586 mV | G2 (105.0) | Idx: 2028
+Vraw= +52.118 mV | Vcorr=  +0.496 mV | G2 (105.0) | Idx: 2029
+Vraw= +52.453 mV | Vcorr=  +0.500 mV | G2 (105.0) | Idx: 2030
+Vraw= +61.087 mV | Vcorr=  +0.582 mV | G2 (105.0) | Idx: 2031
+Vraw= +70.592 mV | Vcorr=  +0.672 mV | G2 (105.0) | Idx: 2032
+Vraw= +76.272 mV | Vcorr=  +0.726 mV | G2 (105.0) | Idx: 2033
+Vraw= +78.523 mV | Vcorr=  +0.748 mV | G2 (105.0) | Idx: 2034
+Vraw= +79.564 mV | Vcorr=  +0.758 mV | G2 (105.0) | Idx: 2035
+Vraw= +79.313 mV | Vcorr=  +0.755 mV | G2 (105.0) | Idx: 2036
+Vraw= +75.815 mV | Vcorr=  +0.722 mV | G2 (105.0) | Idx: 2037
+Vraw= +70.378 mV | Vcorr=  +0.670 mV | G2 (105.0) | Idx: 2038
+Vraw= +69.422 mV | Vcorr=  +0.661 mV | G2 (105.0) | Idx: 2039
+Vraw= +53.724 mV | Vcorr=  +0.512 mV | G2 (105.0) | Idx: 2040
+Vraw= +49.716 mV | Vcorr=  +0.473 mV | G2 (105.0) | Idx: 2041
+Vraw= +54.495 mV | Vcorr=  +0.519 mV | G2 (105.0) | Idx: 2042
+Vraw= +58.310 mV | Vcorr=  +0.555 mV | G2 (105.0) | Idx: 2043
+Vraw= +60.473 mV | Vcorr=  +0.576 mV | G2 (105.0) | Idx: 2044
+Vraw= +46.600 mV | Vcorr=  +0.444 mV | G2 (105.0) | Idx: 2045
+Vraw= +52.047 mV | Vcorr=  +0.496 mV | G2 (105.0) | Idx: 2046
+Vraw= +46.602 mV | Vcorr=  +0.444 mV | G2 (105.0) | Idx: 2047
+Vraw= +45.529 mV | Vcorr=  +0.434 mV | G2 (105.0) | Idx: 2048
+Vraw= +56.618 mV | Vcorr=  +0.539 mV | G2 (105.0) | Idx: 2049
+Vraw= +52.176 mV | Vcorr=  +0.497 mV | G2 (105.0) | Idx: 2050
+Vraw= +61.720 mV | Vcorr=  +0.588 mV | G2 (105.0) | Idx: 2051
+Vraw= +54.485 mV | Vcorr=  +0.519 mV | G2 (105.0) | Idx: 2052
+Vraw= +50.141 mV | Vcorr=  +0.478 mV | G2 (105.0) | Idx: 2053
+Vraw= +51.053 mV | Vcorr=  +0.486 mV | G2 (105.0) | Idx: 2054
+Vraw= +52.342 mV | Vcorr=  +0.498 mV | G2 (105.0) | Idx: 2055
+Vraw= +40.270 mV | Vcorr=  +0.384 mV | G2 (105.0) | Idx: 2056
+Vraw= +47.186 mV | Vcorr=  +0.449 mV | G2 (105.0) | Idx: 2057
+Vraw= +49.573 mV | Vcorr=  +0.472 mV | G2 (105.0) | Idx: 2058
+Vraw= +61.226 mV | Vcorr=  +0.583 mV | G2 (105.0) | Idx: 2059
+Vraw= +56.897 mV | Vcorr=  +0.542 mV | G2 (105.0) | Idx: 2060
+Vraw= +61.495 mV | Vcorr=  +0.586 mV | G2 (105.0) | Idx: 2061
+Vraw= +61.792 mV | Vcorr=  +0.588 mV | G2 (105.0) | Idx: 2062
+Vraw= +63.674 mV | Vcorr=  +0.606 mV | G2 (105.0) | Idx: 2063
+Vraw= +58.324 mV | Vcorr=  +0.555 mV | G2 (105.0) | Idx: 2064
+Vraw= +63.782 mV | Vcorr=  +0.607 mV | G2 (105.0) | Idx: 2065
+Vraw= +64.843 mV | Vcorr=  +0.618 mV | G2 (105.0) | Idx: 2066
+Vraw= +63.400 mV | Vcorr=  +0.604 mV | G2 (105.0) | Idx: 2067
+Vraw= +66.879 mV | Vcorr=  +0.637 mV | G2 (105.0) | Idx: 2068
+Vraw= +62.508 mV | Vcorr=  +0.595 mV | G2 (105.0) | Idx: 2069
+Vraw= +63.158 mV | Vcorr=  +0.602 mV | G2 (105.0) | Idx: 2070
+Vraw= +69.032 mV | Vcorr=  +0.657 mV | G2 (105.0) | Idx: 2071
+Vraw= +61.904 mV | Vcorr=  +0.590 mV | G2 (105.0) | Idx: 2072
+Vraw= +49.917 mV | Vcorr=  +0.475 mV | G2 (105.0) | Idx: 2073
+Vraw= +43.428 mV | Vcorr=  +0.414 mV | G2 (105.0) | Idx: 2074
+Vraw= +38.456 mV | Vcorr=  +0.366 mV | G2 (105.0) | Idx: 2075
+Vraw= +51.421 mV | Vcorr=  +0.490 mV | G2 (105.0) | Idx: 2076
+Vraw= +39.244 mV | Vcorr=  +0.374 mV | G2 (105.0) | Idx: 2077
+Vraw= +47.053 mV | Vcorr=  +0.448 mV | G2 (105.0) | Idx: 2078
+Vraw= +39.361 mV | Vcorr=  +0.375 mV | G2 (105.0) | Idx: 2079
+Vraw= +30.667 mV | Vcorr=  +0.292 mV | G2 (105.0) | Idx: 2080
+Vraw= +33.092 mV | Vcorr=  +0.315 mV | G2 (105.0) | Idx: 2081
+Vraw= +32.824 mV | Vcorr=  +0.313 mV | G2 (105.0) | Idx: 2082
+Vraw= +46.565 mV | Vcorr=  +0.443 mV | G2 (105.0) | Idx: 2083
+Vraw= +53.578 mV | Vcorr=  +0.510 mV | G2 (105.0) | Idx: 2084
+Vraw= +53.839 mV | Vcorr=  +0.513 mV | G2 (105.0) | Idx: 2085
+Vraw= +61.557 mV | Vcorr=  +0.586 mV | G2 (105.0) | Idx: 2086
+Vraw= +61.435 mV | Vcorr=  +0.585 mV | G2 (105.0) | Idx: 2087
+Vraw= +67.804 mV | Vcorr=  +0.646 mV | G2 (105.0) | Idx: 2088
+Vraw= +74.403 mV | Vcorr=  +0.709 mV | G2 (105.0) | Idx: 2089
+Vraw= +64.561 mV | Vcorr=  +0.615 mV | G2 (105.0) | Idx: 2090
+Vraw= +66.918 mV | Vcorr=  +0.637 mV | G2 (105.0) | Idx: 2091
+Vraw= +61.394 mV | Vcorr=  +0.585 mV | G2 (105.0) | Idx: 2092
+Vraw= +61.963 mV | Vcorr=  +0.590 mV | G2 (105.0) | Idx: 2093
+Vraw= +74.943 mV | Vcorr=  +0.714 mV | G2 (105.0) | Idx: 2094
+Vraw= +69.139 mV | Vcorr=  +0.658 mV | G2 (105.0) | Idx: 2095
+Vraw= +72.920 mV | Vcorr=  +0.694 mV | G2 (105.0) | Idx: 2096
+Vraw= +69.595 mV | Vcorr=  +0.663 mV | G2 (105.0) | Idx: 2097
+Vraw= +68.671 mV | Vcorr=  +0.654 mV | G2 (105.0) | Idx: 2098
+Vraw= +69.349 mV | Vcorr=  +0.660 mV | G2 (105.0) | Idx: 2099
+Vraw= +63.112 mV | Vcorr=  +0.601 mV | G2 (105.0) | Idx: 2100
+Vraw=+108.083 mV | Vcorr=  +1.029 mV | G2 (105.0) | Idx: 2101
+Vraw=+119.315 mV | Vcorr=  +1.136 mV | G2 (105.0) | Idx: 2102
+Vraw=+114.173 mV | Vcorr=  +1.087 mV | G2 (105.0) | Idx: 2103
+Vraw=+113.489 mV | Vcorr=  +1.081 mV | G2 (105.0) | Idx: 2104
+Vraw=+111.181 mV | Vcorr=  +1.059 mV | G2 (105.0) | Idx: 2105
+Vraw=+111.844 mV | Vcorr=  +1.065 mV | G2 (105.0) | Idx: 2106
+Vraw=+110.698 mV | Vcorr=  +1.054 mV | G2 (105.0) | Idx: 2107
+Vraw=+118.124 mV | Vcorr=  +1.125 mV | G2 (105.0) | Idx: 2108
+Vraw=+109.904 mV | Vcorr=  +1.047 mV | G2 (105.0) | Idx: 2109
+Vraw=+117.832 mV | Vcorr=  +1.122 mV | G2 (105.0) | Idx: 2110
+Vraw=+113.864 mV | Vcorr=  +1.084 mV | G2 (105.0) | Idx: 2111
+Vraw= +80.819 mV | Vcorr=  +0.770 mV | G2 (105.0) | Idx: 2112
+Vraw= +70.656 mV | Vcorr=  +0.673 mV | G2 (105.0) | Idx: 2113
+Vraw= +72.891 mV | Vcorr=  +0.694 mV | G2 (105.0) | Idx: 2114
+Vraw= +66.476 mV | Vcorr=  +0.633 mV | G2 (105.0) | Idx: 2115
+Vraw= +64.569 mV | Vcorr=  +0.615 mV | G2 (105.0) | Idx: 2116
+Vraw= +68.145 mV | Vcorr=  +0.649 mV | G2 (105.0) | Idx: 2117
+Vraw= +62.516 mV | Vcorr=  +0.595 mV | G2 (105.0) | Idx: 2118
+Vraw= +54.722 mV | Vcorr=  +0.521 mV | G2 (105.0) | Idx: 2119
+Vraw= +58.304 mV | Vcorr=  +0.555 mV | G2 (105.0) | Idx: 2120
+Vraw= +57.872 mV | Vcorr=  +0.551 mV | G2 (105.0) | Idx: 2121
+Vraw= +68.088 mV | Vcorr=  +0.648 mV | G2 (105.0) | Idx: 2122
+Vraw= +69.481 mV | Vcorr=  +0.662 mV | G2 (105.0) | Idx: 2123
+Vraw= +61.910 mV | Vcorr=  +0.590 mV | G2 (105.0) | Idx: 2124
+Vraw= +60.925 mV | Vcorr=  +0.580 mV | G2 (105.0) | Idx: 2125
+Vraw= +62.339 mV | Vcorr=  +0.594 mV | G2 (105.0) | Idx: 2126
+Vraw= +52.991 mV | Vcorr=  +0.505 mV | G2 (105.0) | Idx: 2127
+Vraw= +51.852 mV | Vcorr=  +0.494 mV | G2 (105.0) | Idx: 2128
+Vraw= +54.755 mV | Vcorr=  +0.521 mV | G2 (105.0) | Idx: 2129
+Vraw= +49.258 mV | Vcorr=  +0.469 mV | G2 (105.0) | Idx: 2130
+Vraw= +41.142 mV | Vcorr=  +0.392 mV | G2 (105.0) | Idx: 2131
+Vraw= +53.642 mV | Vcorr=  +0.511 mV | G2 (105.0) | Idx: 2132
+Vraw= +46.536 mV | Vcorr=  +0.443 mV | G2 (105.0) | Idx: 2133
+Vraw= +45.317 mV | Vcorr=  +0.432 mV | G2 (105.0) | Idx: 2134
+Vraw= +57.944 mV | Vcorr=  +0.552 mV | G2 (105.0) | Idx: 2135
+Vraw= +40.785 mV | Vcorr=  +0.388 mV | G2 (105.0) | Idx: 2136
+Vraw= +49.594 mV | Vcorr=  +0.472 mV | G2 (105.0) | Idx: 2137
+Vraw= +41.725 mV | Vcorr=  +0.397 mV | G2 (105.0) | Idx: 2138
+Vraw= +43.129 mV | Vcorr=  +0.411 mV | G2 (105.0) | Idx: 2139
+Vraw= +49.500 mV | Vcorr=  +0.471 mV | G2 (105.0) | Idx: 2140
+Vraw= +51.855 mV | Vcorr=  +0.494 mV | G2 (105.0) | Idx: 2141
+Vraw= +41.416 mV | Vcorr=  +0.394 mV | G2 (105.0) | Idx: 2142
+Vraw= +39.781 mV | Vcorr=  +0.379 mV | G2 (105.0) | Idx: 2143
+Vraw= +43.849 mV | Vcorr=  +0.418 mV | G2 (105.0) | Idx: 2144
+Vraw= +38.458 mV | Vcorr=  +0.366 mV | G2 (105.0) | Idx: 2145
+Vraw= +39.219 mV | Vcorr=  +0.374 mV | G2 (105.0) | Idx: 2146
+Vraw= +37.472 mV | Vcorr=  +0.357 mV | G2 (105.0) | Idx: 2147
+Vraw= +78.987 mV | Vcorr=  +0.752 mV | G2 (105.0) | Idx: 2148
+Vraw= +90.087 mV | Vcorr=  +0.858 mV | G2 (105.0) | Idx: 2149
+Vraw= +93.978 mV | Vcorr=  +0.895 mV | G2 (105.0) | Idx: 2150
+Vraw=+104.076 mV | Vcorr=  +0.991 mV | G2 (105.0) | Idx: 2151
+Vraw= +99.431 mV | Vcorr=  +0.947 mV | G2 (105.0) | Idx: 2152
+Vraw= +98.846 mV | Vcorr=  +0.941 mV | G2 (105.0) | Idx: 2153
+Vraw= +97.463 mV | Vcorr=  +0.928 mV | G2 (105.0) | Idx: 2154
+Vraw= +94.261 mV | Vcorr=  +0.898 mV | G2 (105.0) | Idx: 2155
+Vraw= +92.050 mV | Vcorr=  +0.877 mV | G2 (105.0) | Idx: 2156
+Vraw= +94.241 mV | Vcorr=  +0.898 mV | G2 (105.0) | Idx: 2157
+Vraw= +97.781 mV | Vcorr=  +0.931 mV | G2 (105.0) | Idx: 2158
+Vraw= +94.957 mV | Vcorr=  +0.904 mV | G2 (105.0) | Idx: 2159
+Vraw=+106.812 mV | Vcorr=  +1.017 mV | G2 (105.0) | Idx: 2160
+Vraw=+100.917 mV | Vcorr=  +0.961 mV | G2 (105.0) | Idx: 2161
+Vraw=+106.544 mV | Vcorr=  +1.015 mV | G2 (105.0) | Idx: 2162
+Vraw=+105.235 mV | Vcorr=  +1.002 mV | G2 (105.0) | Idx: 2163
+Vraw= +94.442 mV | Vcorr=  +0.899 mV | G2 (105.0) | Idx: 2164
+Vraw= +93.133 mV | Vcorr=  +0.887 mV | G2 (105.0) | Idx: 2165
+Vraw= +89.155 mV | Vcorr=  +0.849 mV | G2 (105.0) | Idx: 2166
+Vraw= +90.094 mV | Vcorr=  +0.858 mV | G2 (105.0) | Idx: 2167
+Vraw= +84.393 mV | Vcorr=  +0.804 mV | G2 (105.0) | Idx: 2168
+Vraw= +88.177 mV | Vcorr=  +0.840 mV | G2 (105.0) | Idx: 2169
+Vraw= +88.959 mV | Vcorr=  +0.847 mV | G2 (105.0) | Idx: 2170
+Vraw=+103.742 mV | Vcorr=  +0.988 mV | G2 (105.0) | Idx: 2171
+Vraw=+103.326 mV | Vcorr=  +0.984 mV | G2 (105.0) | Idx: 2172
+Vraw= +94.746 mV | Vcorr=  +0.902 mV | G2 (105.0) | Idx: 2173
+Vraw= +96.401 mV | Vcorr=  +0.918 mV | G2 (105.0) | Idx: 2174
+Vraw= +88.629 mV | Vcorr=  +0.844 mV | G2 (105.0) | Idx: 2175
+Vraw= +90.713 mV | Vcorr=  +0.864 mV | G2 (105.0) | Idx: 2176
+Vraw=+100.887 mV | Vcorr=  +0.961 mV | G2 (105.0) | Idx: 2177
+Vraw= +85.146 mV | Vcorr=  +0.811 mV | G2 (105.0) | Idx: 2178
+Vraw= +86.901 mV | Vcorr=  +0.828 mV | G2 (105.0) | Idx: 2179
+Vraw= +91.616 mV | Vcorr=  +0.873 mV | G2 (105.0) | Idx: 2180
+Vraw= +95.899 mV | Vcorr=  +0.913 mV | G2 (105.0) | Idx: 2181
+Vraw= +84.045 mV | Vcorr=  +0.800 mV | G2 (105.0) | Idx: 2182
+Vraw= +88.409 mV | Vcorr=  +0.842 mV | G2 (105.0) | Idx: 2183
+Vraw= +88.774 mV | Vcorr=  +0.845 mV | G2 (105.0) | Idx: 2184
+Vraw= +87.608 mV | Vcorr=  +0.834 mV | G2 (105.0) | Idx: 2185
+Vraw= +87.930 mV | Vcorr=  +0.837 mV | G2 (105.0) | Idx: 2186
+Vraw= +95.504 mV | Vcorr=  +0.910 mV | G2 (105.0) | Idx: 2187
+Vraw= +97.868 mV | Vcorr=  +0.932 mV | G2 (105.0) | Idx: 2188
+Vraw= +98.378 mV | Vcorr=  +0.937 mV | G2 (105.0) | Idx: 2189
+Vraw= +99.589 mV | Vcorr=  +0.948 mV | G2 (105.0) | Idx: 2190
+Vraw=+112.947 mV | Vcorr=  +1.076 mV | G2 (105.0) | Idx: 2191
+Vraw= +72.230 mV | Vcorr=  +0.688 mV | G2 (105.0) | Idx: 2192
+Vraw= +58.395 mV | Vcorr=  +0.556 mV | G2 (105.0) | Idx: 2193
+Vraw= +53.153 mV | Vcorr=  +0.506 mV | G2 (105.0) | Idx: 2194
+Vraw= +49.770 mV | Vcorr=  +0.474 mV | G2 (105.0) | Idx: 2195
+Vraw= +50.602 mV | Vcorr=  +0.482 mV | G2 (105.0) | Idx: 2196
+Vraw= +48.836 mV | Vcorr=  +0.465 mV | G2 (105.0) | Idx: 2197
+Vraw= +51.093 mV | Vcorr=  +0.487 mV | G2 (105.0) | Idx: 2198
+Vraw= +56.176 mV | Vcorr=  +0.535 mV | G2 (105.0) | Idx: 2199
+Vraw= +49.867 mV | Vcorr=  +0.475 mV | G2 (105.0) | Idx: 2200
+Vraw= +55.619 mV | Vcorr=  +0.530 mV | G2 (105.0) | Idx: 2201
+Vraw= +46.229 mV | Vcorr=  +0.440 mV | G2 (105.0) | Idx: 2202
+Vraw= +43.485 mV | Vcorr=  +0.414 mV | G2 (105.0) | Idx: 2203
+Vraw= +48.983 mV | Vcorr=  +0.467 mV | G2 (105.0) | Idx: 2204
+Vraw= +46.586 mV | Vcorr=  +0.444 mV | G2 (105.0) | Idx: 2205
+Vraw= +44.260 mV | Vcorr=  +0.422 mV | G2 (105.0) | Idx: 2206
+Vraw= +43.577 mV | Vcorr=  +0.415 mV | G2 (105.0) | Idx: 2207
+Vraw= +39.810 mV | Vcorr=  +0.379 mV | G2 (105.0) | Idx: 2208
+Vraw= +46.415 mV | Vcorr=  +0.442 mV | G2 (105.0) | Idx: 2209
+Vraw= +47.849 mV | Vcorr=  +0.456 mV | G2 (105.0) | Idx: 2210
+Vraw= +52.408 mV | Vcorr=  +0.499 mV | G2 (105.0) | Idx: 2211
+Vraw= +48.583 mV | Vcorr=  +0.463 mV | G2 (105.0) | Idx: 2212
+Vraw= +41.732 mV | Vcorr=  +0.397 mV | G2 (105.0) | Idx: 2213
+Vraw= +35.112 mV | Vcorr=  +0.334 mV | G2 (105.0) | Idx: 2214
+Vraw= +44.406 mV | Vcorr=  +0.423 mV | G2 (105.0) | Idx: 2215
+Vraw= +39.608 mV | Vcorr=  +0.377 mV | G2 (105.0) | Idx: 2216
+Vraw= +41.819 mV | Vcorr=  +0.398 mV | G2 (105.0) | Idx: 2217
+Vraw= +43.102 mV | Vcorr=  +0.410 mV | G2 (105.0) | Idx: 2218
+Vraw= +42.334 mV | Vcorr=  +0.403 mV | G2 (105.0) | Idx: 2219
+Vraw= +45.883 mV | Vcorr=  +0.437 mV | G2 (105.0) | Idx: 2220
+Vraw= +39.823 mV | Vcorr=  +0.379 mV | G2 (105.0) | Idx: 2221
+Vraw= +49.656 mV | Vcorr=  +0.473 mV | G2 (105.0) | Idx: 2222
+Vraw= +50.282 mV | Vcorr=  +0.479 mV | G2 (105.0) | Idx: 2223
+Vraw= +52.120 mV | Vcorr=  +0.496 mV | G2 (105.0) | Idx: 2224
+Vraw= +49.439 mV | Vcorr=  +0.471 mV | G2 (105.0) | Idx: 2225
+Vraw= +43.859 mV | Vcorr=  +0.418 mV | G2 (105.0) | Idx: 2226
+Vraw= +51.176 mV | Vcorr=  +0.487 mV | G2 (105.0) | Idx: 2227
+Vraw= +55.821 mV | Vcorr=  +0.532 mV | G2 (105.0) | Idx: 2228
+Vraw= +61.251 mV | Vcorr=  +0.583 mV | G2 (105.0) | Idx: 2229
+Vraw= +56.159 mV | Vcorr=  +0.535 mV | G2 (105.0) | Idx: 2230
+Vraw= +48.004 mV | Vcorr=  +0.457 mV | G2 (105.0) | Idx: 2231
+Vraw= +49.047 mV | Vcorr=  +0.467 mV | G2 (105.0) | Idx: 2232
+Vraw= +53.471 mV | Vcorr=  +0.509 mV | G2 (105.0) | Idx: 2233
+Vraw= +58.319 mV | Vcorr=  +0.555 mV | G2 (105.0) | Idx: 2234
+Vraw= +57.813 mV | Vcorr=  +0.551 mV | G2 (105.0) | Idx: 2235
+Vraw= +50.169 mV | Vcorr=  +0.478 mV | G2 (105.0) | Idx: 2236
+Vraw= +54.146 mV | Vcorr=  +0.516 mV | G2 (105.0) | Idx: 2237
+Vraw= +52.884 mV | Vcorr=  +0.504 mV | G2 (105.0) | Idx: 2238
+Vraw= +54.981 mV | Vcorr=  +0.524 mV | G2 (105.0) | Idx: 2239
+Vraw= +53.646 mV | Vcorr=  +0.511 mV | G2 (105.0) | Idx: 2240
+Vraw= +55.290 mV | Vcorr=  +0.527 mV | G2 (105.0) | Idx: 2241
+Vraw= +58.904 mV | Vcorr=  +0.561 mV | G2 (105.0) | Idx: 2242
+Vraw= +56.520 mV | Vcorr=  +0.538 mV | G2 (105.0) | Idx: 2243
+Vraw= +56.766 mV | Vcorr=  +0.541 mV | G2 (105.0) | Idx: 2244
+Vraw= +52.427 mV | Vcorr=  +0.499 mV | G2 (105.0) | Idx: 2245
+Vraw= +42.680 mV | Vcorr=  +0.406 mV | G2 (105.0) | Idx: 2246
+Vraw= +48.150 mV | Vcorr=  +0.459 mV | G2 (105.0) | Idx: 2247
+Vraw= +51.238 mV | Vcorr=  +0.488 mV | G2 (105.0) | Idx: 2248
+Vraw= +54.383 mV | Vcorr=  +0.518 mV | G2 (105.0) | Idx: 2249
+Vraw= +52.428 mV | Vcorr=  +0.499 mV | G2 (105.0) | Idx: 2250
+Vraw= +50.929 mV | Vcorr=  +0.485 mV | G2 (105.0) | Idx: 2251
+Vraw= +51.822 mV | Vcorr=  +0.494 mV | G2 (105.0) | Idx: 2252
+Vraw= +51.479 mV | Vcorr=  +0.490 mV | G2 (105.0) | Idx: 2253
+Vraw= +55.475 mV | Vcorr=  +0.528 mV | G2 (105.0) | Idx: 2254
+Vraw= +53.772 mV | Vcorr=  +0.512 mV | G2 (105.0) | Idx: 2255
+Vraw= +57.909 mV | Vcorr=  +0.552 mV | G2 (105.0) | Idx: 2256
+Vraw= +47.706 mV | Vcorr=  +0.454 mV | G2 (105.0) | Idx: 2257
+Vraw= +42.487 mV | Vcorr=  +0.405 mV | G2 (105.0) | Idx: 2258
+Vraw= +48.400 mV | Vcorr=  +0.461 mV | G2 (105.0) | Idx: 2259
+Vraw= +76.346 mV | Vcorr=  +0.727 mV | G2 (105.0) | Idx: 2260
+Vraw= +97.715 mV | Vcorr=  +0.931 mV | G2 (105.0) | Idx: 2261
+Vraw= +99.684 mV | Vcorr=  +0.949 mV | G2 (105.0) | Idx: 2262
+Vraw=+103.790 mV | Vcorr=  +0.988 mV | G2 (105.0) | Idx: 2263
+Vraw=+104.082 mV | Vcorr=  +0.991 mV | G2 (105.0) | Idx: 2264
+Vraw=+105.212 mV | Vcorr=  +1.002 mV | G2 (105.0) | Idx: 2265
+Vraw= +99.896 mV | Vcorr=  +0.951 mV | G2 (105.0) | Idx: 2266
+Vraw=+103.897 mV | Vcorr=  +0.989 mV | G2 (105.0) | Idx: 2267
+Vraw=+101.932 mV | Vcorr=  +0.971 mV | G2 (105.0) | Idx: 2268
+Vraw= +98.693 mV | Vcorr=  +0.940 mV | G2 (105.0) | Idx: 2269
+Vraw= +92.463 mV | Vcorr=  +0.881 mV | G2 (105.0) | Idx: 2270
+Vraw= +92.576 mV | Vcorr=  +0.882 mV | G2 (105.0) | Idx: 2271
+Vraw= +91.162 mV | Vcorr=  +0.868 mV | G2 (105.0) | Idx: 2272
+Vraw= +85.779 mV | Vcorr=  +0.817 mV | G2 (105.0) | Idx: 2273
+Vraw= +87.175 mV | Vcorr=  +0.830 mV | G2 (105.0) | Idx: 2274
+Vraw= +98.116 mV | Vcorr=  +0.934 mV | G2 (105.0) | Idx: 2275
+Vraw= +93.484 mV | Vcorr=  +0.890 mV | G2 (105.0) | Idx: 2276
+Vraw=+101.364 mV | Vcorr=  +0.965 mV | G2 (105.0) | Idx: 2277
+Vraw= +97.272 mV | Vcorr=  +0.926 mV | G2 (105.0) | Idx: 2278
+Vraw= +94.779 mV | Vcorr=  +0.903 mV | G2 (105.0) | Idx: 2279
+Vraw= +97.003 mV | Vcorr=  +0.924 mV | G2 (105.0) | Idx: 2280
+Vraw=+110.246 mV | Vcorr=  +1.050 mV | G2 (105.0) | Idx: 2281
+Vraw=+110.170 mV | Vcorr=  +1.049 mV | G2 (105.0) | Idx: 2282
+Vraw=+103.070 mV | Vcorr=  +0.982 mV | G2 (105.0) | Idx: 2283
+Vraw=+113.631 mV | Vcorr=  +1.082 mV | G2 (105.0) | Idx: 2284
+Vraw=+110.764 mV | Vcorr=  +1.055 mV | G2 (105.0) | Idx: 2285
+Vraw=+111.022 mV | Vcorr=  +1.057 mV | G2 (105.0) | Idx: 2286
+Vraw=+100.255 mV | Vcorr=  +0.955 mV | G2 (105.0) | Idx: 2287
+Vraw=+102.428 mV | Vcorr=  +0.976 mV | G2 (105.0) | Idx: 2288
+Vraw=+101.984 mV | Vcorr=  +0.971 mV | G2 (105.0) | Idx: 2289
+Vraw= +95.777 mV | Vcorr=  +0.912 mV | G2 (105.0) | Idx: 2290
+Vraw= +93.938 mV | Vcorr=  +0.895 mV | G2 (105.0) | Idx: 2291
+Vraw= +93.352 mV | Vcorr=  +0.889 mV | G2 (105.0) | Idx: 2292
+Vraw= +96.311 mV | Vcorr=  +0.917 mV | G2 (105.0) | Idx: 2293
+Vraw= +84.531 mV | Vcorr=  +0.805 mV | G2 (105.0) | Idx: 2294
+Vraw= +89.869 mV | Vcorr=  +0.856 mV | G2 (105.0) | Idx: 2295
+Vraw= +95.988 mV | Vcorr=  +0.914 mV | G2 (105.0) | Idx: 2296
+Vraw= +93.485 mV | Vcorr=  +0.890 mV | G2 (105.0) | Idx: 2297
+Vraw= +97.710 mV | Vcorr=  +0.931 mV | G2 (105.0) | Idx: 2298
+Vraw= +91.765 mV | Vcorr=  +0.874 mV | G2 (105.0) | Idx: 2299
+Vraw= +85.842 mV | Vcorr=  +0.818 mV | G2 (105.0) | Idx: 2300
+Vraw= +89.116 mV | Vcorr=  +0.849 mV | G2 (105.0) | Idx: 2301
+Vraw= +93.792 mV | Vcorr=  +0.893 mV | G2 (105.0) | Idx: 2302
+Vraw= +87.289 mV | Vcorr=  +0.831 mV | G2 (105.0) | Idx: 2303
+Vraw= +89.816 mV | Vcorr=  +0.855 mV | G2 (105.0) | Idx: 2304
+Vraw= +86.438 mV | Vcorr=  +0.823 mV | G2 (105.0) | Idx: 2305
+Vraw= +85.522 mV | Vcorr=  +0.814 mV | G2 (105.0) | Idx: 2306
+Vraw= +77.484 mV | Vcorr=  +0.738 mV | G2 (105.0) | Idx: 2307
+Vraw= +79.704 mV | Vcorr=  +0.759 mV | G2 (105.0) | Idx: 2308
+Vraw= +79.323 mV | Vcorr=  +0.755 mV | G2 (105.0) | Idx: 2309
+Vraw= +78.961 mV | Vcorr=  +0.752 mV | G2 (105.0) | Idx: 2310
+Vraw= +95.900 mV | Vcorr=  +0.913 mV | G2 (105.0) | Idx: 2311
+Vraw=+105.255 mV | Vcorr=  +1.002 mV | G2 (105.0) | Idx: 2312
+Vraw= +99.082 mV | Vcorr=  +0.944 mV | G2 (105.0) | Idx: 2313
+Vraw= +96.205 mV | Vcorr=  +0.916 mV | G2 (105.0) | Idx: 2314
+Vraw= +95.783 mV | Vcorr=  +0.912 mV | G2 (105.0) | Idx: 2315
+Vraw= +95.506 mV | Vcorr=  +0.910 mV | G2 (105.0) | Idx: 2316
+Vraw= +94.199 mV | Vcorr=  +0.897 mV | G2 (105.0) | Idx: 2317
+Vraw= +92.497 mV | Vcorr=  +0.881 mV | G2 (105.0) | Idx: 2318
+Vraw= +95.292 mV | Vcorr=  +0.908 mV | G2 (105.0) | Idx: 2319
+Vraw= +97.371 mV | Vcorr=  +0.927 mV | G2 (105.0) | Idx: 2320
+Vraw= +94.330 mV | Vcorr=  +0.898 mV | G2 (105.0) | Idx: 2321
+Vraw= +94.430 mV | Vcorr=  +0.899 mV | G2 (105.0) | Idx: 2322
+Vraw= +98.297 mV | Vcorr=  +0.936 mV | G2 (105.0) | Idx: 2323
+Vraw=+103.440 mV | Vcorr=  +0.985 mV | G2 (105.0) | Idx: 2324
+Vraw=+105.290 mV | Vcorr=  +1.003 mV | G2 (105.0) | Idx: 2325
+Vraw=+109.844 mV | Vcorr=  +1.046 mV | G2 (105.0) | Idx: 2326
+Vraw=+108.930 mV | Vcorr=  +1.037 mV | G2 (105.0) | Idx: 2327
+Vraw=+109.710 mV | Vcorr=  +1.045 mV | G2 (105.0) | Idx: 2328
+Vraw=+113.182 mV | Vcorr=  +1.078 mV | G2 (105.0) | Idx: 2329
+Vraw=+120.416 mV | Vcorr=  +1.147 mV | G2 (105.0) | Idx: 2330
+Vraw=+111.896 mV | Vcorr=  +1.066 mV | G2 (105.0) | Idx: 2331
+Vraw=+116.546 mV | Vcorr=  +1.110 mV | G2 (105.0) | Idx: 2332
+Vraw=+120.558 mV | Vcorr=  +1.148 mV | G2 (105.0) | Idx: 2333
+Vraw=+114.629 mV | Vcorr=  +1.092 mV | G2 (105.0) | Idx: 2334
+Vraw=+115.041 mV | Vcorr=  +1.096 mV | G2 (105.0) | Idx: 2335
+Vraw=+112.508 mV | Vcorr=  +1.072 mV | G2 (105.0) | Idx: 2336
+Vraw=+115.686 mV | Vcorr=  +1.102 mV | G2 (105.0) | Idx: 2337
+Vraw=+117.804 mV | Vcorr=  +1.122 mV | G2 (105.0) | Idx: 2338
+Vraw=+115.927 mV | Vcorr=  +1.104 mV | G2 (105.0) | Idx: 2339
+Vraw=+122.113 mV | Vcorr=  +1.163 mV | G2 (105.0) | Idx: 2340
+Vraw=+113.214 mV | Vcorr=  +1.078 mV | G2 (105.0) | Idx: 2341
+Vraw=+109.407 mV | Vcorr=  +1.042 mV | G2 (105.0) | Idx: 2342
+Vraw=+107.146 mV | Vcorr=  +1.020 mV | G2 (105.0) | Idx: 2343
+Vraw=+101.871 mV | Vcorr=  +0.970 mV | G2 (105.0) | Idx: 2344
+Vraw=+100.192 mV | Vcorr=  +0.954 mV | G2 (105.0) | Idx: 2345
+Vraw= +97.851 mV | Vcorr=  +0.932 mV | G2 (105.0) | Idx: 2346
+Vraw=+100.011 mV | Vcorr=  +0.952 mV | G2 (105.0) | Idx: 2347
+Vraw=+106.156 mV | Vcorr=  +1.011 mV | G2 (105.0) | Idx: 2348
+Vraw=+115.012 mV | Vcorr=  +1.095 mV | G2 (105.0) | Idx: 2349
+Vraw=+119.254 mV | Vcorr=  +1.136 mV | G2 (105.0) | Idx: 2350
+Vraw=+115.924 mV | Vcorr=  +1.104 mV | G2 (105.0) | Idx: 2351
+Vraw=+111.049 mV | Vcorr=  +1.058 mV | G2 (105.0) | Idx: 2352
+Vraw=+115.595 mV | Vcorr=  +1.101 mV | G2 (105.0) | Idx: 2353
+Vraw=+102.925 mV | Vcorr=  +0.980 mV | G2 (105.0) | Idx: 2354
+Vraw=+106.161 mV | Vcorr=  +1.011 mV | G2 (105.0) | Idx: 2355
+Vraw=+111.895 mV | Vcorr=  +1.066 mV | G2 (105.0) | Idx: 2356
+Vraw=+103.930 mV | Vcorr=  +0.990 mV | G2 (105.0) | Idx: 2357
+Vraw=+110.241 mV | Vcorr=  +1.050 mV | G2 (105.0) | Idx: 2358
+Vraw=+110.684 mV | Vcorr=  +1.054 mV | G2 (105.0) | Idx: 2359
+Vraw=+107.982 mV | Vcorr=  +1.028 mV | G2 (105.0) | Idx: 2360
+Vraw=+113.335 mV | Vcorr=  +1.079 mV | G2 (105.0) | Idx: 2361
+Vraw=+109.059 mV | Vcorr=  +1.039 mV | G2 (105.0) | Idx: 2362
+Vraw= +97.459 mV | Vcorr=  +0.928 mV | G2 (105.0) | Idx: 2363
+Vraw= +97.220 mV | Vcorr=  +0.926 mV | G2 (105.0) | Idx: 2364
+Vraw= +91.296 mV | Vcorr=  +0.869 mV | G2 (105.0) | Idx: 2365
+Vraw= +97.134 mV | Vcorr=  +0.925 mV | G2 (105.0) | Idx: 2366
+Vraw=+105.861 mV | Vcorr=  +1.008 mV | G2 (105.0) | Idx: 2367
+Vraw=+103.653 mV | Vcorr=  +0.987 mV | G2 (105.0) | Idx: 2368
+Vraw= +98.138 mV | Vcorr=  +0.935 mV | G2 (105.0) | Idx: 2369
+Vraw= +98.578 mV | Vcorr=  +0.939 mV | G2 (105.0) | Idx: 2370
+Vraw=+103.713 mV | Vcorr=  +0.988 mV | G2 (105.0) | Idx: 2371
+Vraw=+100.931 mV | Vcorr=  +0.961 mV | G2 (105.0) | Idx: 2372
+Vraw=+100.415 mV | Vcorr=  +0.956 mV | G2 (105.0) | Idx: 2373
+Vraw= +94.940 mV | Vcorr=  +0.904 mV | G2 (105.0) | Idx: 2374
+Vraw= +99.507 mV | Vcorr=  +0.948 mV | G2 (105.0) | Idx: 2375
+Vraw=+105.145 mV | Vcorr=  +1.001 mV | G2 (105.0) | Idx: 2376
+Vraw=+104.315 mV | Vcorr=  +0.993 mV | G2 (105.0) | Idx: 2377
+Vraw=+107.664 mV | Vcorr=  +1.025 mV | G2 (105.0) | Idx: 2378
+Vraw=+111.559 mV | Vcorr=  +1.062 mV | G2 (105.0) | Idx: 2379
+Vraw=+117.208 mV | Vcorr=  +1.116 mV | G2 (105.0) | Idx: 2380
+Vraw=+126.829 mV | Vcorr=  +1.208 mV | G2 (105.0) | Idx: 2381
+Vraw=+126.803 mV | Vcorr=  +1.208 mV | G2 (105.0) | Idx: 2382
+Vraw=+127.199 mV | Vcorr=  +1.211 mV | G2 (105.0) | Idx: 2383
+Vraw=+118.248 mV | Vcorr=  +1.126 mV | G2 (105.0) | Idx: 2384
+Vraw=+116.206 mV | Vcorr=  +1.107 mV | G2 (105.0) | Idx: 2385
+Vraw=+116.514 mV | Vcorr=  +1.110 mV | G2 (105.0) | Idx: 2386
+Vraw=+123.382 mV | Vcorr=  +1.175 mV | G2 (105.0) | Idx: 2387
+Vraw=+118.030 mV | Vcorr=  +1.124 mV | G2 (105.0) | Idx: 2388
+Vraw=+120.148 mV | Vcorr=  +1.144 mV | G2 (105.0) | Idx: 2389
+Vraw=+121.349 mV | Vcorr=  +1.156 mV | G2 (105.0) | Idx: 2390
+Vraw=+113.507 mV | Vcorr=  +1.081 mV | G2 (105.0) | Idx: 2391
+Vraw=+121.100 mV | Vcorr=  +1.153 mV | G2 (105.0) | Idx: 2392
+Vraw=+114.871 mV | Vcorr=  +1.094 mV | G2 (105.0) | Idx: 2393
+Vraw=+122.886 mV | Vcorr=  +1.170 mV | G2 (105.0) | Idx: 2394
+Vraw=+114.926 mV | Vcorr=  +1.095 mV | G2 (105.0) | Idx: 2395
+Vraw=+110.066 mV | Vcorr=  +1.048 mV | G2 (105.0) | Idx: 2396
+Vraw=+111.310 mV | Vcorr=  +1.060 mV | G2 (105.0) | Idx: 2397
+Vraw=+109.504 mV | Vcorr=  +1.043 mV | G2 (105.0) | Idx: 2398
+Vraw=+111.003 mV | Vcorr=  +1.057 mV | G2 (105.0) | Idx: 2399
+Vraw=+103.224 mV | Vcorr=  +0.983 mV | G2 (105.0) | Idx: 2400
+Vraw=+110.344 mV | Vcorr=  +1.051 mV | G2 (105.0) | Idx: 2401
+Vraw=+114.716 mV | Vcorr=  +1.093 mV | G2 (105.0) | Idx: 2402
+Vraw=+127.014 mV | Vcorr=  +1.210 mV | G2 (105.0) | Idx: 2403
+Vraw=+121.394 mV | Vcorr=  +1.156 mV | G2 (105.0) | Idx: 2404
+Vraw=+109.587 mV | Vcorr=  +1.044 mV | G2 (105.0) | Idx: 2405
+Vraw=+111.050 mV | Vcorr=  +1.058 mV | G2 (105.0) | Idx: 2406
+Vraw=+110.341 mV | Vcorr=  +1.051 mV | G2 (105.0) | Idx: 2407
+Vraw=+113.349 mV | Vcorr=  +1.080 mV | G2 (105.0) | Idx: 2408
+Vraw=+123.429 mV | Vcorr=  +1.176 mV | G2 (105.0) | Idx: 2409
+Vraw=+117.469 mV | Vcorr=  +1.119 mV | G2 (105.0) | Idx: 2410
+Vraw=+116.298 mV | Vcorr=  +1.108 mV | G2 (105.0) | Idx: 2411
+Vraw=+109.636 mV | Vcorr=  +1.044 mV | G2 (105.0) | Idx: 2412
+Vraw=+109.863 mV | Vcorr=  +1.046 mV | G2 (105.0) | Idx: 2413
+Vraw=+112.216 mV | Vcorr=  +1.069 mV | G2 (105.0) | Idx: 2414
+Vraw=+115.504 mV | Vcorr=  +1.100 mV | G2 (105.0) | Idx: 2415
+Vraw=+112.495 mV | Vcorr=  +1.071 mV | G2 (105.0) | Idx: 2416
+Vraw=+115.442 mV | Vcorr=  +1.099 mV | G2 (105.0) | Idx: 2417
+Vraw=+112.885 mV | Vcorr=  +1.075 mV | G2 (105.0) | Idx: 2418
+Vraw=+118.787 mV | Vcorr=  +1.131 mV | G2 (105.0) | Idx: 2419
+Vraw=+114.383 mV | Vcorr=  +1.089 mV | G2 (105.0) | Idx: 2420
+Vraw=+115.489 mV | Vcorr=  +1.100 mV | G2 (105.0) | Idx: 2421
+Vraw=+120.316 mV | Vcorr=  +1.146 mV | G2 (105.0) | Idx: 2422
+Vraw=+107.795 mV | Vcorr=  +1.027 mV | G2 (105.0) | Idx: 2423
+Vraw=+104.037 mV | Vcorr=  +0.991 mV | G2 (105.0) | Idx: 2424
+Vraw=+109.435 mV | Vcorr=  +1.042 mV | G2 (105.0) | Idx: 2425
+Vraw=+113.761 mV | Vcorr=  +1.083 mV | G2 (105.0) | Idx: 2426
+Vraw=+120.800 mV | Vcorr=  +1.150 mV | G2 (105.0) | Idx: 2427
+Vraw=+124.721 mV | Vcorr=  +1.188 mV | G2 (105.0) | Idx: 2428
+Vraw=+122.660 mV | Vcorr=  +1.168 mV | G2 (105.0) | Idx: 2429
+Vraw=+116.078 mV | Vcorr=  +1.106 mV | G2 (105.0) | Idx: 2430
+Vraw=+117.238 mV | Vcorr=  +1.117 mV | G2 (105.0) | Idx: 2431
+Vraw=+119.128 mV | Vcorr=  +1.135 mV | G2 (105.0) | Idx: 2432
+Vraw=+122.604 mV | Vcorr=  +1.168 mV | G2 (105.0) | Idx: 2433
+Vraw=+120.823 mV | Vcorr=  +1.151 mV | G2 (105.0) | Idx: 2434
+Vraw=+129.653 mV | Vcorr=  +1.235 mV | G2 (105.0) | Idx: 2435
+Vraw=+128.189 mV | Vcorr=  +1.221 mV | G2 (105.0) | Idx: 2436
+Vraw=+131.285 mV | Vcorr=  +1.250 mV | G2 (105.0) | Idx: 2437
+Vraw=+138.176 mV | Vcorr=  +1.316 mV | G2 (105.0) | Idx: 2438
+Vraw=+135.077 mV | Vcorr=  +1.286 mV | G2 (105.0) | Idx: 2439
+Vraw=+129.094 mV | Vcorr=  +1.229 mV | G2 (105.0) | Idx: 2440
+Vraw=+128.497 mV | Vcorr=  +1.224 mV | G2 (105.0) | Idx: 2441
+Vraw=+129.661 mV | Vcorr=  +1.235 mV | G2 (105.0) | Idx: 2442
+Vraw=+126.163 mV | Vcorr=  +1.202 mV | G2 (105.0) | Idx: 2443
+Vraw=+127.359 mV | Vcorr=  +1.213 mV | G2 (105.0) | Idx: 2444
+Vraw=+115.195 mV | Vcorr=  +1.097 mV | G2 (105.0) | Idx: 2445
+Vraw=+111.645 mV | Vcorr=  +1.063 mV | G2 (105.0) | Idx: 2446
+Vraw=+114.734 mV | Vcorr=  +1.093 mV | G2 (105.0) | Idx: 2447
+Vraw=+111.611 mV | Vcorr=  +1.063 mV | G2 (105.0) | Idx: 2448
+Vraw=+117.129 mV | Vcorr=  +1.116 mV | G2 (105.0) | Idx: 2449
+Vraw=+125.003 mV | Vcorr=  +1.191 mV | G2 (105.0) | Idx: 2450
+Vraw=+117.747 mV | Vcorr=  +1.121 mV | G2 (105.0) | Idx: 2451
+Vraw=+114.895 mV | Vcorr=  +1.094 mV | G2 (105.0) | Idx: 2452
+Vraw=+119.831 mV | Vcorr=  +1.141 mV | G2 (105.0) | Idx: 2453
+Vraw=+117.797 mV | Vcorr=  +1.122 mV | G2 (105.0) | Idx: 2454
+Vraw=+126.551 mV | Vcorr=  +1.205 mV | G2 (105.0) | Idx: 2455
+Vraw=+123.594 mV | Vcorr=  +1.177 mV | G2 (105.0) | Idx: 2456
+Vraw=+126.689 mV | Vcorr=  +1.207 mV | G2 (105.0) | Idx: 2457
+Vraw=+121.484 mV | Vcorr=  +1.157 mV | G2 (105.0) | Idx: 2458
+Vraw=+120.170 mV | Vcorr=  +1.144 mV | G2 (105.0) | Idx: 2459
+Vraw=+115.124 mV | Vcorr=  +1.096 mV | G2 (105.0) | Idx: 2460
+Vraw=+110.566 mV | Vcorr=  +1.053 mV | G2 (105.0) | Idx: 2461
+Vraw=+117.598 mV | Vcorr=  +1.120 mV | G2 (105.0) | Idx: 2462
+Vraw=+113.490 mV | Vcorr=  +1.081 mV | G2 (105.0) | Idx: 2463
+Vraw=+109.043 mV | Vcorr=  +1.039 mV | G2 (105.0) | Idx: 2464
+Vraw=+105.938 mV | Vcorr=  +1.009 mV | G2 (105.0) | Idx: 2465
+Vraw=+113.185 mV | Vcorr=  +1.078 mV | G2 (105.0) | Idx: 2466
+Vraw=+113.597 mV | Vcorr=  +1.082 mV | G2 (105.0) | Idx: 2467
+Vraw=+125.992 mV | Vcorr=  +1.200 mV | G2 (105.0) | Idx: 2468
+Vraw=+117.723 mV | Vcorr=  +1.121 mV | G2 (105.0) | Idx: 2469
+Vraw=+114.047 mV | Vcorr=  +1.086 mV | G2 (105.0) | Idx: 2470
+Vraw=+109.153 mV | Vcorr=  +1.040 mV | G2 (105.0) | Idx: 2471
+Vraw=+109.700 mV | Vcorr=  +1.045 mV | G2 (105.0) | Idx: 2472
+Vraw=+104.487 mV | Vcorr=  +0.995 mV | G2 (105.0) | Idx: 2473
+Vraw=+107.309 mV | Vcorr=  +1.022 mV | G2 (105.0) | Idx: 2474
+Vraw=+114.687 mV | Vcorr=  +1.092 mV | G2 (105.0) | Idx: 2475
+Vraw=+112.842 mV | Vcorr=  +1.075 mV | G2 (105.0) | Idx: 2476
+Vraw=+119.237 mV | Vcorr=  +1.136 mV | G2 (105.0) | Idx: 2477
+Vraw=+118.753 mV | Vcorr=  +1.131 mV | G2 (105.0) | Idx: 2478
+Vraw=+122.145 mV | Vcorr=  +1.163 mV | G2 (105.0) | Idx: 2479
+Vraw=+126.125 mV | Vcorr=  +1.201 mV | G2 (105.0) | Idx: 2480
+Vraw=+128.109 mV | Vcorr=  +1.220 mV | G2 (105.0) | Idx: 2481
+Vraw=+129.329 mV | Vcorr=  +1.232 mV | G2 (105.0) | Idx: 2482
+Vraw=+122.744 mV | Vcorr=  +1.169 mV | G2 (105.0) | Idx: 2483
+Vraw=+128.026 mV | Vcorr=  +1.219 mV | G2 (105.0) | Idx: 2484
+Vraw=+127.740 mV | Vcorr=  +1.217 mV | G2 (105.0) | Idx: 2485
+Vraw=+128.034 mV | Vcorr=  +1.219 mV | G2 (105.0) | Idx: 2486
+Vraw=+120.043 mV | Vcorr=  +1.143 mV | G2 (105.0) | Idx: 2487
+Vraw=+130.432 mV | Vcorr=  +1.242 mV | G2 (105.0) | Idx: 2488
+Vraw=+126.147 mV | Vcorr=  +1.201 mV | G2 (105.0) | Idx: 2489
+Vraw=+119.971 mV | Vcorr=  +1.143 mV | G2 (105.0) | Idx: 2490
+Vraw=+118.671 mV | Vcorr=  +1.130 mV | G2 (105.0) | Idx: 2491
+Vraw=+121.505 mV | Vcorr=  +1.157 mV | G2 (105.0) | Idx: 2492
+Vraw=+119.276 mV | Vcorr=  +1.136 mV | G2 (105.0) | Idx: 2493
+Vraw=+115.975 mV | Vcorr=  +1.105 mV | G2 (105.0) | Idx: 2494
+Vraw=+118.867 mV | Vcorr=  +1.132 mV | G2 (105.0) | Idx: 2495
+Vraw=+116.267 mV | Vcorr=  +1.107 mV | G2 (105.0) | Idx: 2496
+Vraw=+121.799 mV | Vcorr=  +1.160 mV | G2 (105.0) | Idx: 2497
+Vraw=+121.627 mV | Vcorr=  +1.158 mV | G2 (105.0) | Idx: 2498
+Vraw=+121.401 mV | Vcorr=  +1.156 mV | G2 (105.0) | Idx: 2499
+Vraw=+131.140 mV | Vcorr=  +1.249 mV | G2 (105.0) | Idx: 2500
+Vraw=+121.821 mV | Vcorr=  +1.160 mV | G2 (105.0) | Idx: 2501
+Vraw=+109.233 mV | Vcorr=  +1.040 mV | G2 (105.0) | Idx: 2502
+Vraw=+109.620 mV | Vcorr=  +1.044 mV | G2 (105.0) | Idx: 2503
+Vraw=+111.249 mV | Vcorr=  +1.060 mV | G2 (105.0) | Idx: 2504
+Vraw=+122.769 mV | Vcorr=  +1.169 mV | G2 (105.0) | Idx: 2505
+Vraw=+130.174 mV | Vcorr=  +1.240 mV | G2 (105.0) | Idx: 2506
+Vraw=+122.858 mV | Vcorr=  +1.170 mV | G2 (105.0) | Idx: 2507
+Vraw=+124.687 mV | Vcorr=  +1.187 mV | G2 (105.0) | Idx: 2508
+Vraw=+114.819 mV | Vcorr=  +1.094 mV | G2 (105.0) | Idx: 2509
+Vraw=+111.764 mV | Vcorr=  +1.064 mV | G2 (105.0) | Idx: 2510
+Vraw=+117.514 mV | Vcorr=  +1.119 mV | G2 (105.0) | Idx: 2511
+Vraw=+125.770 mV | Vcorr=  +1.198 mV | G2 (105.0) | Idx: 2512
+Vraw=+126.874 mV | Vcorr=  +1.208 mV | G2 (105.0) | Idx: 2513
+Vraw=+121.329 mV | Vcorr=  +1.156 mV | G2 (105.0) | Idx: 2514
+Vraw=+126.970 mV | Vcorr=  +1.209 mV | G2 (105.0) | Idx: 2515
+Vraw=+116.048 mV | Vcorr=  +1.105 mV | G2 (105.0) | Idx: 2516
+Vraw=+105.846 mV | Vcorr=  +1.008 mV | G2 (105.0) | Idx: 2517
+Vraw=+108.410 mV | Vcorr=  +1.032 mV | G2 (105.0) | Idx: 2518
+Vraw=+109.836 mV | Vcorr=  +1.046 mV | G2 (105.0) | Idx: 2519
+Vraw=+112.953 mV | Vcorr=  +1.076 mV | G2 (105.0) | Idx: 2520
+Vraw=+125.201 mV | Vcorr=  +1.192 mV | G2 (105.0) | Idx: 2521
+Vraw=+123.035 mV | Vcorr=  +1.172 mV | G2 (105.0) | Idx: 2522
+Vraw=+115.546 mV | Vcorr=  +1.100 mV | G2 (105.0) | Idx: 2523
+Vraw=+119.949 mV | Vcorr=  +1.142 mV | G2 (105.0) | Idx: 2524
+Vraw=+118.236 mV | Vcorr=  +1.126 mV | G2 (105.0) | Idx: 2525
+Vraw=+119.671 mV | Vcorr=  +1.140 mV | G2 (105.0) | Idx: 2526
+Vraw=+115.502 mV | Vcorr=  +1.100 mV | G2 (105.0) | Idx: 2527
+Vraw=+123.708 mV | Vcorr=  +1.178 mV | G2 (105.0) | Idx: 2528
+Vraw=+108.901 mV | Vcorr=  +1.037 mV | G2 (105.0) | Idx: 2529
+Vraw=+109.342 mV | Vcorr=  +1.041 mV | G2 (105.0) | Idx: 2530
+Vraw=+101.351 mV | Vcorr=  +0.965 mV | G2 (105.0) | Idx: 2531
+Vraw=+107.711 mV | Vcorr=  +1.026 mV | G2 (105.0) | Idx: 2532
+Vraw=+106.979 mV | Vcorr=  +1.019 mV | G2 (105.0) | Idx: 2533
+Vraw=+110.011 mV | Vcorr=  +1.048 mV | G2 (105.0) | Idx: 2534
+Vraw=+119.429 mV | Vcorr=  +1.137 mV | G2 (105.0) | Idx: 2535
+Vraw=+118.159 mV | Vcorr=  +1.125 mV | G2 (105.0) | Idx: 2536
+Vraw=+114.650 mV | Vcorr=  +1.092 mV | G2 (105.0) | Idx: 2537
+Vraw=+108.280 mV | Vcorr=  +1.031 mV | G2 (105.0) | Idx: 2538
+Vraw=+109.148 mV | Vcorr=  +1.040 mV | G2 (105.0) | Idx: 2539
+Vraw=+120.353 mV | Vcorr=  +1.146 mV | G2 (105.0) | Idx: 2540
+Vraw=+114.563 mV | Vcorr=  +1.091 mV | G2 (105.0) | Idx: 2541
+Vraw=+112.864 mV | Vcorr=  +1.075 mV | G2 (105.0) | Idx: 2542
+Vraw=+113.955 mV | Vcorr=  +1.085 mV | G2 (105.0) | Idx: 2543
+Vraw=+112.298 mV | Vcorr=  +1.070 mV | G2 (105.0) | Idx: 2544
+Vraw=+108.512 mV | Vcorr=  +1.033 mV | G2 (105.0) | Idx: 2545
+Vraw=+117.604 mV | Vcorr=  +1.120 mV | G2 (105.0) | Idx: 2546
+Vraw=+116.371 mV | Vcorr=  +1.108 mV | G2 (105.0) | Idx: 2547
+Vraw=+109.092 mV | Vcorr=  +1.039 mV | G2 (105.0) | Idx: 2548
+Vraw=+110.050 mV | Vcorr=  +1.048 mV | G2 (105.0) | Idx: 2549
+Vraw=+112.204 mV | Vcorr=  +1.069 mV | G2 (105.0) | Idx: 2550
+Vraw=+112.073 mV | Vcorr=  +1.067 mV | G2 (105.0) | Idx: 2551
+Vraw=+111.840 mV | Vcorr=  +1.065 mV | G2 (105.0) | Idx: 2552
+Vraw=+110.452 mV | Vcorr=  +1.052 mV | G2 (105.0) | Idx: 2553
+Vraw=+112.340 mV | Vcorr=  +1.070 mV | G2 (105.0) | Idx: 2554
+Vraw=+106.641 mV | Vcorr=  +1.016 mV | G2 (105.0) | Idx: 2555
+Vraw=+115.499 mV | Vcorr=  +1.100 mV | G2 (105.0) | Idx: 2556
+Vraw=+118.386 mV | Vcorr=  +1.127 mV | G2 (105.0) | Idx: 2557
+Vraw=+121.353 mV | Vcorr=  +1.156 mV | G2 (105.0) | Idx: 2558
+Vraw=+116.332 mV | Vcorr=  +1.108 mV | G2 (105.0) | Idx: 2559
+Vraw=+118.487 mV | Vcorr=  +1.128 mV | G2 (105.0) | Idx: 2560
+Vraw=+109.162 mV | Vcorr=  +1.040 mV | G2 (105.0) | Idx: 2561
+Vraw=+105.183 mV | Vcorr=  +1.002 mV | G2 (105.0) | Idx: 2562
+Vraw=+109.946 mV | Vcorr=  +1.047 mV | G2 (105.0) | Idx: 2563
+Vraw=+113.045 mV | Vcorr=  +1.077 mV | G2 (105.0) | Idx: 2564
+Vraw=+103.868 mV | Vcorr=  +0.989 mV | G2 (105.0) | Idx: 2565
+Vraw=+111.556 mV | Vcorr=  +1.062 mV | G2 (105.0) | Idx: 2566
+Vraw=+115.601 mV | Vcorr=  +1.101 mV | G2 (105.0) | Idx: 2567
+Vraw=+119.401 mV | Vcorr=  +1.137 mV | G2 (105.0) | Idx: 2568
+Vraw=+123.485 mV | Vcorr=  +1.176 mV | G2 (105.0) | Idx: 2569
+Vraw=+117.104 mV | Vcorr=  +1.115 mV | G2 (105.0) | Idx: 2570
+Vraw=+115.195 mV | Vcorr=  +1.097 mV | G2 (105.0) | Idx: 2571
+Vraw=+124.389 mV | Vcorr=  +1.185 mV | G2 (105.0) | Idx: 2572
+Vraw=+124.276 mV | Vcorr=  +1.184 mV | G2 (105.0) | Idx: 2573
+Vraw=+118.713 mV | Vcorr=  +1.131 mV | G2 (105.0) | Idx: 2574
+Vraw=+117.703 mV | Vcorr=  +1.121 mV | G2 (105.0) | Idx: 2575
+Vraw=+120.763 mV | Vcorr=  +1.150 mV | G2 (105.0) | Idx: 2576
+Vraw=+109.400 mV | Vcorr=  +1.042 mV | G2 (105.0) | Idx: 2577
+Vraw=+112.855 mV | Vcorr=  +1.075 mV | G2 (105.0) | Idx: 2578
+Vraw=+102.971 mV | Vcorr=  +0.981 mV | G2 (105.0) | Idx: 2579
+Vraw=+110.433 mV | Vcorr=  +1.052 mV | G2 (105.0) | Idx: 2580
+Vraw=+113.267 mV | Vcorr=  +1.079 mV | G2 (105.0) | Idx: 2581
+Vraw=+118.008 mV | Vcorr=  +1.124 mV | G2 (105.0) | Idx: 2582
+Vraw=+120.767 mV | Vcorr=  +1.150 mV | G2 (105.0) | Idx: 2583
+Vraw=+112.664 mV | Vcorr=  +1.073 mV | G2 (105.0) | Idx: 2584
+Vraw=+120.854 mV | Vcorr=  +1.151 mV | G2 (105.0) | Idx: 2585
+Vraw=+124.638 mV | Vcorr=  +1.187 mV | G2 (105.0) | Idx: 2586
+Vraw=+128.911 mV | Vcorr=  +1.228 mV | G2 (105.0) | Idx: 2587
+Vraw=+115.072 mV | Vcorr=  +1.096 mV | G2 (105.0) | Idx: 2588
+Vraw=+116.696 mV | Vcorr=  +1.111 mV | G2 (105.0) | Idx: 2589
+Vraw=+114.290 mV | Vcorr=  +1.088 mV | G2 (105.0) | Idx: 2590
+Vraw=+113.142 mV | Vcorr=  +1.078 mV | G2 (105.0) | Idx: 2591
+Vraw=+107.166 mV | Vcorr=  +1.021 mV | G2 (105.0) | Idx: 2592
+Vraw=+100.197 mV | Vcorr=  +0.954 mV | G2 (105.0) | Idx: 2593
+Vraw= +98.561 mV | Vcorr=  +0.939 mV | G2 (105.0) | Idx: 2594
+Vraw=+102.039 mV | Vcorr=  +0.972 mV | G2 (105.0) | Idx: 2595
+Vraw=+103.290 mV | Vcorr=  +0.984 mV | G2 (105.0) | Idx: 2596
+Vraw=+109.305 mV | Vcorr=  +1.041 mV | G2 (105.0) | Idx: 2597
+Vraw=+106.114 mV | Vcorr=  +1.011 mV | G2 (105.0) | Idx: 2598
+Vraw=+114.664 mV | Vcorr=  +1.092 mV | G2 (105.0) | Idx: 2599
+Vraw=+114.633 mV | Vcorr=  +1.092 mV | G2 (105.0) | Idx: 2600
+Vraw=+112.958 mV | Vcorr=  +1.076 mV | G2 (105.0) | Idx: 2601
+Vraw=+111.246 mV | Vcorr=  +1.059 mV | G2 (105.0) | Idx: 2602
+Vraw=+101.349 mV | Vcorr=  +0.965 mV | G2 (105.0) | Idx: 2603
+Vraw= +99.662 mV | Vcorr=  +0.949 mV | G2 (105.0) | Idx: 2604
+Vraw=+103.329 mV | Vcorr=  +0.984 mV | G2 (105.0) | Idx: 2605
+Vraw=+112.967 mV | Vcorr=  +1.076 mV | G2 (105.0) | Idx: 2606
+Vraw= +95.664 mV | Vcorr=  +0.911 mV | G2 (105.0) | Idx: 2607
+Vraw=+101.426 mV | Vcorr=  +0.966 mV | G2 (105.0) | Idx: 2608
+Vraw=+106.953 mV | Vcorr=  +1.019 mV | G2 (105.0) | Idx: 2609
+Vraw=+110.138 mV | Vcorr=  +1.049 mV | G2 (105.0) | Idx: 2610
+Vraw=+123.869 mV | Vcorr=  +1.180 mV | G2 (105.0) | Idx: 2611
+Vraw=+111.963 mV | Vcorr=  +1.066 mV | G2 (105.0) | Idx: 2612
+Vraw=+113.196 mV | Vcorr=  +1.078 mV | G2 (105.0) | Idx: 2613
+Vraw=+113.274 mV | Vcorr=  +1.079 mV | G2 (105.0) | Idx: 2614
+Vraw=+107.821 mV | Vcorr=  +1.027 mV | G2 (105.0) | Idx: 2615
+Vraw=+106.808 mV | Vcorr=  +1.017 mV | G2 (105.0) | Idx: 2616
+Vraw=+108.097 mV | Vcorr=  +1.029 mV | G2 (105.0) | Idx: 2617
+Vraw=+114.078 mV | Vcorr=  +1.086 mV | G2 (105.0) | Idx: 2618
+Vraw=+105.987 mV | Vcorr=  +1.009 mV | G2 (105.0) | Idx: 2619
+Vraw=+112.789 mV | Vcorr=  +1.074 mV | G2 (105.0) | Idx: 2620
+Vraw=+108.009 mV | Vcorr=  +1.029 mV | G2 (105.0) | Idx: 2621
+Vraw=+124.006 mV | Vcorr=  +1.181 mV | G2 (105.0) | Idx: 2622
+Vraw=+112.435 mV | Vcorr=  +1.071 mV | G2 (105.0) | Idx: 2623
+Vraw=+108.796 mV | Vcorr=  +1.036 mV | G2 (105.0) | Idx: 2624
+Vraw=+114.539 mV | Vcorr=  +1.091 mV | G2 (105.0) | Idx: 2625
+Vraw=+116.633 mV | Vcorr=  +1.111 mV | G2 (105.0) | Idx: 2626
+Vraw=+120.799 mV | Vcorr=  +1.150 mV | G2 (105.0) | Idx: 2627
+Vraw=+122.398 mV | Vcorr=  +1.166 mV | G2 (105.0) | Idx: 2628
+Vraw=+115.247 mV | Vcorr=  +1.098 mV | G2 (105.0) | Idx: 2629
+Vraw=+113.678 mV | Vcorr=  +1.083 mV | G2 (105.0) | Idx: 2630
+Vraw=+119.297 mV | Vcorr=  +1.136 mV | G2 (105.0) | Idx: 2631
+Vraw=+123.898 mV | Vcorr=  +1.180 mV | G2 (105.0) | Idx: 2632
+Vraw=+119.265 mV | Vcorr=  +1.136 mV | G2 (105.0) | Idx: 2633
+Vraw=+121.883 mV | Vcorr=  +1.161 mV | G2 (105.0) | Idx: 2634
+Vraw=+123.539 mV | Vcorr=  +1.177 mV | G2 (105.0) | Idx: 2635
+Vraw=+125.495 mV | Vcorr=  +1.195 mV | G2 (105.0) | Idx: 2636
+Vraw=+120.961 mV | Vcorr=  +1.152 mV | G2 (105.0) | Idx: 2637
+Vraw=+120.866 mV | Vcorr=  +1.151 mV | G2 (105.0) | Idx: 2638
+Vraw=+119.728 mV | Vcorr=  +1.140 mV | G2 (105.0) | Idx: 2639
+Vraw=+115.813 mV | Vcorr=  +1.103 mV | G2 (105.0) | Idx: 2640
+Vraw=+122.145 mV | Vcorr=  +1.163 mV | G2 (105.0) | Idx: 2641
+Vraw=+118.150 mV | Vcorr=  +1.125 mV | G2 (105.0) | Idx: 2642
+Vraw=+113.087 mV | Vcorr=  +1.077 mV | G2 (105.0) | Idx: 2643
+Vraw=+118.443 mV | Vcorr=  +1.128 mV | G2 (105.0) | Idx: 2644
+Vraw=+121.723 mV | Vcorr=  +1.159 mV | G2 (105.0) | Idx: 2645
+Vraw=+126.673 mV | Vcorr=  +1.206 mV | G2 (105.0) | Idx: 2646
+Vraw=+130.490 mV | Vcorr=  +1.243 mV | G2 (105.0) | Idx: 2647
+Vraw=+127.596 mV | Vcorr=  +1.215 mV | G2 (105.0) | Idx: 2648
+Vraw=+118.159 mV | Vcorr=  +1.125 mV | G2 (105.0) | Idx: 2649
+Vraw=+121.862 mV | Vcorr=  +1.161 mV | G2 (105.0) | Idx: 2650
+Vraw=+115.688 mV | Vcorr=  +1.102 mV | G2 (105.0) | Idx: 2651
+Vraw=+111.133 mV | Vcorr=  +1.058 mV | G2 (105.0) | Idx: 2652
+Vraw=+108.290 mV | Vcorr=  +1.031 mV | G2 (105.0) | Idx: 2653
+Vraw=+108.609 mV | Vcorr=  +1.034 mV | G2 (105.0) | Idx: 2654
+Vraw=+105.632 mV | Vcorr=  +1.006 mV | G2 (105.0) | Idx: 2655
+Vraw=+101.790 mV | Vcorr=  +0.969 mV | G2 (105.0) | Idx: 2656
+Vraw= +92.211 mV | Vcorr=  +0.878 mV | G2 (105.0) | Idx: 2657
+Vraw= +88.088 mV | Vcorr=  +0.839 mV | G2 (105.0) | Idx: 2658
+Vraw=+102.308 mV | Vcorr=  +0.974 mV | G2 (105.0) | Idx: 2659
+Vraw=+101.156 mV | Vcorr=  +0.963 mV | G2 (105.0) | Idx: 2660
+Vraw=+101.631 mV | Vcorr=  +0.968 mV | G2 (105.0) | Idx: 2661
+Vraw= +85.798 mV | Vcorr=  +0.817 mV | G2 (105.0) | Idx: 2662
+Vraw=+100.557 mV | Vcorr=  +0.958 mV | G2 (105.0) | Idx: 2663
+Vraw= +97.419 mV | Vcorr=  +0.928 mV | G2 (105.0) | Idx: 2664
+Vraw= +87.766 mV | Vcorr=  +0.836 mV | G2 (105.0) | Idx: 2665
+Vraw= +92.638 mV | Vcorr=  +0.882 mV | G2 (105.0) | Idx: 2666
+Vraw= +98.176 mV | Vcorr=  +0.935 mV | G2 (105.0) | Idx: 2667
+Vraw=+106.102 mV | Vcorr=  +1.010 mV | G2 (105.0) | Idx: 2668
+Vraw=+117.334 mV | Vcorr=  +1.117 mV | G2 (105.0) | Idx: 2669
+Vraw=+122.780 mV | Vcorr=  +1.169 mV | G2 (105.0) | Idx: 2670
+Vraw=+114.295 mV | Vcorr=  +1.089 mV | G2 (105.0) | Idx: 2671
+Vraw=+124.316 mV | Vcorr=  +1.184 mV | G2 (105.0) | Idx: 2672
+Vraw=+135.058 mV | Vcorr=  +1.286 mV | G2 (105.0) | Idx: 2673
+Vraw=+131.003 mV | Vcorr=  +1.248 mV | G2 (105.0) | Idx: 2674
+Vraw=+121.733 mV | Vcorr=  +1.159 mV | G2 (105.0) | Idx: 2675
+Vraw=+122.669 mV | Vcorr=  +1.168 mV | G2 (105.0) | Idx: 2676
+Vraw=+138.063 mV | Vcorr=  +1.315 mV | G2 (105.0) | Idx: 2677
+Vraw=+144.954 mV | Vcorr=  +1.381 mV | G2 (105.0) | Idx: 2678
+Vraw=+146.157 mV | Vcorr=  +1.392 mV | G2 (105.0) | Idx: 2679
+Vraw=+144.044 mV | Vcorr=  +1.372 mV | G2 (105.0) | Idx: 2680
+Vraw=+134.134 mV | Vcorr=  +1.277 mV | G2 (105.0) | Idx: 2681
+Vraw=+137.589 mV | Vcorr=  +1.310 mV | G2 (105.0) | Idx: 2682
+Vraw=+132.315 mV | Vcorr=  +1.260 mV | G2 (105.0) | Idx: 2683
+Vraw=+122.914 mV | Vcorr=  +1.171 mV | G2 (105.0) | Idx: 2684
+Vraw=+127.330 mV | Vcorr=  +1.213 mV | G2 (105.0) | Idx: 2685
+Vraw=+115.501 mV | Vcorr=  +1.100 mV | G2 (105.0) | Idx: 2686
+Vraw=+125.136 mV | Vcorr=  +1.192 mV | G2 (105.0) | Idx: 2687
+Vraw=+129.359 mV | Vcorr=  +1.232 mV | G2 (105.0) | Idx: 2688
+Vraw=+123.542 mV | Vcorr=  +1.177 mV | G2 (105.0) | Idx: 2689
+Vraw=+114.554 mV | Vcorr=  +1.091 mV | G2 (105.0) | Idx: 2690
+Vraw=+123.065 mV | Vcorr=  +1.172 mV | G2 (105.0) | Idx: 2691
+Vraw=+138.558 mV | Vcorr=  +1.320 mV | G2 (105.0) | Idx: 2692
+Vraw=+133.643 mV | Vcorr=  +1.273 mV | G2 (105.0) | Idx: 2693
+Vraw=+140.273 mV | Vcorr=  +1.336 mV | G2 (105.0) | Idx: 2694
+Vraw=+133.317 mV | Vcorr=  +1.270 mV | G2 (105.0) | Idx: 2695
+Vraw=+131.536 mV | Vcorr=  +1.253 mV | G2 (105.0) | Idx: 2696
+Vraw=+133.794 mV | Vcorr=  +1.274 mV | G2 (105.0) | Idx: 2697
+Vraw=+117.580 mV | Vcorr=  +1.120 mV | G2 (105.0) | Idx: 2698
+Vraw=+158.177 mV | Vcorr=  +1.506 mV | G2 (105.0) | Idx: 2699
+Vraw=+170.526 mV | Vcorr=  +1.624 mV | G2 (105.0) | Idx: 2700
+Vraw=+172.137 mV | Vcorr=  +1.639 mV | G2 (105.0) | Idx: 2701
+Vraw=+171.484 mV | Vcorr=  +1.633 mV | G2 (105.0) | Idx: 2702
+Vraw=+183.027 mV | Vcorr=  +1.743 mV | G2 (105.0) | Idx: 2703
+Vraw=+181.669 mV | Vcorr=  +1.730 mV | G2 (105.0) | Idx: 2704
+Vraw=+176.520 mV | Vcorr=  +1.681 mV | G2 (105.0) | Idx: 2705
+Vraw=+174.470 mV | Vcorr=  +1.662 mV | G2 (105.0) | Idx: 2706
+Vraw=+172.014 mV | Vcorr=  +1.638 mV | G2 (105.0) | Idx: 2707
+Vraw=+167.035 mV | Vcorr=  +1.591 mV | G2 (105.0) | Idx: 2708
+Vraw=+162.339 mV | Vcorr=  +1.546 mV | G2 (105.0) | Idx: 2709
+Vraw=+160.667 mV | Vcorr=  +1.530 mV | G2 (105.0) | Idx: 2710
+Vraw=+170.755 mV | Vcorr=  +1.626 mV | G2 (105.0) | Idx: 2711
+Vraw=+167.675 mV | Vcorr=  +1.597 mV | G2 (105.0) | Idx: 2712
+Vraw=+164.263 mV | Vcorr=  +1.564 mV | G2 (105.0) | Idx: 2713
+Vraw=+164.442 mV | Vcorr=  +1.566 mV | G2 (105.0) | Idx: 2714
+Vraw=+172.036 mV | Vcorr=  +1.638 mV | G2 (105.0) | Idx: 2715
+Vraw=+164.049 mV | Vcorr=  +1.562 mV | G2 (105.0) | Idx: 2716
+Vraw=+164.376 mV | Vcorr=  +1.565 mV | G2 (105.0) | Idx: 2717
+Vraw=+159.965 mV | Vcorr=  +1.523 mV | G2 (105.0) | Idx: 2718
+Vraw=+163.938 mV | Vcorr=  +1.561 mV | G2 (105.0) | Idx: 2719
+Vraw=+157.811 mV | Vcorr=  +1.503 mV | G2 (105.0) | Idx: 2720
+Vraw=+157.173 mV | Vcorr=  +1.497 mV | G2 (105.0) | Idx: 2721
+Vraw=+163.847 mV | Vcorr=  +1.560 mV | G2 (105.0) | Idx: 2722
+Vraw=+156.795 mV | Vcorr=  +1.493 mV | G2 (105.0) | Idx: 2723
+Vraw=+161.823 mV | Vcorr=  +1.541 mV | G2 (105.0) | Idx: 2724
+Vraw=+153.773 mV | Vcorr=  +1.465 mV | G2 (105.0) | Idx: 2725
+Vraw=+155.294 mV | Vcorr=  +1.479 mV | G2 (105.0) | Idx: 2726
+Vraw=+165.585 mV | Vcorr=  +1.577 mV | G2 (105.0) | Idx: 2727
+Vraw=+163.832 mV | Vcorr=  +1.560 mV | G2 (105.0) | Idx: 2728
+Vraw=+166.871 mV | Vcorr=  +1.589 mV | G2 (105.0) | Idx: 2729
+Vraw=+160.906 mV | Vcorr=  +1.532 mV | G2 (105.0) | Idx: 2730
+Vraw=+164.294 mV | Vcorr=  +1.565 mV | G2 (105.0) | Idx: 2731
+Vraw=+167.701 mV | Vcorr=  +1.597 mV | G2 (105.0) | Idx: 2732
+Vraw=+160.887 mV | Vcorr=  +1.532 mV | G2 (105.0) | Idx: 2733
+Vraw=+162.292 mV | Vcorr=  +1.546 mV | G2 (105.0) | Idx: 2734
+Vraw=+169.674 mV | Vcorr=  +1.616 mV | G2 (105.0) | Idx: 2735
+Vraw=+166.012 mV | Vcorr=  +1.581 mV | G2 (105.0) | Idx: 2736
+Vraw=+163.616 mV | Vcorr=  +1.558 mV | G2 (105.0) | Idx: 2737
+Vraw=+158.168 mV | Vcorr=  +1.506 mV | G2 (105.0) | Idx: 2738
+Vraw=+157.585 mV | Vcorr=  +1.501 mV | G2 (105.0) | Idx: 2739
+Vraw=+153.387 mV | Vcorr=  +1.461 mV | G2 (105.0) | Idx: 2740
+Vraw=+151.220 mV | Vcorr=  +1.440 mV | G2 (105.0) | Idx: 2741
+Vraw=+158.529 mV | Vcorr=  +1.510 mV | G2 (105.0) | Idx: 2742
+Vraw=+156.893 mV | Vcorr=  +1.494 mV | G2 (105.0) | Idx: 2743
+Vraw=+162.995 mV | Vcorr=  +1.552 mV | G2 (105.0) | Idx: 2744
+Vraw=+160.809 mV | Vcorr=  +1.532 mV | G2 (105.0) | Idx: 2745
+Vraw=+165.233 mV | Vcorr=  +1.574 mV | G2 (105.0) | Idx: 2746
+Vraw=+175.579 mV | Vcorr=  +1.672 mV | G2 (105.0) | Idx: 2747
+Vraw=+171.628 mV | Vcorr=  +1.635 mV | G2 (105.0) | Idx: 2748
+Vraw=+168.354 mV | Vcorr=  +1.603 mV | G2 (105.0) | Idx: 2749
+Vraw=+167.878 mV | Vcorr=  +1.599 mV | G2 (105.0) | Idx: 2750
+Vraw=+169.323 mV | Vcorr=  +1.613 mV | G2 (105.0) | Idx: 2751
+Vraw=+169.819 mV | Vcorr=  +1.617 mV | G2 (105.0) | Idx: 2752
+Vraw=+168.523 mV | Vcorr=  +1.605 mV | G2 (105.0) | Idx: 2753
+Vraw=+167.052 mV | Vcorr=  +1.591 mV | G2 (105.0) | Idx: 2754
+Vraw=+176.601 mV | Vcorr=  +1.682 mV | G2 (105.0) | Idx: 2755
+Vraw=+177.143 mV | Vcorr=  +1.687 mV | G2 (105.0) | Idx: 2756
+Vraw=+175.304 mV | Vcorr=  +1.670 mV | G2 (105.0) | Idx: 2757
+Vraw=+167.763 mV | Vcorr=  +1.598 mV | G2 (105.0) | Idx: 2758
+Vraw=+164.689 mV | Vcorr=  +1.568 mV | G2 (105.0) | Idx: 2759
+Vraw=+170.775 mV | Vcorr=  +1.626 mV | G2 (105.0) | Idx: 2760
+Vraw=+168.600 mV | Vcorr=  +1.606 mV | G2 (105.0) | Idx: 2761
+Vraw=+172.554 mV | Vcorr=  +1.643 mV | G2 (105.0) | Idx: 2762
+Vraw=+171.825 mV | Vcorr=  +1.636 mV | G2 (105.0) | Idx: 2763
+Vraw=+169.411 mV | Vcorr=  +1.613 mV | G2 (105.0) | Idx: 2764
+Vraw=+164.914 mV | Vcorr=  +1.571 mV | G2 (105.0) | Idx: 2765
+Vraw=+173.747 mV | Vcorr=  +1.655 mV | G2 (105.0) | Idx: 2766
+Vraw=+173.437 mV | Vcorr=  +1.652 mV | G2 (105.0) | Idx: 2767
+Vraw=+172.872 mV | Vcorr=  +1.646 mV | G2 (105.0) | Idx: 2768
+Vraw=+162.383 mV | Vcorr=  +1.547 mV | G2 (105.0) | Idx: 2769
+Vraw=+163.207 mV | Vcorr=  +1.554 mV | G2 (105.0) | Idx: 2770
+Vraw=+165.304 mV | Vcorr=  +1.574 mV | G2 (105.0) | Idx: 2771
+Vraw=+161.285 mV | Vcorr=  +1.536 mV | G2 (105.0) | Idx: 2772
+Vraw=+166.054 mV | Vcorr=  +1.581 mV | G2 (105.0) | Idx: 2773
+Vraw=+162.610 mV | Vcorr=  +1.549 mV | G2 (105.0) | Idx: 2774
+Vraw=+164.673 mV | Vcorr=  +1.568 mV | G2 (105.0) | Idx: 2775
+Vraw=+163.607 mV | Vcorr=  +1.558 mV | G2 (105.0) | Idx: 2776
+Vraw=+158.172 mV | Vcorr=  +1.506 mV | G2 (105.0) | Idx: 2777
+Vraw=+156.721 mV | Vcorr=  +1.493 mV | G2 (105.0) | Idx: 2778
+Vraw=+149.646 mV | Vcorr=  +1.425 mV | G2 (105.0) | Idx: 2779
+Vraw=+152.793 mV | Vcorr=  +1.455 mV | G2 (105.0) | Idx: 2780
+Vraw=+163.224 mV | Vcorr=  +1.555 mV | G2 (105.0) | Idx: 2781
+Vraw=+148.175 mV | Vcorr=  +1.411 mV | G2 (105.0) | Idx: 2782
+Vraw=+160.153 mV | Vcorr=  +1.525 mV | G2 (105.0) | Idx: 2783
+Vraw=+156.041 mV | Vcorr=  +1.486 mV | G2 (105.0) | Idx: 2784
+Vraw=+152.883 mV | Vcorr=  +1.456 mV | G2 (105.0) | Idx: 2785
+Vraw=+149.936 mV | Vcorr=  +1.428 mV | G2 (105.0) | Idx: 2786
+Vraw=+149.539 mV | Vcorr=  +1.424 mV | G2 (105.0) | Idx: 2787
+Vraw=+152.350 mV | Vcorr=  +1.451 mV | G2 (105.0) | Idx: 2788
+Vraw=+152.262 mV | Vcorr=  +1.450 mV | G2 (105.0) | Idx: 2789
+Vraw=+147.103 mV | Vcorr=  +1.401 mV | G2 (105.0) | Idx: 2790
+Vraw=+155.113 mV | Vcorr=  +1.477 mV | G2 (105.0) | Idx: 2791
+Vraw=+152.414 mV | Vcorr=  +1.452 mV | G2 (105.0) | Idx: 2792
+Vraw=+158.077 mV | Vcorr=  +1.505 mV | G2 (105.0) | Idx: 2793
+Vraw=+154.579 mV | Vcorr=  +1.472 mV | G2 (105.0) | Idx: 2794
+Vraw=+150.571 mV | Vcorr=  +1.434 mV | G2 (105.0) | Idx: 2795
+Vraw=+159.630 mV | Vcorr=  +1.520 mV | G2 (105.0) | Idx: 2796
+Vraw=+159.008 mV | Vcorr=  +1.514 mV | G2 (105.0) | Idx: 2797
+Vraw=+150.052 mV | Vcorr=  +1.429 mV | G2 (105.0) | Idx: 2798
+Vraw=+150.448 mV | Vcorr=  +1.433 mV | G2 (105.0) | Idx: 2799
+Vraw=+157.758 mV | Vcorr=  +1.502 mV | G2 (105.0) | Idx: 2800
+Vraw=+160.167 mV | Vcorr=  +1.525 mV | G2 (105.0) | Idx: 2801
+Vraw=+156.781 mV | Vcorr=  +1.493 mV | G2 (105.0) | Idx: 2802
+Vraw=+137.802 mV | Vcorr=  +1.312 mV | G2 (105.0) | Idx: 2803
+Vraw=+147.136 mV | Vcorr=  +1.401 mV | G2 (105.0) | Idx: 2804
+Vraw=+154.148 mV | Vcorr=  +1.468 mV | G2 (105.0) | Idx: 2805
+Vraw=+151.804 mV | Vcorr=  +1.446 mV | G2 (105.0) | Idx: 2806
+Vraw=+152.476 mV | Vcorr=  +1.452 mV | G2 (105.0) | Idx: 2807
+Vraw=+160.351 mV | Vcorr=  +1.527 mV | G2 (105.0) | Idx: 2808
+Vraw=+156.464 mV | Vcorr=  +1.490 mV | G2 (105.0) | Idx: 2809
+Vraw=+161.469 mV | Vcorr=  +1.538 mV | G2 (105.0) | Idx: 2810
+Vraw=+158.344 mV | Vcorr=  +1.508 mV | G2 (105.0) | Idx: 2811
+Vraw=+164.453 mV | Vcorr=  +1.566 mV | G2 (105.0) | Idx: 2812
+Vraw=+167.881 mV | Vcorr=  +1.599 mV | G2 (105.0) | Idx: 2813
+Vraw=+166.870 mV | Vcorr=  +1.589 mV | G2 (105.0) | Idx: 2814
+Vraw=+167.829 mV | Vcorr=  +1.598 mV | G2 (105.0) | Idx: 2815
+Vraw=+162.980 mV | Vcorr=  +1.552 mV | G2 (105.0) | Idx: 2816
+Vraw=+159.956 mV | Vcorr=  +1.523 mV | G2 (105.0) | Idx: 2817
+Vraw=+159.913 mV | Vcorr=  +1.523 mV | G2 (105.0) | Idx: 2818
+Vraw=+167.270 mV | Vcorr=  +1.593 mV | G2 (105.0) | Idx: 2819
+Vraw=+158.105 mV | Vcorr=  +1.506 mV | G2 (105.0) | Idx: 2820
+Vraw=+161.278 mV | Vcorr=  +1.536 mV | G2 (105.0) | Idx: 2821
+Vraw=+164.898 mV | Vcorr=  +1.570 mV | G2 (105.0) | Idx: 2822
+Vraw=+172.770 mV | Vcorr=  +1.645 mV | G2 (105.0) | Idx: 2823
+Vraw=+165.618 mV | Vcorr=  +1.577 mV | G2 (105.0) | Idx: 2824
+Vraw=+160.006 mV | Vcorr=  +1.524 mV | G2 (105.0) | Idx: 2825
+Vraw=+164.450 mV | Vcorr=  +1.566 mV | G2 (105.0) | Idx: 2826
+Vraw=+158.677 mV | Vcorr=  +1.511 mV | G2 (105.0) | Idx: 2827
+Vraw=+159.024 mV | Vcorr=  +1.515 mV | G2 (105.0) | Idx: 2828
+Vraw=+157.835 mV | Vcorr=  +1.503 mV | G2 (105.0) | Idx: 2829
+Vraw=+168.092 mV | Vcorr=  +1.601 mV | G2 (105.0) | Idx: 2830
+Vraw=+173.401 mV | Vcorr=  +1.651 mV | G2 (105.0) | Idx: 2831
+Vraw=+174.993 mV | Vcorr=  +1.667 mV | G2 (105.0) | Idx: 2832
+Vraw=+175.969 mV | Vcorr=  +1.676 mV | G2 (105.0) | Idx: 2833
+Vraw=+171.347 mV | Vcorr=  +1.632 mV | G2 (105.0) | Idx: 2834
+Vraw=+175.473 mV | Vcorr=  +1.671 mV | G2 (105.0) | Idx: 2835
+Vraw=+166.255 mV | Vcorr=  +1.583 mV | G2 (105.0) | Idx: 2836
+Vraw=+159.120 mV | Vcorr=  +1.515 mV | G2 (105.0) | Idx: 2837
+Vraw=+163.225 mV | Vcorr=  +1.555 mV | G2 (105.0) | Idx: 2838
+Vraw=+163.611 mV | Vcorr=  +1.558 mV | G2 (105.0) | Idx: 2839
+Vraw=+162.803 mV | Vcorr=  +1.551 mV | G2 (105.0) | Idx: 2840
+Vraw=+164.397 mV | Vcorr=  +1.566 mV | G2 (105.0) | Idx: 2841
+Vraw=+163.646 mV | Vcorr=  +1.559 mV | G2 (105.0) | Idx: 2842
+Vraw=+169.441 mV | Vcorr=  +1.614 mV | G2 (105.0) | Idx: 2843
+Vraw=+172.147 mV | Vcorr=  +1.639 mV | G2 (105.0) | Idx: 2844
+Vraw=+175.666 mV | Vcorr=  +1.673 mV | G2 (105.0) | Idx: 2845
+Vraw=+168.019 mV | Vcorr=  +1.600 mV | G2 (105.0) | Idx: 2846
+Vraw=+171.220 mV | Vcorr=  +1.631 mV | G2 (105.0) | Idx: 2847
+Vraw=+167.273 mV | Vcorr=  +1.593 mV | G2 (105.0) | Idx: 2848
+Vraw=+163.530 mV | Vcorr=  +1.557 mV | G2 (105.0) | Idx: 2849
+Vraw=+163.319 mV | Vcorr=  +1.555 mV | G2 (105.0) | Idx: 2850
+Vraw=+157.969 mV | Vcorr=  +1.504 mV | G2 (105.0) | Idx: 2851
+Vraw=+166.392 mV | Vcorr=  +1.585 mV | G2 (105.0) | Idx: 2852
+Vraw=+164.045 mV | Vcorr=  +1.562 mV | G2 (105.0) | Idx: 2853
+Vraw=+158.596 mV | Vcorr=  +1.510 mV | G2 (105.0) | Idx: 2854
+Vraw=+166.928 mV | Vcorr=  +1.590 mV | G2 (105.0) | Idx: 2855
+Vraw=+165.412 mV | Vcorr=  +1.575 mV | G2 (105.0) | Idx: 2856
+Vraw=+161.529 mV | Vcorr=  +1.538 mV | G2 (105.0) | Idx: 2857
+Vraw=+169.178 mV | Vcorr=  +1.611 mV | G2 (105.0) | Idx: 2858
+Vraw=+160.772 mV | Vcorr=  +1.531 mV | G2 (105.0) | Idx: 2859
+Vraw=+160.313 mV | Vcorr=  +1.527 mV | G2 (105.0) | Idx: 2860
+Vraw=+158.352 mV | Vcorr=  +1.508 mV | G2 (105.0) | Idx: 2861
+Vraw=+161.715 mV | Vcorr=  +1.540 mV | G2 (105.0) | Idx: 2862
+Vraw=+162.841 mV | Vcorr=  +1.551 mV | G2 (105.0) | Idx: 2863
+Vraw=+160.137 mV | Vcorr=  +1.525 mV | G2 (105.0) | Idx: 2864
+Vraw=+160.299 mV | Vcorr=  +1.527 mV | G2 (105.0) | Idx: 2865
+Vraw=+165.352 mV | Vcorr=  +1.575 mV | G2 (105.0) | Idx: 2866
+Vraw=+161.982 mV | Vcorr=  +1.543 mV | G2 (105.0) | Idx: 2867
+Vraw=+165.708 mV | Vcorr=  +1.578 mV | G2 (105.0) | Idx: 2868
+Vraw=+166.463 mV | Vcorr=  +1.585 mV | G2 (105.0) | Idx: 2869
+Vraw=+166.304 mV | Vcorr=  +1.584 mV | G2 (105.0) | Idx: 2870
+Vraw=+169.045 mV | Vcorr=  +1.610 mV | G2 (105.0) | Idx: 2871
+Vraw=+165.608 mV | Vcorr=  +1.577 mV | G2 (105.0) | Idx: 2872
+Vraw=+160.944 mV | Vcorr=  +1.533 mV | G2 (105.0) | Idx: 2873
+Vraw=+165.710 mV | Vcorr=  +1.578 mV | G2 (105.0) | Idx: 2874
+Vraw=+165.756 mV | Vcorr=  +1.579 mV | G2 (105.0) | Idx: 2875
+Vraw=+165.601 mV | Vcorr=  +1.577 mV | G2 (105.0) | Idx: 2876
+Vraw=+162.139 mV | Vcorr=  +1.544 mV | G2 (105.0) | Idx: 2877
+Vraw=+159.052 mV | Vcorr=  +1.515 mV | G2 (105.0) | Idx: 2878
+Vraw=+155.175 mV | Vcorr=  +1.478 mV | G2 (105.0) | Idx: 2879
+Vraw=+154.980 mV | Vcorr=  +1.476 mV | G2 (105.0) | Idx: 2880
+Vraw=+154.889 mV | Vcorr=  +1.475 mV | G2 (105.0) | Idx: 2881
+Vraw=+157.220 mV | Vcorr=  +1.497 mV | G2 (105.0) | Idx: 2882
+Vraw=+149.242 mV | Vcorr=  +1.421 mV | G2 (105.0) | Idx: 2883
+Vraw=+156.613 mV | Vcorr=  +1.492 mV | G2 (105.0) | Idx: 2884
+Vraw=+151.699 mV | Vcorr=  +1.445 mV | G2 (105.0) | Idx: 2885
+Vraw=+143.625 mV | Vcorr=  +1.368 mV | G2 (105.0) | Idx: 2886
+Vraw=+150.651 mV | Vcorr=  +1.435 mV | G2 (105.0) | Idx: 2887
+Vraw=+152.699 mV | Vcorr=  +1.454 mV | G2 (105.0) | Idx: 2888
+Vraw=+153.429 mV | Vcorr=  +1.461 mV | G2 (105.0) | Idx: 2889
+Vraw=+152.963 mV | Vcorr=  +1.457 mV | G2 (105.0) | Idx: 2890
+Vraw=+154.275 mV | Vcorr=  +1.469 mV | G2 (105.0) | Idx: 2891
+Vraw=+158.812 mV | Vcorr=  +1.512 mV | G2 (105.0) | Idx: 2892
+Vraw=+154.885 mV | Vcorr=  +1.475 mV | G2 (105.0) | Idx: 2893
+Vraw=+145.152 mV | Vcorr=  +1.382 mV | G2 (105.0) | Idx: 2894
+Vraw=+150.465 mV | Vcorr=  +1.433 mV | G2 (105.0) | Idx: 2895
+Vraw=+147.027 mV | Vcorr=  +1.400 mV | G2 (105.0) | Idx: 2896
+Vraw=+140.212 mV | Vcorr=  +1.335 mV | G2 (105.0) | Idx: 2897
+Vraw=+133.736 mV | Vcorr=  +1.274 mV | G2 (105.0) | Idx: 2898
+Vraw=+135.619 mV | Vcorr=  +1.292 mV | G2 (105.0) | Idx: 2899
+Vraw=+146.051 mV | Vcorr=  +1.391 mV | G2 (105.0) | Idx: 2900
+Vraw=+146.145 mV | Vcorr=  +1.392 mV | G2 (105.0) | Idx: 2901
+Vraw=+136.934 mV | Vcorr=  +1.304 mV | G2 (105.0) | Idx: 2902
+Vraw=+132.360 mV | Vcorr=  +1.261 mV | G2 (105.0) | Idx: 2903
+Vraw=+137.789 mV | Vcorr=  +1.312 mV | G2 (105.0) | Idx: 2904
+Vraw=+133.605 mV | Vcorr=  +1.272 mV | G2 (105.0) | Idx: 2905
+Vraw=+144.240 mV | Vcorr=  +1.374 mV | G2 (105.0) | Idx: 2906
+Vraw=+145.215 mV | Vcorr=  +1.383 mV | G2 (105.0) | Idx: 2907
+Vraw=+145.483 mV | Vcorr=  +1.386 mV | G2 (105.0) | Idx: 2908
+Vraw=+155.337 mV | Vcorr=  +1.479 mV | G2 (105.0) | Idx: 2909
+Vraw=+157.483 mV | Vcorr=  +1.500 mV | G2 (105.0) | Idx: 2910
+Vraw=+147.975 mV | Vcorr=  +1.409 mV | G2 (105.0) | Idx: 2911
+Vraw=+136.442 mV | Vcorr=  +1.299 mV | G2 (105.0) | Idx: 2912
+Vraw=+133.324 mV | Vcorr=  +1.270 mV | G2 (105.0) | Idx: 2913
+Vraw=+144.218 mV | Vcorr=  +1.374 mV | G2 (105.0) | Idx: 2914
+Vraw=+148.360 mV | Vcorr=  +1.413 mV | G2 (105.0) | Idx: 2915
+Vraw=+146.635 mV | Vcorr=  +1.397 mV | G2 (105.0) | Idx: 2916
+Vraw=+151.616 mV | Vcorr=  +1.444 mV | G2 (105.0) | Idx: 2917
+Vraw=+147.407 mV | Vcorr=  +1.404 mV | G2 (105.0) | Idx: 2918
+Vraw=+148.351 mV | Vcorr=  +1.413 mV | G2 (105.0) | Idx: 2919
+Vraw=+149.266 mV | Vcorr=  +1.422 mV | G2 (105.0) | Idx: 2920
+Vraw=+151.654 mV | Vcorr=  +1.444 mV | G2 (105.0) | Idx: 2921
+Vraw=+148.735 mV | Vcorr=  +1.417 mV | G2 (105.0) | Idx: 2922
+Vraw=+145.404 mV | Vcorr=  +1.385 mV | G2 (105.0) | Idx: 2923
+Vraw=+141.445 mV | Vcorr=  +1.347 mV | G2 (105.0) | Idx: 2924
+Vraw=+137.222 mV | Vcorr=  +1.307 mV | G2 (105.0) | Idx: 2925
+Vraw=+143.962 mV | Vcorr=  +1.371 mV | G2 (105.0) | Idx: 2926
+Vraw=+144.646 mV | Vcorr=  +1.378 mV | G2 (105.0) | Idx: 2927
+Vraw=+147.448 mV | Vcorr=  +1.404 mV | G2 (105.0) | Idx: 2928
+Vraw=+143.841 mV | Vcorr=  +1.370 mV | G2 (105.0) | Idx: 2929
+Vraw=+146.182 mV | Vcorr=  +1.392 mV | G2 (105.0) | Idx: 2930
+Vraw=+149.829 mV | Vcorr=  +1.427 mV | G2 (105.0) | Idx: 2931
+Vraw=+159.476 mV | Vcorr=  +1.519 mV | G2 (105.0) | Idx: 2932
+Vraw=+160.414 mV | Vcorr=  +1.528 mV | G2 (105.0) | Idx: 2933
+Vraw=+157.285 mV | Vcorr=  +1.498 mV | G2 (105.0) | Idx: 2934
+Vraw=+157.522 mV | Vcorr=  +1.500 mV | G2 (105.0) | Idx: 2935
+Vraw=+150.864 mV | Vcorr=  +1.437 mV | G2 (105.0) | Idx: 2936
+Vraw=+158.329 mV | Vcorr=  +1.508 mV | G2 (105.0) | Idx: 2937
+Vraw=+150.028 mV | Vcorr=  +1.429 mV | G2 (105.0) | Idx: 2938
+Vraw=+149.111 mV | Vcorr=  +1.420 mV | G2 (105.0) | Idx: 2939
+Vraw=+144.906 mV | Vcorr=  +1.380 mV | G2 (105.0) | Idx: 2940
+Vraw=+151.591 mV | Vcorr=  +1.444 mV | G2 (105.0) | Idx: 2941
+Vraw=+144.924 mV | Vcorr=  +1.380 mV | G2 (105.0) | Idx: 2942
+Vraw=+143.782 mV | Vcorr=  +1.369 mV | G2 (105.0) | Idx: 2943
+Vraw=+145.321 mV | Vcorr=  +1.384 mV | G2 (105.0) | Idx: 2944
+Vraw=+139.106 mV | Vcorr=  +1.325 mV | G2 (105.0) | Idx: 2945
+Vraw=+141.427 mV | Vcorr=  +1.347 mV | G2 (105.0) | Idx: 2946
+Vraw=+143.577 mV | Vcorr=  +1.367 mV | G2 (105.0) | Idx: 2947
+Vraw=+139.461 mV | Vcorr=  +1.328 mV | G2 (105.0) | Idx: 2948
+Vraw=+136.932 mV | Vcorr=  +1.304 mV | G2 (105.0) | Idx: 2949
+Vraw=+134.135 mV | Vcorr=  +1.277 mV | G2 (105.0) | Idx: 2950
+Vraw=+135.516 mV | Vcorr=  +1.291 mV | G2 (105.0) | Idx: 2951
+Vraw=+136.881 mV | Vcorr=  +1.304 mV | G2 (105.0) | Idx: 2952
+Vraw=+140.625 mV | Vcorr=  +1.339 mV | G2 (105.0) | Idx: 2953
+Vraw=+140.336 mV | Vcorr=  +1.337 mV | G2 (105.0) | Idx: 2954
+Vraw=+129.719 mV | Vcorr=  +1.235 mV | G2 (105.0) | Idx: 2955
+Vraw=+132.492 mV | Vcorr=  +1.262 mV | G2 (105.0) | Idx: 2956
+Vraw=+130.466 mV | Vcorr=  +1.243 mV | G2 (105.0) | Idx: 2957
+Vraw=+130.078 mV | Vcorr=  +1.239 mV | G2 (105.0) | Idx: 2958
+Vraw=+139.326 mV | Vcorr=  +1.327 mV | G2 (105.0) | Idx: 2959
+Vraw=+140.996 mV | Vcorr=  +1.343 mV | G2 (105.0) | Idx: 2960
+Vraw=+139.037 mV | Vcorr=  +1.324 mV | G2 (105.0) | Idx: 2961
+Vraw=+136.939 mV | Vcorr=  +1.304 mV | G2 (105.0) | Idx: 2962
+Vraw=+129.392 mV | Vcorr=  +1.232 mV | G2 (105.0) | Idx: 2963
+Vraw=+132.329 mV | Vcorr=  +1.260 mV | G2 (105.0) | Idx: 2964
+Vraw=+117.132 mV | Vcorr=  +1.116 mV | G2 (105.0) | Idx: 2965
+Vraw=+131.612 mV | Vcorr=  +1.253 mV | G2 (105.0) | Idx: 2966
+Vraw=+127.724 mV | Vcorr=  +1.216 mV | G2 (105.0) | Idx: 2967
+Vraw=+129.305 mV | Vcorr=  +1.231 mV | G2 (105.0) | Idx: 2968
+Vraw=+132.077 mV | Vcorr=  +1.258 mV | G2 (105.0) | Idx: 2969
+Vraw=+133.192 mV | Vcorr=  +1.268 mV | G2 (105.0) | Idx: 2970
+Vraw=+130.620 mV | Vcorr=  +1.244 mV | G2 (105.0) | Idx: 2971
+Vraw=+127.801 mV | Vcorr=  +1.217 mV | G2 (105.0) | Idx: 2972
+Vraw=+125.229 mV | Vcorr=  +1.193 mV | G2 (105.0) | Idx: 2973
+Vraw=+129.802 mV | Vcorr=  +1.236 mV | G2 (105.0) | Idx: 2974
+Vraw=+128.330 mV | Vcorr=  +1.222 mV | G2 (105.0) | Idx: 2975
+Vraw=+114.532 mV | Vcorr=  +1.091 mV | G2 (105.0) | Idx: 2976
+Vraw=+120.627 mV | Vcorr=  +1.149 mV | G2 (105.0) | Idx: 2977
+Vraw=+121.378 mV | Vcorr=  +1.156 mV | G2 (105.0) | Idx: 2978
+Vraw=+113.846 mV | Vcorr=  +1.084 mV | G2 (105.0) | Idx: 2979
+Vraw=+117.592 mV | Vcorr=  +1.120 mV | G2 (105.0) | Idx: 2980
+Vraw=+112.123 mV | Vcorr=  +1.068 mV | G2 (105.0) | Idx: 2981
+Vraw=+112.941 mV | Vcorr=  +1.076 mV | G2 (105.0) | Idx: 2982
+Vraw=+120.480 mV | Vcorr=  +1.147 mV | G2 (105.0) | Idx: 2983
+Vraw=+130.095 mV | Vcorr=  +1.239 mV | G2 (105.0) | Idx: 2984
+Vraw=+116.592 mV | Vcorr=  +1.110 mV | G2 (105.0) | Idx: 2985
+Vraw=+114.157 mV | Vcorr=  +1.087 mV | G2 (105.0) | Idx: 2986
+Vraw=+115.207 mV | Vcorr=  +1.097 mV | G2 (105.0) | Idx: 2987
+Vraw=+117.956 mV | Vcorr=  +1.123 mV | G2 (105.0) | Idx: 2988
+Vraw=+113.503 mV | Vcorr=  +1.081 mV | G2 (105.0) | Idx: 2989
+Vraw=+113.403 mV | Vcorr=  +1.080 mV | G2 (105.0) | Idx: 2990
+Vraw=+110.571 mV | Vcorr=  +1.053 mV | G2 (105.0) | Idx: 2991
+Vraw=+115.685 mV | Vcorr=  +1.102 mV | G2 (105.0) | Idx: 2992
+Vraw=+113.542 mV | Vcorr=  +1.081 mV | G2 (105.0) | Idx: 2993
+Vraw=+115.871 mV | Vcorr=  +1.104 mV | G2 (105.0) | Idx: 2994
+Vraw=+117.234 mV | Vcorr=  +1.117 mV | G2 (105.0) | Idx: 2995
+Vraw=+113.098 mV | Vcorr=  +1.077 mV | G2 (105.0) | Idx: 2996
+Vraw=+114.550 mV | Vcorr=  +1.091 mV | G2 (105.0) | Idx: 2997
+Vraw=+119.149 mV | Vcorr=  +1.135 mV | G2 (105.0) | Idx: 2998
+Vraw=+117.771 mV | Vcorr=  +1.122 mV | G2 (105.0) | Idx: 2999
+Vraw=+130.479 mV | Vcorr=  +1.243 mV | G2 (105.0) | Idx: 3000
+Vraw=+126.249 mV | Vcorr=  +1.202 mV | G2 (105.0) | Idx: 3001
+Vraw=+127.252 mV | Vcorr=  +1.212 mV | G2 (105.0) | Idx: 3002
+Vraw=+138.143 mV | Vcorr=  +1.316 mV | G2 (105.0) | Idx: 3003
+Vraw=+138.930 mV | Vcorr=  +1.323 mV | G2 (105.0) | Idx: 3004
+Vraw=+135.939 mV | Vcorr=  +1.295 mV | G2 (105.0) | Idx: 3005
+Vraw=+133.036 mV | Vcorr=  +1.267 mV | G2 (105.0) | Idx: 3006
+Vraw=+137.643 mV | Vcorr=  +1.311 mV | G2 (105.0) | Idx: 3007
+Vraw=+134.629 mV | Vcorr=  +1.282 mV | G2 (105.0) | Idx: 3008
+Vraw=+131.010 mV | Vcorr=  +1.248 mV | G2 (105.0) | Idx: 3009
+Vraw=+131.488 mV | Vcorr=  +1.252 mV | G2 (105.0) | Idx: 3010
+Vraw=+126.733 mV | Vcorr=  +1.207 mV | G2 (105.0) | Idx: 3011
+Vraw=+134.715 mV | Vcorr=  +1.283 mV | G2 (105.0) | Idx: 3012
+Vraw=+139.507 mV | Vcorr=  +1.329 mV | G2 (105.0) | Idx: 3013
+Vraw=+132.590 mV | Vcorr=  +1.263 mV | G2 (105.0) | Idx: 3014
+Vraw=+130.527 mV | Vcorr=  +1.243 mV | G2 (105.0) | Idx: 3015
+Vraw=+134.445 mV | Vcorr=  +1.280 mV | G2 (105.0) | Idx: 3016
+Vraw=+131.673 mV | Vcorr=  +1.254 mV | G2 (105.0) | Idx: 3017
+Vraw=+132.269 mV | Vcorr=  +1.260 mV | G2 (105.0) | Idx: 3018
+Vraw=+124.731 mV | Vcorr=  +1.188 mV | G2 (105.0) | Idx: 3019
+Vraw=+129.726 mV | Vcorr=  +1.235 mV | G2 (105.0) | Idx: 3020
+Vraw=+141.275 mV | Vcorr=  +1.345 mV | G2 (105.0) | Idx: 3021
+Vraw=+143.693 mV | Vcorr=  +1.369 mV | G2 (105.0) | Idx: 3022
+Vraw=+154.052 mV | Vcorr=  +1.467 mV | G2 (105.0) | Idx: 3023
+Vraw=+149.326 mV | Vcorr=  +1.422 mV | G2 (105.0) | Idx: 3024
+Vraw=+147.745 mV | Vcorr=  +1.407 mV | G2 (105.0) | Idx: 3025
+Vraw=+149.194 mV | Vcorr=  +1.421 mV | G2 (105.0) | Idx: 3026
+Vraw=+153.365 mV | Vcorr=  +1.461 mV | G2 (105.0) | Idx: 3027
+Vraw=+152.640 mV | Vcorr=  +1.454 mV | G2 (105.0) | Idx: 3028
+Vraw=+149.923 mV | Vcorr=  +1.428 mV | G2 (105.0) | Idx: 3029
+Vraw=+150.996 mV | Vcorr=  +1.438 mV | G2 (105.0) | Idx: 3030
+Vraw=+150.555 mV | Vcorr=  +1.434 mV | G2 (105.0) | Idx: 3031
+Vraw=+153.857 mV | Vcorr=  +1.465 mV | G2 (105.0) | Idx: 3032
+Vraw=+153.030 mV | Vcorr=  +1.457 mV | G2 (105.0) | Idx: 3033
+Vraw=+146.316 mV | Vcorr=  +1.393 mV | G2 (105.0) | Idx: 3034
+Vraw=+147.197 mV | Vcorr=  +1.402 mV | G2 (105.0) | Idx: 3035
+Vraw=+153.185 mV | Vcorr=  +1.459 mV | G2 (105.0) | Idx: 3036
+Vraw=+156.317 mV | Vcorr=  +1.489 mV | G2 (105.0) | Idx: 3037
+Vraw=+147.494 mV | Vcorr=  +1.405 mV | G2 (105.0) | Idx: 3038
+Vraw=+146.455 mV | Vcorr=  +1.395 mV | G2 (105.0) | Idx: 3039
+Vraw=+154.383 mV | Vcorr=  +1.470 mV | G2 (105.0) | Idx: 3040
+Vraw=+161.449 mV | Vcorr=  +1.538 mV | G2 (105.0) | Idx: 3041
+Vraw=+152.825 mV | Vcorr=  +1.455 mV | G2 (105.0) | Idx: 3042
+Vraw=+149.543 mV | Vcorr=  +1.424 mV | G2 (105.0) | Idx: 3043
+Vraw=+144.222 mV | Vcorr=  +1.374 mV | G2 (105.0) | Idx: 3044
+Vraw=+145.697 mV | Vcorr=  +1.388 mV | G2 (105.0) | Idx: 3045
+Vraw=+147.317 mV | Vcorr=  +1.403 mV | G2 (105.0) | Idx: 3046
+Vraw=+156.553 mV | Vcorr=  +1.491 mV | G2 (105.0) | Idx: 3047
+Vraw=+155.421 mV | Vcorr=  +1.480 mV | G2 (105.0) | Idx: 3048
+Vraw=+157.640 mV | Vcorr=  +1.501 mV | G2 (105.0) | Idx: 3049
+Vraw=+161.188 mV | Vcorr=  +1.535 mV | G2 (105.0) | Idx: 3050
+Vraw=+152.605 mV | Vcorr=  +1.453 mV | G2 (105.0) | Idx: 3051
+Vraw=+146.337 mV | Vcorr=  +1.394 mV | G2 (105.0) | Idx: 3052
+Vraw=+154.119 mV | Vcorr=  +1.468 mV | G2 (105.0) | Idx: 3053
+Vraw=+147.686 mV | Vcorr=  +1.407 mV | G2 (105.0) | Idx: 3054
+Vraw=+143.443 mV | Vcorr=  +1.366 mV | G2 (105.0) | Idx: 3055
+Vraw=+143.471 mV | Vcorr=  +1.366 mV | G2 (105.0) | Idx: 3056
+Vraw=+136.775 mV | Vcorr=  +1.303 mV | G2 (105.0) | Idx: 3057
+Vraw=+138.038 mV | Vcorr=  +1.315 mV | G2 (105.0) | Idx: 3058
+Vraw=+144.871 mV | Vcorr=  +1.380 mV | G2 (105.0) | Idx: 3059
+Vraw=+150.018 mV | Vcorr=  +1.429 mV | G2 (105.0) | Idx: 3060
+Vraw=+145.562 mV | Vcorr=  +1.386 mV | G2 (105.0) | Idx: 3061
+Vraw=+138.043 mV | Vcorr=  +1.315 mV | G2 (105.0) | Idx: 3062
+Vraw=+133.013 mV | Vcorr=  +1.267 mV | G2 (105.0) | Idx: 3063
+Vraw=+134.793 mV | Vcorr=  +1.284 mV | G2 (105.0) | Idx: 3064
+Vraw=+133.120 mV | Vcorr=  +1.268 mV | G2 (105.0) | Idx: 3065
+Vraw=+146.803 mV | Vcorr=  +1.398 mV | G2 (105.0) | Idx: 3066
+Vraw=+147.176 mV | Vcorr=  +1.402 mV | G2 (105.0) | Idx: 3067
+Vraw=+147.249 mV | Vcorr=  +1.402 mV | G2 (105.0) | Idx: 3068
+Vraw=+145.228 mV | Vcorr=  +1.383 mV | G2 (105.0) | Idx: 3069
+Vraw=+152.320 mV | Vcorr=  +1.451 mV | G2 (105.0) | Idx: 3070
+Vraw=+143.438 mV | Vcorr=  +1.366 mV | G2 (105.0) | Idx: 3071
+Vraw=+142.479 mV | Vcorr=  +1.357 mV | G2 (105.0) | Idx: 3072
+Vraw=+139.692 mV | Vcorr=  +1.330 mV | G2 (105.0) | Idx: 3073
+Vraw=+134.959 mV | Vcorr=  +1.285 mV | G2 (105.0) | Idx: 3074
+Vraw=+145.730 mV | Vcorr=  +1.388 mV | G2 (105.0) | Idx: 3075
+Vraw=+137.688 mV | Vcorr=  +1.311 mV | G2 (105.0) | Idx: 3076
+Vraw=+137.995 mV | Vcorr=  +1.314 mV | G2 (105.0) | Idx: 3077
+Vraw=+148.558 mV | Vcorr=  +1.415 mV | G2 (105.0) | Idx: 3078
+Vraw=+138.750 mV | Vcorr=  +1.321 mV | G2 (105.0) | Idx: 3079
+Vraw=+139.749 mV | Vcorr=  +1.331 mV | G2 (105.0) | Idx: 3080
+Vraw=+141.898 mV | Vcorr=  +1.351 mV | G2 (105.0) | Idx: 3081
+Vraw=+143.298 mV | Vcorr=  +1.365 mV | G2 (105.0) | Idx: 3082
+Vraw=+139.681 mV | Vcorr=  +1.330 mV | G2 (105.0) | Idx: 3083
+Vraw=+137.391 mV | Vcorr=  +1.308 mV | G2 (105.0) | Idx: 3084
+Vraw=+162.821 mV | Vcorr=  +1.551 mV | G2 (105.0) | Idx: 3085
+Vraw=+156.062 mV | Vcorr=  +1.486 mV | G2 (105.0) | Idx: 3086
+Vraw=+160.884 mV | Vcorr=  +1.532 mV | G2 (105.0) | Idx: 3087
+Vraw=+159.803 mV | Vcorr=  +1.522 mV | G2 (105.0) | Idx: 3088
+Vraw=+164.548 mV | Vcorr=  +1.567 mV | G2 (105.0) | Idx: 3089
+Vraw=+164.759 mV | Vcorr=  +1.569 mV | G2 (105.0) | Idx: 3090
+Vraw=+166.582 mV | Vcorr=  +1.586 mV | G2 (105.0) | Idx: 3091
+Vraw=+166.355 mV | Vcorr=  +1.584 mV | G2 (105.0) | Idx: 3092
+Vraw=+165.059 mV | Vcorr=  +1.572 mV | G2 (105.0) | Idx: 3093
+Vraw=+165.731 mV | Vcorr=  +1.578 mV | G2 (105.0) | Idx: 3094
+Vraw=+173.450 mV | Vcorr=  +1.652 mV | G2 (105.0) | Idx: 3095
+Vraw=+159.482 mV | Vcorr=  +1.519 mV | G2 (105.0) | Idx: 3096
+Vraw=+162.039 mV | Vcorr=  +1.543 mV | G2 (105.0) | Idx: 3097
+Vraw=+168.945 mV | Vcorr=  +1.609 mV | G2 (105.0) | Idx: 3098
+Vraw=+160.925 mV | Vcorr=  +1.533 mV | G2 (105.0) | Idx: 3099
+Vraw=+172.451 mV | Vcorr=  +1.642 mV | G2 (105.0) | Idx: 3100
+Vraw=+168.339 mV | Vcorr=  +1.603 mV | G2 (105.0) | Idx: 3101
+Vraw=+163.402 mV | Vcorr=  +1.556 mV | G2 (105.0) | Idx: 3102
+Vraw=+157.582 mV | Vcorr=  +1.501 mV | G2 (105.0) | Idx: 3103
+Vraw=+161.218 mV | Vcorr=  +1.535 mV | G2 (105.0) | Idx: 3104
+Vraw=+174.090 mV | Vcorr=  +1.658 mV | G2 (105.0) | Idx: 3105
+Vraw=+168.207 mV | Vcorr=  +1.602 mV | G2 (105.0) | Idx: 3106
+Vraw=+168.726 mV | Vcorr=  +1.607 mV | G2 (105.0) | Idx: 3107
+Vraw=+167.714 mV | Vcorr=  +1.597 mV | G2 (105.0) | Idx: 3108
+Vraw=+170.447 mV | Vcorr=  +1.623 mV | G2 (105.0) | Idx: 3109
+Vraw=+177.147 mV | Vcorr=  +1.687 mV | G2 (105.0) | Idx: 3110
+Vraw=+171.825 mV | Vcorr=  +1.636 mV | G2 (105.0) | Idx: 3111
+Vraw=+172.491 mV | Vcorr=  +1.643 mV | G2 (105.0) | Idx: 3112
+Vraw=+170.952 mV | Vcorr=  +1.628 mV | G2 (105.0) | Idx: 3113
+Vraw=+169.099 mV | Vcorr=  +1.610 mV | G2 (105.0) | Idx: 3114
+Vraw=+171.575 mV | Vcorr=  +1.634 mV | G2 (105.0) | Idx: 3115
+Vraw=+165.186 mV | Vcorr=  +1.573 mV | G2 (105.0) | Idx: 3116
+Vraw=+165.110 mV | Vcorr=  +1.572 mV | G2 (105.0) | Idx: 3117
+Vraw=+168.069 mV | Vcorr=  +1.601 mV | G2 (105.0) | Idx: 3118
+Vraw=+165.914 mV | Vcorr=  +1.580 mV | G2 (105.0) | Idx: 3119
+Vraw=+155.295 mV | Vcorr=  +1.479 mV | G2 (105.0) | Idx: 3120
+Vraw=+141.765 mV | Vcorr=  +1.350 mV | G2 (105.0) | Idx: 3121
+Vraw=+149.526 mV | Vcorr=  +1.424 mV | G2 (105.0) | Idx: 3122
+Vraw=+154.243 mV | Vcorr=  +1.469 mV | G2 (105.0) | Idx: 3123
+Vraw=+151.573 mV | Vcorr=  +1.444 mV | G2 (105.0) | Idx: 3124
+Vraw=+147.424 mV | Vcorr=  +1.404 mV | G2 (105.0) | Idx: 3125
+Vraw=+150.151 mV | Vcorr=  +1.430 mV | G2 (105.0) | Idx: 3126
+Vraw=+149.451 mV | Vcorr=  +1.423 mV | G2 (105.0) | Idx: 3127
+Vraw=+146.343 mV | Vcorr=  +1.394 mV | G2 (105.0) | Idx: 3128
+Vraw=+149.112 mV | Vcorr=  +1.420 mV | G2 (105.0) | Idx: 3129
+Vraw=+148.691 mV | Vcorr=  +1.416 mV | G2 (105.0) | Idx: 3130
+Vraw=+154.054 mV | Vcorr=  +1.467 mV | G2 (105.0) | Idx: 3131
+Vraw=+157.963 mV | Vcorr=  +1.504 mV | G2 (105.0) | Idx: 3132
+Vraw=+157.850 mV | Vcorr=  +1.503 mV | G2 (105.0) | Idx: 3133
+Vraw=+149.763 mV | Vcorr=  +1.426 mV | G2 (105.0) | Idx: 3134
+Vraw=+151.900 mV | Vcorr=  +1.447 mV | G2 (105.0) | Idx: 3135
+Vraw=+164.647 mV | Vcorr=  +1.568 mV | G2 (105.0) | Idx: 3136
+Vraw=+173.865 mV | Vcorr=  +1.656 mV | G2 (105.0) | Idx: 3137
+Vraw=+158.415 mV | Vcorr=  +1.509 mV | G2 (105.0) | Idx: 3138
+Vraw=+150.101 mV | Vcorr=  +1.430 mV | G2 (105.0) | Idx: 3139
+Vraw=+141.016 mV | Vcorr=  +1.343 mV | G2 (105.0) | Idx: 3140
+Vraw=+153.887 mV | Vcorr=  +1.466 mV | G2 (105.0) | Idx: 3141
+Vraw=+160.902 mV | Vcorr=  +1.532 mV | G2 (105.0) | Idx: 3142
+Vraw=+156.420 mV | Vcorr=  +1.490 mV | G2 (105.0) | Idx: 3143
+Vraw=+148.617 mV | Vcorr=  +1.415 mV | G2 (105.0) | Idx: 3144
+Vraw=+147.868 mV | Vcorr=  +1.408 mV | G2 (105.0) | Idx: 3145
+Vraw=+156.331 mV | Vcorr=  +1.489 mV | G2 (105.0) | Idx: 3146
+Vraw=+150.686 mV | Vcorr=  +1.435 mV | G2 (105.0) | Idx: 3147
+Vraw=+152.143 mV | Vcorr=  +1.449 mV | G2 (105.0) | Idx: 3148
+Vraw=+156.251 mV | Vcorr=  +1.488 mV | G2 (105.0) | Idx: 3149
+Vraw=+157.416 mV | Vcorr=  +1.499 mV | G2 (105.0) | Idx: 3150
+Vraw=+159.791 mV | Vcorr=  +1.522 mV | G2 (105.0) | Idx: 3151
+Vraw=+154.229 mV | Vcorr=  +1.469 mV | G2 (105.0) | Idx: 3152
+Vraw=+156.076 mV | Vcorr=  +1.486 mV | G2 (105.0) | Idx: 3153
+Vraw=+156.870 mV | Vcorr=  +1.494 mV | G2 (105.0) | Idx: 3154
+Vraw=+145.390 mV | Vcorr=  +1.385 mV | G2 (105.0) | Idx: 3155
+Vraw=+138.246 mV | Vcorr=  +1.317 mV | G2 (105.0) | Idx: 3156
+Vraw=+142.396 mV | Vcorr=  +1.356 mV | G2 (105.0) | Idx: 3157
+Vraw=+142.645 mV | Vcorr=  +1.359 mV | G2 (105.0) | Idx: 3158
+Vraw=+138.848 mV | Vcorr=  +1.322 mV | G2 (105.0) | Idx: 3159
+Vraw=+144.511 mV | Vcorr=  +1.376 mV | G2 (105.0) | Idx: 3160
+Vraw=+142.653 mV | Vcorr=  +1.359 mV | G2 (105.0) | Idx: 3161
+Vraw=+141.298 mV | Vcorr=  +1.346 mV | G2 (105.0) | Idx: 3162
+Vraw=+136.863 mV | Vcorr=  +1.303 mV | G2 (105.0) | Idx: 3163
+Vraw=+131.182 mV | Vcorr=  +1.249 mV | G2 (105.0) | Idx: 3164
+Vraw=+128.633 mV | Vcorr=  +1.225 mV | G2 (105.0) | Idx: 3165
+Vraw=+137.451 mV | Vcorr=  +1.309 mV | G2 (105.0) | Idx: 3166
+Vraw=+136.418 mV | Vcorr=  +1.299 mV | G2 (105.0) | Idx: 3167
+Vraw=+134.886 mV | Vcorr=  +1.285 mV | G2 (105.0) | Idx: 3168
+Vraw=+142.407 mV | Vcorr=  +1.356 mV | G2 (105.0) | Idx: 3169
+Vraw=+138.426 mV | Vcorr=  +1.318 mV | G2 (105.0) | Idx: 3170
+Vraw=+145.026 mV | Vcorr=  +1.381 mV | G2 (105.0) | Idx: 3171
+Vraw=+144.898 mV | Vcorr=  +1.380 mV | G2 (105.0) | Idx: 3172
+Vraw=+144.039 mV | Vcorr=  +1.372 mV | G2 (105.0) | Idx: 3173
+Vraw=+143.871 mV | Vcorr=  +1.370 mV | G2 (105.0) | Idx: 3174
+Vraw=+138.164 mV | Vcorr=  +1.316 mV | G2 (105.0) | Idx: 3175
+Vraw=+138.049 mV | Vcorr=  +1.315 mV | G2 (105.0) | Idx: 3176
+Vraw=+138.671 mV | Vcorr=  +1.321 mV | G2 (105.0) | Idx: 3177
+Vraw=+130.008 mV | Vcorr=  +1.238 mV | G2 (105.0) | Idx: 3178
+Vraw=+140.812 mV | Vcorr=  +1.341 mV | G2 (105.0) | Idx: 3179
+Vraw=+148.734 mV | Vcorr=  +1.417 mV | G2 (105.0) | Idx: 3180
+Vraw=+145.564 mV | Vcorr=  +1.386 mV | G2 (105.0) | Idx: 3181
+Vraw=+140.347 mV | Vcorr=  +1.337 mV | G2 (105.0) | Idx: 3182
+Vraw=+136.898 mV | Vcorr=  +1.304 mV | G2 (105.0) | Idx: 3183
+Vraw=+135.723 mV | Vcorr=  +1.293 mV | G2 (105.0) | Idx: 3184
+Vraw=+134.791 mV | Vcorr=  +1.284 mV | G2 (105.0) | Idx: 3185
+Vraw=+133.157 mV | Vcorr=  +1.268 mV | G2 (105.0) | Idx: 3186
+Vraw=+133.481 mV | Vcorr=  +1.271 mV | G2 (105.0) | Idx: 3187
+Vraw=+127.325 mV | Vcorr=  +1.213 mV | G2 (105.0) | Idx: 3188
+Vraw=+119.843 mV | Vcorr=  +1.141 mV | G2 (105.0) | Idx: 3189
+Vraw=+113.433 mV | Vcorr=  +1.080 mV | G2 (105.0) | Idx: 3190
+Vraw=+124.841 mV | Vcorr=  +1.189 mV | G2 (105.0) | Idx: 3191
+Vraw=+114.562 mV | Vcorr=  +1.091 mV | G2 (105.0) | Idx: 3192
+Vraw=+113.241 mV | Vcorr=  +1.078 mV | G2 (105.0) | Idx: 3193
+Vraw=+112.676 mV | Vcorr=  +1.073 mV | G2 (105.0) | Idx: 3194
+Vraw=+121.275 mV | Vcorr=  +1.155 mV | G2 (105.0) | Idx: 3195
+Vraw=+124.447 mV | Vcorr=  +1.185 mV | G2 (105.0) | Idx: 3196
+Vraw=+131.224 mV | Vcorr=  +1.250 mV | G2 (105.0) | Idx: 3197
+Vraw=+122.278 mV | Vcorr=  +1.165 mV | G2 (105.0) | Idx: 3198
+Vraw=+116.830 mV | Vcorr=  +1.113 mV | G2 (105.0) | Idx: 3199
+Vraw=+124.160 mV | Vcorr=  +1.182 mV | G2 (105.0) | Idx: 3200
+Vraw=+119.918 mV | Vcorr=  +1.142 mV | G2 (105.0) | Idx: 3201
+Vraw=+119.718 mV | Vcorr=  +1.140 mV | G2 (105.0) | Idx: 3202
+Vraw=+122.371 mV | Vcorr=  +1.165 mV | G2 (105.0) | Idx: 3203
+Vraw=+122.533 mV | Vcorr=  +1.167 mV | G2 (105.0) | Idx: 3204
+Vraw=+125.634 mV | Vcorr=  +1.197 mV | G2 (105.0) | Idx: 3205
+Vraw=+122.195 mV | Vcorr=  +1.164 mV | G2 (105.0) | Idx: 3206
+Vraw=+126.312 mV | Vcorr=  +1.203 mV | G2 (105.0) | Idx: 3207
+Vraw=+115.478 mV | Vcorr=  +1.100 mV | G2 (105.0) | Idx: 3208
+Vraw=+116.779 mV | Vcorr=  +1.112 mV | G2 (105.0) | Idx: 3209
+Vraw=+115.395 mV | Vcorr=  +1.099 mV | G2 (105.0) | Idx: 3210
+Vraw=+123.097 mV | Vcorr=  +1.172 mV | G2 (105.0) | Idx: 3211
+Vraw=+122.368 mV | Vcorr=  +1.165 mV | G2 (105.0) | Idx: 3212
+Vraw=+121.463 mV | Vcorr=  +1.157 mV | G2 (105.0) | Idx: 3213
+Vraw=+123.122 mV | Vcorr=  +1.173 mV | G2 (105.0) | Idx: 3214
+Vraw=+120.369 mV | Vcorr=  +1.146 mV | G2 (105.0) | Idx: 3215
+Vraw=+131.936 mV | Vcorr=  +1.257 mV | G2 (105.0) | Idx: 3216
+Vraw=+133.555 mV | Vcorr=  +1.272 mV | G2 (105.0) | Idx: 3217
+Vraw=+141.847 mV | Vcorr=  +1.351 mV | G2 (105.0) | Idx: 3218
+Vraw=+143.833 mV | Vcorr=  +1.370 mV | G2 (105.0) | Idx: 3219
+Vraw=+135.919 mV | Vcorr=  +1.294 mV | G2 (105.0) | Idx: 3220
+Vraw=+128.778 mV | Vcorr=  +1.226 mV | G2 (105.0) | Idx: 3221
+Vraw=+131.948 mV | Vcorr=  +1.257 mV | G2 (105.0) | Idx: 3222
+Vraw=+127.367 mV | Vcorr=  +1.213 mV | G2 (105.0) | Idx: 3223
+Vraw=+122.805 mV | Vcorr=  +1.170 mV | G2 (105.0) | Idx: 3224
+Vraw=+119.662 mV | Vcorr=  +1.140 mV | G2 (105.0) | Idx: 3225
+Vraw=+129.738 mV | Vcorr=  +1.236 mV | G2 (105.0) | Idx: 3226
+Vraw=+126.307 mV | Vcorr=  +1.203 mV | G2 (105.0) | Idx: 3227
+Vraw=+130.847 mV | Vcorr=  +1.246 mV | G2 (105.0) | Idx: 3228
+Vraw=+135.028 mV | Vcorr=  +1.286 mV | G2 (105.0) | Idx: 3229
+Vraw=+139.775 mV | Vcorr=  +1.331 mV | G2 (105.0) | Idx: 3230
+Vraw=+132.805 mV | Vcorr=  +1.265 mV | G2 (105.0) | Idx: 3231
+Vraw=+130.552 mV | Vcorr=  +1.243 mV | G2 (105.0) | Idx: 3232
+Vraw=+134.539 mV | Vcorr=  +1.281 mV | G2 (105.0) | Idx: 3233
+Vraw=+137.594 mV | Vcorr=  +1.310 mV | G2 (105.0) | Idx: 3234
+Vraw=+140.290 mV | Vcorr=  +1.336 mV | G2 (105.0) | Idx: 3235
+Vraw=+142.707 mV | Vcorr=  +1.359 mV | G2 (105.0) | Idx: 3236
+Vraw=+137.379 mV | Vcorr=  +1.308 mV | G2 (105.0) | Idx: 3237
+Vraw=+142.402 mV | Vcorr=  +1.356 mV | G2 (105.0) | Idx: 3238
+Vraw=+134.504 mV | Vcorr=  +1.281 mV | G2 (105.0) | Idx: 3239
+Vraw=+140.191 mV | Vcorr=  +1.335 mV | G2 (105.0) | Idx: 3240
+Vraw=+143.118 mV | Vcorr=  +1.363 mV | G2 (105.0) | Idx: 3241
+Vraw=+133.987 mV | Vcorr=  +1.276 mV | G2 (105.0) | Idx: 3242
+Vraw=+138.150 mV | Vcorr=  +1.316 mV | G2 (105.0) | Idx: 3243
+Vraw=+144.020 mV | Vcorr=  +1.372 mV | G2 (105.0) | Idx: 3244
+Vraw=+139.929 mV | Vcorr=  +1.333 mV | G2 (105.0) | Idx: 3245
+Vraw=+128.387 mV | Vcorr=  +1.223 mV | G2 (105.0) | Idx: 3246
+Vraw=+134.272 mV | Vcorr=  +1.279 mV | G2 (105.0) | Idx: 3247
+Vraw=+134.982 mV | Vcorr=  +1.286 mV | G2 (105.0) | Idx: 3248
+Vraw=+134.860 mV | Vcorr=  +1.284 mV | G2 (105.0) | Idx: 3249
+Vraw=+136.441 mV | Vcorr=  +1.299 mV | G2 (105.0) | Idx: 3250
+Vraw=+133.772 mV | Vcorr=  +1.274 mV | G2 (105.0) | Idx: 3251
+Vraw=+133.006 mV | Vcorr=  +1.267 mV | G2 (105.0) | Idx: 3252
+Vraw=+130.135 mV | Vcorr=  +1.239 mV | G2 (105.0) | Idx: 3253
+Vraw=+129.504 mV | Vcorr=  +1.233 mV | G2 (105.0) | Idx: 3254
+Vraw=+117.002 mV | Vcorr=  +1.114 mV | G2 (105.0) | Idx: 3255
+Vraw=+117.461 mV | Vcorr=  +1.119 mV | G2 (105.0) | Idx: 3256
+Vraw=+118.868 mV | Vcorr=  +1.132 mV | G2 (105.0) | Idx: 3257
+Vraw=+123.557 mV | Vcorr=  +1.177 mV | G2 (105.0) | Idx: 3258
+Vraw=+129.573 mV | Vcorr=  +1.234 mV | G2 (105.0) | Idx: 3259
+Vraw=+127.506 mV | Vcorr=  +1.214 mV | G2 (105.0) | Idx: 3260
+Vraw=+128.566 mV | Vcorr=  +1.224 mV | G2 (105.0) | Idx: 3261
+Vraw=+133.116 mV | Vcorr=  +1.268 mV | G2 (105.0) | Idx: 3262
+Vraw=+131.481 mV | Vcorr=  +1.252 mV | G2 (105.0) | Idx: 3263
+Vraw=+136.155 mV | Vcorr=  +1.297 mV | G2 (105.0) | Idx: 3264
+Vraw=+129.856 mV | Vcorr=  +1.237 mV | G2 (105.0) | Idx: 3265
+Vraw=+139.731 mV | Vcorr=  +1.331 mV | G2 (105.0) | Idx: 3266
+Vraw=+144.667 mV | Vcorr=  +1.378 mV | G2 (105.0) | Idx: 3267
+Vraw=+146.091 mV | Vcorr=  +1.391 mV | G2 (105.0) | Idx: 3268
+Vraw=+146.317 mV | Vcorr=  +1.393 mV | G2 (105.0) | Idx: 3269
+Vraw=+141.024 mV | Vcorr=  +1.343 mV | G2 (105.0) | Idx: 3270
+Vraw=+136.420 mV | Vcorr=  +1.299 mV | G2 (105.0) | Idx: 3271
+Vraw=+137.781 mV | Vcorr=  +1.312 mV | G2 (105.0) | Idx: 3272
+Vraw=+138.590 mV | Vcorr=  +1.320 mV | G2 (105.0) | Idx: 3273
+Vraw=+139.123 mV | Vcorr=  +1.325 mV | G2 (105.0) | Idx: 3274
+Vraw=+136.924 mV | Vcorr=  +1.304 mV | G2 (105.0) | Idx: 3275
+Vraw=+138.536 mV | Vcorr=  +1.319 mV | G2 (105.0) | Idx: 3276
+Vraw=+146.121 mV | Vcorr=  +1.392 mV | G2 (105.0) | Idx: 3277
+Vraw=+140.438 mV | Vcorr=  +1.338 mV | G2 (105.0) | Idx: 3278
+Vraw=+130.876 mV | Vcorr=  +1.246 mV | G2 (105.0) | Idx: 3279
+Vraw=+131.152 mV | Vcorr=  +1.249 mV | G2 (105.0) | Idx: 3280
+Vraw=+133.888 mV | Vcorr=  +1.275 mV | G2 (105.0) | Idx: 3281
+Vraw=+138.824 mV | Vcorr=  +1.322 mV | G2 (105.0) | Idx: 3282
+Vraw=+135.621 mV | Vcorr=  +1.292 mV | G2 (105.0) | Idx: 3283
+Vraw=+137.038 mV | Vcorr=  +1.305 mV | G2 (105.0) | Idx: 3284
+Vraw=+140.742 mV | Vcorr=  +1.340 mV | G2 (105.0) | Idx: 3285
+Vraw=+135.316 mV | Vcorr=  +1.289 mV | G2 (105.0) | Idx: 3286
+Vraw=+139.462 mV | Vcorr=  +1.328 mV | G2 (105.0) | Idx: 3287
+Vraw=+128.191 mV | Vcorr=  +1.221 mV | G2 (105.0) | Idx: 3288
+Vraw=+136.262 mV | Vcorr=  +1.298 mV | G2 (105.0) | Idx: 3289
+Vraw=+134.458 mV | Vcorr=  +1.281 mV | G2 (105.0) | Idx: 3290
+Vraw=+133.002 mV | Vcorr=  +1.267 mV | G2 (105.0) | Idx: 3291
+Vraw=+144.788 mV | Vcorr=  +1.379 mV | G2 (105.0) | Idx: 3292
+Vraw=+144.445 mV | Vcorr=  +1.376 mV | G2 (105.0) | Idx: 3293
+Vraw=+133.254 mV | Vcorr=  +1.269 mV | G2 (105.0) | Idx: 3294
+Vraw=+128.017 mV | Vcorr=  +1.219 mV | G2 (105.0) | Idx: 3295
+Vraw=+127.813 mV | Vcorr=  +1.217 mV | G2 (105.0) | Idx: 3296
+Vraw=+126.462 mV | Vcorr=  +1.204 mV | G2 (105.0) | Idx: 3297
+Vraw=+126.325 mV | Vcorr=  +1.203 mV | G2 (105.0) | Idx: 3298
+Vraw=+130.778 mV | Vcorr=  +1.246 mV | G2 (105.0) | Idx: 3299
+Vraw=+126.128 mV | Vcorr=  +1.201 mV | G2 (105.0) | Idx: 3300
+Vraw=+128.006 mV | Vcorr=  +1.219 mV | G2 (105.0) | Idx: 3301
+Vraw=+128.476 mV | Vcorr=  +1.224 mV | G2 (105.0) | Idx: 3302
+Vraw=+127.555 mV | Vcorr=  +1.215 mV | G2 (105.0) | Idx: 3303
+Vraw=+128.399 mV | Vcorr=  +1.223 mV | G2 (105.0) | Idx: 3304
+Vraw=+129.046 mV | Vcorr=  +1.229 mV | G2 (105.0) | Idx: 3305
+Vraw=+130.866 mV | Vcorr=  +1.246 mV | G2 (105.0) | Idx: 3306
+Vraw=+127.312 mV | Vcorr=  +1.212 mV | G2 (105.0) | Idx: 3307
+Vraw=+121.795 mV | Vcorr=  +1.160 mV | G2 (105.0) | Idx: 3308
+Vraw=+113.007 mV | Vcorr=  +1.076 mV | G2 (105.0) | Idx: 3309
+Vraw=+112.242 mV | Vcorr=  +1.069 mV | G2 (105.0) | Idx: 3310
+Vraw=+111.110 mV | Vcorr=  +1.058 mV | G2 (105.0) | Idx: 3311
+Vraw=+116.230 mV | Vcorr=  +1.107 mV | G2 (105.0) | Idx: 3312
+Vraw=+122.480 mV | Vcorr=  +1.166 mV | G2 (105.0) | Idx: 3313
+Vraw=+122.436 mV | Vcorr=  +1.166 mV | G2 (105.0) | Idx: 3314
+Vraw=+127.398 mV | Vcorr=  +1.213 mV | G2 (105.0) | Idx: 3315
+Vraw=+116.641 mV | Vcorr=  +1.111 mV | G2 (105.0) | Idx: 3316
+Vraw=+117.271 mV | Vcorr=  +1.117 mV | G2 (105.0) | Idx: 3317
+Vraw=+119.182 mV | Vcorr=  +1.135 mV | G2 (105.0) | Idx: 3318
+Vraw=+118.129 mV | Vcorr=  +1.125 mV | G2 (105.0) | Idx: 3319
+Vraw=+124.532 mV | Vcorr=  +1.186 mV | G2 (105.0) | Idx: 3320
+Vraw=+126.151 mV | Vcorr=  +1.201 mV | G2 (105.0) | Idx: 3321
+Vraw=+123.195 mV | Vcorr=  +1.173 mV | G2 (105.0) | Idx: 3322
+Vraw=+117.880 mV | Vcorr=  +1.123 mV | G2 (105.0) | Idx: 3323
+Vraw=+129.974 mV | Vcorr=  +1.238 mV | G2 (105.0) | Idx: 3324
+Vraw=+133.118 mV | Vcorr=  +1.268 mV | G2 (105.0) | Idx: 3325
+Vraw=+123.862 mV | Vcorr=  +1.180 mV | G2 (105.0) | Idx: 3326
+Vraw=+126.029 mV | Vcorr=  +1.200 mV | G2 (105.0) | Idx: 3327
+Vraw=+125.861 mV | Vcorr=  +1.199 mV | G2 (105.0) | Idx: 3328
+Vraw=+133.620 mV | Vcorr=  +1.273 mV | G2 (105.0) | Idx: 3329
+Vraw=+129.414 mV | Vcorr=  +1.233 mV | G2 (105.0) | Idx: 3330
+Vraw=+133.870 mV | Vcorr=  +1.275 mV | G2 (105.0) | Idx: 3331
+Vraw=+128.346 mV | Vcorr=  +1.222 mV | G2 (105.0) | Idx: 3332
+Vraw=+137.037 mV | Vcorr=  +1.305 mV | G2 (105.0) | Idx: 3333
+Vraw=+141.686 mV | Vcorr=  +1.349 mV | G2 (105.0) | Idx: 3334
+Vraw=+137.663 mV | Vcorr=  +1.311 mV | G2 (105.0) | Idx: 3335
+Vraw=+144.632 mV | Vcorr=  +1.377 mV | G2 (105.0) | Idx: 3336
+Vraw=+142.725 mV | Vcorr=  +1.359 mV | G2 (105.0) | Idx: 3337
+Vraw=+131.878 mV | Vcorr=  +1.256 mV | G2 (105.0) | Idx: 3338
+Vraw=+132.174 mV | Vcorr=  +1.259 mV | G2 (105.0) | Idx: 3339
+Vraw=+138.502 mV | Vcorr=  +1.319 mV | G2 (105.0) | Idx: 3340
+Vraw=+137.611 mV | Vcorr=  +1.311 mV | G2 (105.0) | Idx: 3341
+Vraw=+138.849 mV | Vcorr=  +1.322 mV | G2 (105.0) | Idx: 3342
+Vraw=+135.916 mV | Vcorr=  +1.294 mV | G2 (105.0) | Idx: 3343
+Vraw=+142.318 mV | Vcorr=  +1.355 mV | G2 (105.0) | Idx: 3344
+Vraw=+137.065 mV | Vcorr=  +1.305 mV | G2 (105.0) | Idx: 3345
+Vraw=+140.585 mV | Vcorr=  +1.339 mV | G2 (105.0) | Idx: 3346
+Vraw=+142.672 mV | Vcorr=  +1.359 mV | G2 (105.0) | Idx: 3347
+Vraw=+146.709 mV | Vcorr=  +1.397 mV | G2 (105.0) | Idx: 3348
+Vraw=+142.960 mV | Vcorr=  +1.362 mV | G2 (105.0) | Idx: 3349
+Vraw=+137.724 mV | Vcorr=  +1.312 mV | G2 (105.0) | Idx: 3350
+Vraw=+146.470 mV | Vcorr=  +1.395 mV | G2 (105.0) | Idx: 3351
+Vraw=+136.735 mV | Vcorr=  +1.302 mV | G2 (105.0) | Idx: 3352
+Vraw=+136.591 mV | Vcorr=  +1.301 mV | G2 (105.0) | Idx: 3353
+Vraw=+142.711 mV | Vcorr=  +1.359 mV | G2 (105.0) | Idx: 3354
+Vraw=+145.496 mV | Vcorr=  +1.386 mV | G2 (105.0) | Idx: 3355
+Vraw=+142.677 mV | Vcorr=  +1.359 mV | G2 (105.0) | Idx: 3356
+Vraw=+137.754 mV | Vcorr=  +1.312 mV | G2 (105.0) | Idx: 3357
+Vraw=+134.323 mV | Vcorr=  +1.279 mV | G2 (105.0) | Idx: 3358
+Vraw=+143.231 mV | Vcorr=  +1.364 mV | G2 (105.0) | Idx: 3359
+Vraw=+146.483 mV | Vcorr=  +1.395 mV | G2 (105.0) | Idx: 3360
+Vraw=+154.185 mV | Vcorr=  +1.468 mV | G2 (105.0) | Idx: 3361
+Vraw=+150.198 mV | Vcorr=  +1.430 mV | G2 (105.0) | Idx: 3362
+Vraw=+148.796 mV | Vcorr=  +1.417 mV | G2 (105.0) | Idx: 3363
+Vraw=+156.530 mV | Vcorr=  +1.491 mV | G2 (105.0) | Idx: 3364
+Vraw=+152.067 mV | Vcorr=  +1.448 mV | G2 (105.0) | Idx: 3365
+Vraw=+150.249 mV | Vcorr=  +1.431 mV | G2 (105.0) | Idx: 3366
+Vraw=+147.170 mV | Vcorr=  +1.402 mV | G2 (105.0) | Idx: 3367
+Vraw=+155.505 mV | Vcorr=  +1.481 mV | G2 (105.0) | Idx: 3368
+Vraw=+157.816 mV | Vcorr=  +1.503 mV | G2 (105.0) | Idx: 3369
+Vraw=+160.816 mV | Vcorr=  +1.532 mV | G2 (105.0) | Idx: 3370
+Vraw=+156.164 mV | Vcorr=  +1.487 mV | G2 (105.0) | Idx: 3371
+Vraw=+154.030 mV | Vcorr=  +1.467 mV | G2 (105.0) | Idx: 3372
+Vraw=+162.399 mV | Vcorr=  +1.547 mV | G2 (105.0) | Idx: 3373
+Vraw=+159.491 mV | Vcorr=  +1.519 mV | G2 (105.0) | Idx: 3374
+Vraw=+162.180 mV | Vcorr=  +1.545 mV | G2 (105.0) | Idx: 3375
+Vraw=+152.086 mV | Vcorr=  +1.448 mV | G2 (105.0) | Idx: 3376
+Vraw=+147.159 mV | Vcorr=  +1.402 mV | G2 (105.0) | Idx: 3377
+Vraw=+152.402 mV | Vcorr=  +1.451 mV | G2 (105.0) | Idx: 3378
+Vraw=+156.915 mV | Vcorr=  +1.494 mV | G2 (105.0) | Idx: 3379
+Vraw=+154.256 mV | Vcorr=  +1.469 mV | G2 (105.0) | Idx: 3380
+Vraw=+151.858 mV | Vcorr=  +1.446 mV | G2 (105.0) | Idx: 3381
+Vraw=+152.392 mV | Vcorr=  +1.451 mV | G2 (105.0) | Idx: 3382
+Vraw=+148.981 mV | Vcorr=  +1.419 mV | G2 (105.0) | Idx: 3383
+Vraw=+150.591 mV | Vcorr=  +1.434 mV | G2 (105.0) | Idx: 3384
+Vraw=+154.605 mV | Vcorr=  +1.472 mV | G2 (105.0) | Idx: 3385
+Vraw=+160.325 mV | Vcorr=  +1.527 mV | G2 (105.0) | Idx: 3386
+Vraw=+154.067 mV | Vcorr=  +1.467 mV | G2 (105.0) | Idx: 3387
+Vraw=+142.808 mV | Vcorr=  +1.360 mV | G2 (105.0) | Idx: 3388
+Vraw=+147.612 mV | Vcorr=  +1.406 mV | G2 (105.0) | Idx: 3389
+Vraw=+149.062 mV | Vcorr=  +1.420 mV | G2 (105.0) | Idx: 3390
+Vraw=+139.854 mV | Vcorr=  +1.332 mV | G2 (105.0) | Idx: 3391
+Vraw=+143.287 mV | Vcorr=  +1.365 mV | G2 (105.0) | Idx: 3392
+Vraw=+145.866 mV | Vcorr=  +1.389 mV | G2 (105.0) | Idx: 3393
+Vraw=+146.358 mV | Vcorr=  +1.394 mV | G2 (105.0) | Idx: 3394
+Vraw=+149.331 mV | Vcorr=  +1.422 mV | G2 (105.0) | Idx: 3395
+Vraw=+149.788 mV | Vcorr=  +1.427 mV | G2 (105.0) | Idx: 3396
+Vraw=+152.659 mV | Vcorr=  +1.454 mV | G2 (105.0) | Idx: 3397
+Vraw=+156.917 mV | Vcorr=  +1.494 mV | G2 (105.0) | Idx: 3398
+Vraw=+162.033 mV | Vcorr=  +1.543 mV | G2 (105.0) | Idx: 3399
+Vraw=+165.586 mV | Vcorr=  +1.577 mV | G2 (105.0) | Idx: 3400
+Vraw=+156.570 mV | Vcorr=  +1.491 mV | G2 (105.0) | Idx: 3401
+Vraw=+155.468 mV | Vcorr=  +1.481 mV | G2 (105.0) | Idx: 3402
+Vraw=+152.668 mV | Vcorr=  +1.454 mV | G2 (105.0) | Idx: 3403
+Vraw=+156.935 mV | Vcorr=  +1.495 mV | G2 (105.0) | Idx: 3404
+Vraw=+161.289 mV | Vcorr=  +1.536 mV | G2 (105.0) | Idx: 3405
+Vraw=+147.479 mV | Vcorr=  +1.405 mV | G2 (105.0) | Idx: 3406
+Vraw=+144.070 mV | Vcorr=  +1.372 mV | G2 (105.0) | Idx: 3407
+Vraw=+146.324 mV | Vcorr=  +1.394 mV | G2 (105.0) | Idx: 3408
+Vraw=+140.725 mV | Vcorr=  +1.340 mV | G2 (105.0) | Idx: 3409
+Vraw=+150.601 mV | Vcorr=  +1.434 mV | G2 (105.0) | Idx: 3410
+Vraw=+143.477 mV | Vcorr=  +1.366 mV | G2 (105.0) | Idx: 3411
+Vraw=+146.156 mV | Vcorr=  +1.392 mV | G2 (105.0) | Idx: 3412
+Vraw=+145.910 mV | Vcorr=  +1.390 mV | G2 (105.0) | Idx: 3413
+Vraw=+143.887 mV | Vcorr=  +1.370 mV | G2 (105.0) | Idx: 3414
+Vraw=+142.457 mV | Vcorr=  +1.357 mV | G2 (105.0) | Idx: 3415
+Vraw=+135.102 mV | Vcorr=  +1.287 mV | G2 (105.0) | Idx: 3416
+Vraw=+137.854 mV | Vcorr=  +1.313 mV | G2 (105.0) | Idx: 3417
+Vraw=+135.006 mV | Vcorr=  +1.286 mV | G2 (105.0) | Idx: 3418
+Vraw=+134.314 mV | Vcorr=  +1.279 mV | G2 (105.0) | Idx: 3419
+Vraw=+127.570 mV | Vcorr=  +1.215 mV | G2 (105.0) | Idx: 3420
+Vraw=+133.611 mV | Vcorr=  +1.272 mV | G2 (105.0) | Idx: 3421
+Vraw=+143.629 mV | Vcorr=  +1.368 mV | G2 (105.0) | Idx: 3422
+Vraw=+147.568 mV | Vcorr=  +1.405 mV | G2 (105.0) | Idx: 3423
+Vraw=+145.999 mV | Vcorr=  +1.390 mV | G2 (105.0) | Idx: 3424
+Vraw=+153.835 mV | Vcorr=  +1.465 mV | G2 (105.0) | Idx: 3425
+Vraw=+157.535 mV | Vcorr=  +1.500 mV | G2 (105.0) | Idx: 3426
+Vraw=+161.428 mV | Vcorr=  +1.537 mV | G2 (105.0) | Idx: 3427
+Vraw=+156.842 mV | Vcorr=  +1.494 mV | G2 (105.0) | Idx: 3428
+Vraw=+157.102 mV | Vcorr=  +1.496 mV | G2 (105.0) | Idx: 3429
+Vraw=+161.289 mV | Vcorr=  +1.536 mV | G2 (105.0) | Idx: 3430
+Vraw=+150.051 mV | Vcorr=  +1.429 mV | G2 (105.0) | Idx: 3431
+Vraw=+151.013 mV | Vcorr=  +1.438 mV | G2 (105.0) | Idx: 3432
+Vraw=+153.225 mV | Vcorr=  +1.459 mV | G2 (105.0) | Idx: 3433
+Vraw=+151.520 mV | Vcorr=  +1.443 mV | G2 (105.0) | Idx: 3434
+Vraw=+152.306 mV | Vcorr=  +1.451 mV | G2 (105.0) | Idx: 3435
+Vraw=+153.975 mV | Vcorr=  +1.466 mV | G2 (105.0) | Idx: 3436
+Vraw=+150.244 mV | Vcorr=  +1.431 mV | G2 (105.0) | Idx: 3437
+Vraw=+149.811 mV | Vcorr=  +1.427 mV | G2 (105.0) | Idx: 3438
+Vraw=+152.169 mV | Vcorr=  +1.449 mV | G2 (105.0) | Idx: 3439
+Vraw=+145.832 mV | Vcorr=  +1.389 mV | G2 (105.0) | Idx: 3440
+Vraw=+142.734 mV | Vcorr=  +1.359 mV | G2 (105.0) | Idx: 3441
+Vraw=+146.844 mV | Vcorr=  +1.399 mV | G2 (105.0) | Idx: 3442
+Vraw=+149.763 mV | Vcorr=  +1.426 mV | G2 (105.0) | Idx: 3443
+Vraw=+148.861 mV | Vcorr=  +1.418 mV | G2 (105.0) | Idx: 3444
+Vraw=+155.732 mV | Vcorr=  +1.483 mV | G2 (105.0) | Idx: 3445
+Vraw=+151.686 mV | Vcorr=  +1.445 mV | G2 (105.0) | Idx: 3446
+Vraw=+150.950 mV | Vcorr=  +1.438 mV | G2 (105.0) | Idx: 3447
+Vraw=+149.565 mV | Vcorr=  +1.424 mV | G2 (105.0) | Idx: 3448
+Vraw=+157.621 mV | Vcorr=  +1.501 mV | G2 (105.0) | Idx: 3449
+Vraw=+151.177 mV | Vcorr=  +1.440 mV | G2 (105.0) | Idx: 3450
+Vraw=+151.711 mV | Vcorr=  +1.445 mV | G2 (105.0) | Idx: 3451
+Vraw=+148.491 mV | Vcorr=  +1.414 mV | G2 (105.0) | Idx: 3452
+Vraw=+145.061 mV | Vcorr=  +1.382 mV | G2 (105.0) | Idx: 3453
+Vraw=+140.672 mV | Vcorr=  +1.340 mV | G2 (105.0) | Idx: 3454
+Vraw=+142.348 mV | Vcorr=  +1.356 mV | G2 (105.0) | Idx: 3455
+Vraw=+145.867 mV | Vcorr=  +1.389 mV | G2 (105.0) | Idx: 3456
+Vraw=+143.481 mV | Vcorr=  +1.366 mV | G2 (105.0) | Idx: 3457
+Vraw=+140.848 mV | Vcorr=  +1.341 mV | G2 (105.0) | Idx: 3458
+Vraw=+136.141 mV | Vcorr=  +1.297 mV | G2 (105.0) | Idx: 3459
+Vraw=+140.933 mV | Vcorr=  +1.342 mV | G2 (105.0) | Idx: 3460
+Vraw=+130.999 mV | Vcorr=  +1.248 mV | G2 (105.0) | Idx: 3461
+Vraw=+126.268 mV | Vcorr=  +1.203 mV | G2 (105.0) | Idx: 3462
+Vraw=+119.477 mV | Vcorr=  +1.138 mV | G2 (105.0) | Idx: 3463
+Vraw=+132.332 mV | Vcorr=  +1.260 mV | G2 (105.0) | Idx: 3464
+Vraw=+121.848 mV | Vcorr=  +1.160 mV | G2 (105.0) | Idx: 3465
+Vraw=+117.109 mV | Vcorr=  +1.115 mV | G2 (105.0) | Idx: 3466
+Vraw=+118.020 mV | Vcorr=  +1.124 mV | G2 (105.0) | Idx: 3467
+Vraw=+116.053 mV | Vcorr=  +1.105 mV | G2 (105.0) | Idx: 3468
+Vraw=+118.601 mV | Vcorr=  +1.130 mV | G2 (105.0) | Idx: 3469
+Vraw=+121.433 mV | Vcorr=  +1.157 mV | G2 (105.0) | Idx: 3470
+Vraw=+121.043 mV | Vcorr=  +1.153 mV | G2 (105.0) | Idx: 3471
+Vraw=+127.455 mV | Vcorr=  +1.214 mV | G2 (105.0) | Idx: 3472
+Vraw=+127.880 mV | Vcorr=  +1.218 mV | G2 (105.0) | Idx: 3473
+Vraw=+126.962 mV | Vcorr=  +1.209 mV | G2 (105.0) | Idx: 3474
+Vraw=+140.178 mV | Vcorr=  +1.335 mV | G2 (105.0) | Idx: 3475
+Vraw=+136.441 mV | Vcorr=  +1.299 mV | G2 (105.0) | Idx: 3476
+Vraw=+143.746 mV | Vcorr=  +1.369 mV | G2 (105.0) | Idx: 3477
+Vraw=+139.137 mV | Vcorr=  +1.325 mV | G2 (105.0) | Idx: 3478
+Vraw=+135.052 mV | Vcorr=  +1.286 mV | G2 (105.0) | Idx: 3479
+Vraw=+139.969 mV | Vcorr=  +1.333 mV | G2 (105.0) | Idx: 3480
+Vraw=+137.935 mV | Vcorr=  +1.314 mV | G2 (105.0) | Idx: 3481
+Vraw=+132.494 mV | Vcorr=  +1.262 mV | G2 (105.0) | Idx: 3482
+Vraw=+129.543 mV | Vcorr=  +1.234 mV | G2 (105.0) | Idx: 3483
+Vraw=+125.247 mV | Vcorr=  +1.193 mV | G2 (105.0) | Idx: 3484
+Vraw=+128.272 mV | Vcorr=  +1.222 mV | G2 (105.0) | Idx: 3485
+Vraw=+128.973 mV | Vcorr=  +1.228 mV | G2 (105.0) | Idx: 3486
+Vraw=+131.410 mV | Vcorr=  +1.252 mV | G2 (105.0) | Idx: 3487
+Vraw=+130.249 mV | Vcorr=  +1.240 mV | G2 (105.0) | Idx: 3488
+Vraw=+125.573 mV | Vcorr=  +1.196 mV | G2 (105.0) | Idx: 3489
+Vraw=+126.435 mV | Vcorr=  +1.204 mV | G2 (105.0) | Idx: 3490
+Vraw=+131.367 mV | Vcorr=  +1.251 mV | G2 (105.0) | Idx: 3491
+Vraw=+140.284 mV | Vcorr=  +1.336 mV | G2 (105.0) | Idx: 3492
+Vraw=+133.772 mV | Vcorr=  +1.274 mV | G2 (105.0) | Idx: 3493
+Vraw=+136.665 mV | Vcorr=  +1.302 mV | G2 (105.0) | Idx: 3494
+Vraw=+127.443 mV | Vcorr=  +1.214 mV | G2 (105.0) | Idx: 3495
+Vraw=+132.296 mV | Vcorr=  +1.260 mV | G2 (105.0) | Idx: 3496
+Vraw=+122.617 mV | Vcorr=  +1.168 mV | G2 (105.0) | Idx: 3497
+Vraw=+115.048 mV | Vcorr=  +1.096 mV | G2 (105.0) | Idx: 3498
+Vraw=+114.770 mV | Vcorr=  +1.093 mV | G2 (105.0) | Idx: 3499
+Vraw=+116.316 mV | Vcorr=  +1.108 mV | G2 (105.0) | Idx: 3500
+Vraw=+114.037 mV | Vcorr=  +1.086 mV | G2 (105.0) | Idx: 3501
+Vraw=+112.958 mV | Vcorr=  +1.076 mV | G2 (105.0) | Idx: 3502
+Vraw=+119.264 mV | Vcorr=  +1.136 mV | G2 (105.0) | Idx: 3503
+Vraw=+116.168 mV | Vcorr=  +1.106 mV | G2 (105.0) | Idx: 3504
+Vraw=+115.781 mV | Vcorr=  +1.103 mV | G2 (105.0) | Idx: 3505
+Vraw=+106.671 mV | Vcorr=  +1.016 mV | G2 (105.0) | Idx: 3506
+Vraw=+103.336 mV | Vcorr=  +0.984 mV | G2 (105.0) | Idx: 3507
+Vraw=+111.006 mV | Vcorr=  +1.057 mV | G2 (105.0) | Idx: 3508
+Vraw=+117.391 mV | Vcorr=  +1.118 mV | G2 (105.0) | Idx: 3509
+Vraw=+125.425 mV | Vcorr=  +1.195 mV | G2 (105.0) | Idx: 3510
+Vraw=+125.632 mV | Vcorr=  +1.196 mV | G2 (105.0) | Idx: 3511
+Vraw=+127.028 mV | Vcorr=  +1.210 mV | G2 (105.0) | Idx: 3512
+Vraw=+133.180 mV | Vcorr=  +1.268 mV | G2 (105.0) | Idx: 3513
+Vraw=+131.848 mV | Vcorr=  +1.256 mV | G2 (105.0) | Idx: 3514
+Vraw=+122.952 mV | Vcorr=  +1.171 mV | G2 (105.0) | Idx: 3515
+Vraw=+123.927 mV | Vcorr=  +1.180 mV | G2 (105.0) | Idx: 3516
+Vraw=+126.936 mV | Vcorr=  +1.209 mV | G2 (105.0) | Idx: 3517
+Vraw=+131.911 mV | Vcorr=  +1.256 mV | G2 (105.0) | Idx: 3518
+Vraw=+140.386 mV | Vcorr=  +1.337 mV | G2 (105.0) | Idx: 3519
+Vraw=+137.228 mV | Vcorr=  +1.307 mV | G2 (105.0) | Idx: 3520
+Vraw=+135.380 mV | Vcorr=  +1.289 mV | G2 (105.0) | Idx: 3521
+Vraw=+145.526 mV | Vcorr=  +1.386 mV | G2 (105.0) | Idx: 3522
+Vraw=+144.038 mV | Vcorr=  +1.372 mV | G2 (105.0) | Idx: 3523
+Vraw=+145.365 mV | Vcorr=  +1.384 mV | G2 (105.0) | Idx: 3524
+Vraw=+148.837 mV | Vcorr=  +1.417 mV | G2 (105.0) | Idx: 3525
+Vraw=+148.489 mV | Vcorr=  +1.414 mV | G2 (105.0) | Idx: 3526
+Vraw=+141.560 mV | Vcorr=  +1.348 mV | G2 (105.0) | Idx: 3527
+Vraw=+137.732 mV | Vcorr=  +1.312 mV | G2 (105.0) | Idx: 3528
+Vraw=+128.749 mV | Vcorr=  +1.226 mV | G2 (105.0) | Idx: 3529
+Vraw=+127.586 mV | Vcorr=  +1.215 mV | G2 (105.0) | Idx: 3530
+Vraw=+123.113 mV | Vcorr=  +1.173 mV | G2 (105.0) | Idx: 3531
+Vraw=+125.948 mV | Vcorr=  +1.200 mV | G2 (105.0) | Idx: 3532
+Vraw=+135.096 mV | Vcorr=  +1.287 mV | G2 (105.0) | Idx: 3533
+Vraw=+125.849 mV | Vcorr=  +1.199 mV | G2 (105.0) | Idx: 3534
+Vraw=+125.074 mV | Vcorr=  +1.191 mV | G2 (105.0) | Idx: 3535
+Vraw=+122.493 mV | Vcorr=  +1.167 mV | G2 (105.0) | Idx: 3536
+Vraw=+116.761 mV | Vcorr=  +1.112 mV | G2 (105.0) | Idx: 3537
+Vraw=+124.654 mV | Vcorr=  +1.187 mV | G2 (105.0) | Idx: 3538
+Vraw=+124.888 mV | Vcorr=  +1.189 mV | G2 (105.0) | Idx: 3539
+Vraw=+126.260 mV | Vcorr=  +1.202 mV | G2 (105.0) | Idx: 3540
+Vraw=+123.799 mV | Vcorr=  +1.179 mV | G2 (105.0) | Idx: 3541
+Vraw=+123.149 mV | Vcorr=  +1.173 mV | G2 (105.0) | Idx: 3542
+Vraw=+126.067 mV | Vcorr=  +1.201 mV | G2 (105.0) | Idx: 3543
+Vraw=+130.547 mV | Vcorr=  +1.243 mV | G2 (105.0) | Idx: 3544
+Vraw=+132.885 mV | Vcorr=  +1.266 mV | G2 (105.0) | Idx: 3545
+Vraw=+135.219 mV | Vcorr=  +1.288 mV | G2 (105.0) | Idx: 3546
+Vraw=+129.822 mV | Vcorr=  +1.236 mV | G2 (105.0) | Idx: 3547
+Vraw=+136.207 mV | Vcorr=  +1.297 mV | G2 (105.0) | Idx: 3548
+Vraw=+135.007 mV | Vcorr=  +1.286 mV | G2 (105.0) | Idx: 3549
+Vraw=+139.933 mV | Vcorr=  +1.333 mV | G2 (105.0) | Idx: 3550
+Vraw=+140.305 mV | Vcorr=  +1.336 mV | G2 (105.0) | Idx: 3551
+Vraw=+136.269 mV | Vcorr=  +1.298 mV | G2 (105.0) | Idx: 3552
+Vraw=+131.617 mV | Vcorr=  +1.253 mV | G2 (105.0) | Idx: 3553
+Vraw=+140.697 mV | Vcorr=  +1.340 mV | G2 (105.0) | Idx: 3554
+Vraw=+136.814 mV | Vcorr=  +1.303 mV | G2 (105.0) | Idx: 3555
+Vraw=+140.093 mV | Vcorr=  +1.334 mV | G2 (105.0) | Idx: 3556
+Vraw=+130.858 mV | Vcorr=  +1.246 mV | G2 (105.0) | Idx: 3557
+Vraw=+131.339 mV | Vcorr=  +1.251 mV | G2 (105.0) | Idx: 3558
+Vraw=+126.878 mV | Vcorr=  +1.208 mV | G2 (105.0) | Idx: 3559
+Vraw=+132.155 mV | Vcorr=  +1.259 mV | G2 (105.0) | Idx: 3560
+Vraw=+128.497 mV | Vcorr=  +1.224 mV | G2 (105.0) | Idx: 3561
+Vraw=+136.908 mV | Vcorr=  +1.304 mV | G2 (105.0) | Idx: 3562
+Vraw=+131.415 mV | Vcorr=  +1.252 mV | G2 (105.0) | Idx: 3563
+Vraw=+137.113 mV | Vcorr=  +1.306 mV | G2 (105.0) | Idx: 3564
+Vraw=+137.328 mV | Vcorr=  +1.308 mV | G2 (105.0) | Idx: 3565
+Vraw=+136.233 mV | Vcorr=  +1.297 mV | G2 (105.0) | Idx: 3566
+Vraw=+134.841 mV | Vcorr=  +1.284 mV | G2 (105.0) | Idx: 3567
+Vraw=+137.507 mV | Vcorr=  +1.310 mV | G2 (105.0) | Idx: 3568
+Vraw=+136.244 mV | Vcorr=  +1.298 mV | G2 (105.0) | Idx: 3569
+Vraw=+138.793 mV | Vcorr=  +1.322 mV | G2 (105.0) | Idx: 3570
+Vraw=+140.995 mV | Vcorr=  +1.343 mV | G2 (105.0) | Idx: 3571
+Vraw=+125.990 mV | Vcorr=  +1.200 mV | G2 (105.0) | Idx: 3572
+Vraw=+128.921 mV | Vcorr=  +1.228 mV | G2 (105.0) | Idx: 3573
+Vraw=+134.438 mV | Vcorr=  +1.280 mV | G2 (105.0) | Idx: 3574
+Vraw=+142.474 mV | Vcorr=  +1.357 mV | G2 (105.0) | Idx: 3575
+Vraw=+138.675 mV | Vcorr=  +1.321 mV | G2 (105.0) | Idx: 3576
+Vraw=+140.267 mV | Vcorr=  +1.336 mV | G2 (105.0) | Idx: 3577
+Vraw=+141.177 mV | Vcorr=  +1.345 mV | G2 (105.0) | Idx: 3578
+Vraw=+142.377 mV | Vcorr=  +1.356 mV | G2 (105.0) | Idx: 3579
+Vraw=+145.189 mV | Vcorr=  +1.383 mV | G2 (105.0) | Idx: 3580
+Vraw=+149.596 mV | Vcorr=  +1.425 mV | G2 (105.0) | Idx: 3581
+Vraw=+144.011 mV | Vcorr=  +1.372 mV | G2 (105.0) | Idx: 3582
+Vraw=+146.847 mV | Vcorr=  +1.399 mV | G2 (105.0) | Idx: 3583
+Vraw=+138.012 mV | Vcorr=  +1.314 mV | G2 (105.0) | Idx: 3584
+Vraw=+128.501 mV | Vcorr=  +1.224 mV | G2 (105.0) | Idx: 3585
+Vraw=+142.968 mV | Vcorr=  +1.362 mV | G2 (105.0) | Idx: 3586
+Vraw=+128.837 mV | Vcorr=  +1.227 mV | G2 (105.0) | Idx: 3587
+Vraw=+134.113 mV | Vcorr=  +1.277 mV | G2 (105.0) | Idx: 3588
+Vraw=+134.489 mV | Vcorr=  +1.281 mV | G2 (105.0) | Idx: 3589
+Vraw=+139.303 mV | Vcorr=  +1.327 mV | G2 (105.0) | Idx: 3590
+Vraw=+139.604 mV | Vcorr=  +1.330 mV | G2 (105.0) | Idx: 3591
+Vraw=+138.934 mV | Vcorr=  +1.323 mV | G2 (105.0) | Idx: 3592
+Vraw=+142.301 mV | Vcorr=  +1.355 mV | G2 (105.0) | Idx: 3593
+Vraw=+150.658 mV | Vcorr=  +1.435 mV | G2 (105.0) | Idx: 3594
+Vraw=+151.172 mV | Vcorr=  +1.440 mV | G2 (105.0) | Idx: 3595
+Vraw=+144.251 mV | Vcorr=  +1.374 mV | G2 (105.0) | Idx: 3596
+Vraw=+138.953 mV | Vcorr=  +1.323 mV | G2 (105.0) | Idx: 3597
+Vraw=+133.395 mV | Vcorr=  +1.270 mV | G2 (105.0) | Idx: 3598
+Vraw=+141.740 mV | Vcorr=  +1.350 mV | G2 (105.0) | Idx: 3599
+Vraw=+143.666 mV | Vcorr=  +1.368 mV | G2 (105.0) | Idx: 3600
+Vraw=+156.377 mV | Vcorr=  +1.489 mV | G2 (105.0) | Idx: 3601
+Vraw=+149.154 mV | Vcorr=  +1.421 mV | G2 (105.0) | Idx: 3602
+Vraw=+142.225 mV | Vcorr=  +1.355 mV | G2 (105.0) | Idx: 3603
+Vraw=+139.813 mV | Vcorr=  +1.332 mV | G2 (105.0) | Idx: 3604
+Vraw=+134.832 mV | Vcorr=  +1.284 mV | G2 (105.0) | Idx: 3605
+Vraw=+139.634 mV | Vcorr=  +1.330 mV | G2 (105.0) | Idx: 3606
+Vraw=+140.470 mV | Vcorr=  +1.338 mV | G2 (105.0) | Idx: 3607
+Vraw=+139.962 mV | Vcorr=  +1.333 mV | G2 (105.0) | Idx: 3608
+Vraw=+146.289 mV | Vcorr=  +1.393 mV | G2 (105.0) | Idx: 3609
+Vraw=+135.464 mV | Vcorr=  +1.290 mV | G2 (105.0) | Idx: 3610
+Vraw=+134.564 mV | Vcorr=  +1.282 mV | G2 (105.0) | Idx: 3611
+Vraw=+140.133 mV | Vcorr=  +1.335 mV | G2 (105.0) | Idx: 3612
+Vraw=+141.073 mV | Vcorr=  +1.344 mV | G2 (105.0) | Idx: 3613
+Vraw=+139.681 mV | Vcorr=  +1.330 mV | G2 (105.0) | Idx: 3614
+Vraw=+138.953 mV | Vcorr=  +1.323 mV | G2 (105.0) | Idx: 3615
+Vraw=+134.005 mV | Vcorr=  +1.276 mV | G2 (105.0) | Idx: 3616
+Vraw=+129.732 mV | Vcorr=  +1.236 mV | G2 (105.0) | Idx: 3617
+Vraw=+116.780 mV | Vcorr=  +1.112 mV | G2 (105.0) | Idx: 3618
+Vraw=+134.499 mV | Vcorr=  +1.281 mV | G2 (105.0) | Idx: 3619
+Vraw=+144.705 mV | Vcorr=  +1.378 mV | G2 (105.0) | Idx: 3620
+Vraw=+136.564 mV | Vcorr=  +1.301 mV | G2 (105.0) | Idx: 3621
+Vraw=+134.869 mV | Vcorr=  +1.284 mV | G2 (105.0) | Idx: 3622
+Vraw=+130.923 mV | Vcorr=  +1.247 mV | G2 (105.0) | Idx: 3623
+Vraw=+131.141 mV | Vcorr=  +1.249 mV | G2 (105.0) | Idx: 3624
+Vraw=+125.720 mV | Vcorr=  +1.197 mV | G2 (105.0) | Idx: 3625
+Vraw=+137.327 mV | Vcorr=  +1.308 mV | G2 (105.0) | Idx: 3626
+Vraw=+140.443 mV | Vcorr=  +1.338 mV | G2 (105.0) | Idx: 3627
+Vraw=+126.713 mV | Vcorr=  +1.207 mV | G2 (105.0) | Idx: 3628
+Vraw=+109.378 mV | Vcorr=  +1.042 mV | G2 (105.0) | Idx: 3629
+Vraw=+116.520 mV | Vcorr=  +1.110 mV | G2 (105.0) | Idx: 3630
+Vraw=+107.871 mV | Vcorr=  +1.027 mV | G2 (105.0) | Idx: 3631
+Vraw=+102.084 mV | Vcorr=  +0.972 mV | G2 (105.0) | Idx: 3632
+Vraw=+105.349 mV | Vcorr=  +1.003 mV | G2 (105.0) | Idx: 3633
+Vraw= +93.117 mV | Vcorr=  +0.887 mV | G2 (105.0) | Idx: 3634
+Vraw= +84.713 mV | Vcorr=  +0.807 mV | G2 (105.0) | Idx: 3635
+Vraw= +88.969 mV | Vcorr=  +0.847 mV | G2 (105.0) | Idx: 3636
+Vraw= +85.011 mV | Vcorr=  +0.810 mV | G2 (105.0) | Idx: 3637
+Vraw= +88.617 mV | Vcorr=  +0.844 mV | G2 (105.0) | Idx: 3638
+Vraw= +99.317 mV | Vcorr=  +0.946 mV | G2 (105.0) | Idx: 3639
+Vraw= +94.536 mV | Vcorr=  +0.900 mV | G2 (105.0) | Idx: 3640
+Vraw= +93.141 mV | Vcorr=  +0.887 mV | G2 (105.0) | Idx: 3641
+Vraw= +98.778 mV | Vcorr=  +0.941 mV | G2 (105.0) | Idx: 3642
+Vraw=+107.645 mV | Vcorr=  +1.025 mV | G2 (105.0) | Idx: 3643
+Vraw=+103.882 mV | Vcorr=  +0.989 mV | G2 (105.0) | Idx: 3644
+Vraw=+106.929 mV | Vcorr=  +1.018 mV | G2 (105.0) | Idx: 3645
+Vraw=+106.505 mV | Vcorr=  +1.014 mV | G2 (105.0) | Idx: 3646
+Vraw=+112.327 mV | Vcorr=  +1.070 mV | G2 (105.0) | Idx: 3647
+Vraw=+108.867 mV | Vcorr=  +1.037 mV | G2 (105.0) | Idx: 3648
+Vraw= +98.108 mV | Vcorr=  +0.934 mV | G2 (105.0) | Idx: 3649
+Vraw=+102.559 mV | Vcorr=  +0.977 mV | G2 (105.0) | Idx: 3650
+Vraw=+100.698 mV | Vcorr=  +0.959 mV | G2 (105.0) | Idx: 3651
+Vraw=+103.977 mV | Vcorr=  +0.990 mV | G2 (105.0) | Idx: 3652
+Vraw=+111.690 mV | Vcorr=  +1.064 mV | G2 (105.0) | Idx: 3653
+Vraw=+111.536 mV | Vcorr=  +1.062 mV | G2 (105.0) | Idx: 3654
+Vraw=+119.598 mV | Vcorr=  +1.139 mV | G2 (105.0) | Idx: 3655
+Vraw=+122.052 mV | Vcorr=  +1.162 mV | G2 (105.0) | Idx: 3656
+Vraw=+136.976 mV | Vcorr=  +1.305 mV | G2 (105.0) | Idx: 3657
+Vraw=+148.211 mV | Vcorr=  +1.412 mV | G2 (105.0) | Idx: 3658
+Vraw=+139.559 mV | Vcorr=  +1.329 mV | G2 (105.0) | Idx: 3659
+Vraw=+142.385 mV | Vcorr=  +1.356 mV | G2 (105.0) | Idx: 3660
+Vraw=+134.977 mV | Vcorr=  +1.285 mV | G2 (105.0) | Idx: 3661
+Vraw=+137.744 mV | Vcorr=  +1.312 mV | G2 (105.0) | Idx: 3662
+Vraw=+144.069 mV | Vcorr=  +1.372 mV | G2 (105.0) | Idx: 3663
+Vraw=+138.304 mV | Vcorr=  +1.317 mV | G2 (105.0) | Idx: 3664
+Vraw=+132.649 mV | Vcorr=  +1.263 mV | G2 (105.0) | Idx: 3665
+Vraw=+130.037 mV | Vcorr=  +1.238 mV | G2 (105.0) | Idx: 3666
+Vraw=+136.294 mV | Vcorr=  +1.298 mV | G2 (105.0) | Idx: 3667
+Vraw=+137.930 mV | Vcorr=  +1.314 mV | G2 (105.0) | Idx: 3668
+Vraw=+134.623 mV | Vcorr=  +1.282 mV | G2 (105.0) | Idx: 3669
+Vraw=+125.470 mV | Vcorr=  +1.195 mV | G2 (105.0) | Idx: 3670
+Vraw=+124.804 mV | Vcorr=  +1.189 mV | G2 (105.0) | Idx: 3671
+Vraw=+125.823 mV | Vcorr=  +1.198 mV | G2 (105.0) | Idx: 3672
+Vraw=+153.303 mV | Vcorr=  +1.460 mV | G2 (105.0) | Idx: 3673
+Vraw=+156.619 mV | Vcorr=  +1.492 mV | G2 (105.0) | Idx: 3674
+Vraw=+162.225 mV | Vcorr=  +1.545 mV | G2 (105.0) | Idx: 3675
+Vraw=+166.428 mV | Vcorr=  +1.585 mV | G2 (105.0) | Idx: 3676
+Vraw=+162.296 mV | Vcorr=  +1.546 mV | G2 (105.0) | Idx: 3677
+Vraw=+163.042 mV | Vcorr=  +1.553 mV | G2 (105.0) | Idx: 3678
+Vraw=+160.495 mV | Vcorr=  +1.529 mV | G2 (105.0) | Idx: 3679
+Vraw=+157.990 mV | Vcorr=  +1.505 mV | G2 (105.0) | Idx: 3680
+Vraw=+157.105 mV | Vcorr=  +1.496 mV | G2 (105.0) | Idx: 3681
+Vraw=+163.147 mV | Vcorr=  +1.554 mV | G2 (105.0) | Idx: 3682
+Vraw=+159.272 mV | Vcorr=  +1.517 mV | G2 (105.0) | Idx: 3683
+Vraw=+152.250 mV | Vcorr=  +1.450 mV | G2 (105.0) | Idx: 3684
+Vraw=+149.927 mV | Vcorr=  +1.428 mV | G2 (105.0) | Idx: 3685
+Vraw=+152.166 mV | Vcorr=  +1.449 mV | G2 (105.0) | Idx: 3686
+Vraw=+158.375 mV | Vcorr=  +1.508 mV | G2 (105.0) | Idx: 3687
+Vraw=+154.694 mV | Vcorr=  +1.473 mV | G2 (105.0) | Idx: 3688
+Vraw=+161.203 mV | Vcorr=  +1.535 mV | G2 (105.0) | Idx: 3689
+Vraw=+162.439 mV | Vcorr=  +1.547 mV | G2 (105.0) | Idx: 3690
+Vraw=+160.211 mV | Vcorr=  +1.526 mV | G2 (105.0) | Idx: 3691
+Vraw=+156.815 mV | Vcorr=  +1.493 mV | G2 (105.0) | Idx: 3692
+Vraw=+159.911 mV | Vcorr=  +1.523 mV | G2 (105.0) | Idx: 3693
+Vraw=+160.505 mV | Vcorr=  +1.529 mV | G2 (105.0) | Idx: 3694
+Vraw=+163.652 mV | Vcorr=  +1.559 mV | G2 (105.0) | Idx: 3695
+Vraw=+167.377 mV | Vcorr=  +1.594 mV | G2 (105.0) | Idx: 3696
+Vraw=+157.453 mV | Vcorr=  +1.500 mV | G2 (105.0) | Idx: 3697
+Vraw=+156.897 mV | Vcorr=  +1.494 mV | G2 (105.0) | Idx: 3698
+Vraw=+157.415 mV | Vcorr=  +1.499 mV | G2 (105.0) | Idx: 3699
+Vraw=+149.486 mV | Vcorr=  +1.424 mV | G2 (105.0) | Idx: 3700
+Vraw=+154.324 mV | Vcorr=  +1.470 mV | G2 (105.0) | Idx: 3701
+Vraw=+163.949 mV | Vcorr=  +1.561 mV | G2 (105.0) | Idx: 3702
+Vraw=+172.553 mV | Vcorr=  +1.643 mV | G2 (105.0) | Idx: 3703
+Vraw=+176.340 mV | Vcorr=  +1.679 mV | G2 (105.0) | Idx: 3704
+Vraw=+188.347 mV | Vcorr=  +1.794 mV | G2 (105.0) | Idx: 3705
+Vraw=+187.649 mV | Vcorr=  +1.787 mV | G2 (105.0) | Idx: 3706
+Vraw=+182.249 mV | Vcorr=  +1.736 mV | G2 (105.0) | Idx: 3707
+Vraw=+188.336 mV | Vcorr=  +1.794 mV | G2 (105.0) | Idx: 3708
+Vraw=+189.925 mV | Vcorr=  +1.809 mV | G2 (105.0) | Idx: 3709
+Vraw=+191.951 mV | Vcorr=  +1.828 mV | G2 (105.0) | Idx: 3710
+Vraw=+192.574 mV | Vcorr=  +1.834 mV | G2 (105.0) | Idx: 3711
+Vraw=+199.648 mV | Vcorr=  +1.901 mV | G2 (105.0) | Idx: 3712
+Vraw=+194.994 mV | Vcorr=  +1.857 mV | G2 (105.0) | Idx: 3713
+Vraw=+203.838 mV | Vcorr=  +1.941 mV | G2 (105.0) | Idx: 3714
+Vraw=+200.254 mV | Vcorr=  +1.907 mV | G2 (105.0) | Idx: 3715
+Vraw=+201.635 mV | Vcorr=  +1.920 mV | G2 (105.0) | Idx: 3716
+Vraw=+199.519 mV | Vcorr=  +1.900 mV | G2 (105.0) | Idx: 3717
+Vraw=+197.933 mV | Vcorr=  +1.885 mV | G2 (105.0) | Idx: 3718
+Vraw=+201.419 mV | Vcorr=  +1.918 mV | G2 (105.0) | Idx: 3719
+Vraw=+212.879 mV | Vcorr=  +2.027 mV | G2 (105.0) | Idx: 3720
+Vraw=+219.762 mV | Vcorr=  +2.093 mV | G2 (105.0) | Idx: 3721
+Vraw=+215.945 mV | Vcorr=  +2.057 mV | G2 (105.0) | Idx: 3722
+Vraw=+216.303 mV | Vcorr=  +2.060 mV | G2 (105.0) | Idx: 3723
+Vraw=+213.847 mV | Vcorr=  +2.037 mV | G2 (105.0) | Idx: 3724
+Vraw=+212.871 mV | Vcorr=  +2.027 mV | G2 (105.0) | Idx: 3725
+Vraw=+205.232 mV | Vcorr=  +1.955 mV | G2 (105.0) | Idx: 3726
+Vraw=+205.368 mV | Vcorr=  +1.956 mV | G2 (105.0) | Idx: 3727
+Vraw=+214.253 mV | Vcorr=  +2.041 mV | G2 (105.0) | Idx: 3728
+Vraw=+212.203 mV | Vcorr=  +2.021 mV | G2 (105.0) | Idx: 3729
+Vraw=+213.142 mV | Vcorr=  +2.030 mV | G2 (105.0) | Idx: 3730
+Vraw=+205.650 mV | Vcorr=  +1.959 mV | G2 (105.0) | Idx: 3731
+Vraw=+201.391 mV | Vcorr=  +1.918 mV | G2 (105.0) | Idx: 3732
+Vraw=+202.208 mV | Vcorr=  +1.926 mV | G2 (105.0) | Idx: 3733
+Vraw=+208.090 mV | Vcorr=  +1.982 mV | G2 (105.0) | Idx: 3734
+Vraw=+207.909 mV | Vcorr=  +1.980 mV | G2 (105.0) | Idx: 3735
+Vraw=+200.841 mV | Vcorr=  +1.913 mV | G2 (105.0) | Idx: 3736
+Vraw=+201.530 mV | Vcorr=  +1.919 mV | G2 (105.0) | Idx: 3737
+Vraw=+204.876 mV | Vcorr=  +1.951 mV | G2 (105.0) | Idx: 3738
+Vraw=+202.651 mV | Vcorr=  +1.930 mV | G2 (105.0) | Idx: 3739
+Vraw=+200.965 mV | Vcorr=  +1.914 mV | G2 (105.0) | Idx: 3740
+Vraw=+204.427 mV | Vcorr=  +1.947 mV | G2 (105.0) | Idx: 3741
+Vraw=+209.881 mV | Vcorr=  +1.999 mV | G2 (105.0) | Idx: 3742
+Vraw=+212.235 mV | Vcorr=  +2.021 mV | G2 (105.0) | Idx: 3743
+Vraw=+209.963 mV | Vcorr=  +2.000 mV | G2 (105.0) | Idx: 3744
+Vraw=+196.687 mV | Vcorr=  +1.873 mV | G2 (105.0) | Idx: 3745
+Vraw=+193.500 mV | Vcorr=  +1.843 mV | G2 (105.0) | Idx: 3746
+Vraw=+190.606 mV | Vcorr=  +1.815 mV | G2 (105.0) | Idx: 3747
+Vraw=+181.989 mV | Vcorr=  +1.733 mV | G2 (105.0) | Idx: 3748
+Vraw=+193.774 mV | Vcorr=  +1.845 mV | G2 (105.0) | Idx: 3749
+Vraw=+191.110 mV | Vcorr=  +1.820 mV | G2 (105.0) | Idx: 3750
+Vraw=+188.262 mV | Vcorr=  +1.793 mV | G2 (105.0) | Idx: 3751
+Vraw=+188.182 mV | Vcorr=  +1.792 mV | G2 (105.0) | Idx: 3752
+Vraw=+183.339 mV | Vcorr=  +1.746 mV | G2 (105.0) | Idx: 3753
+Vraw=+181.358 mV | Vcorr=  +1.727 mV | G2 (105.0) | Idx: 3754
+Vraw=+179.696 mV | Vcorr=  +1.711 mV | G2 (105.0) | Idx: 3755
+Vraw=+188.824 mV | Vcorr=  +1.798 mV | G2 (105.0) | Idx: 3756
+Vraw=+192.275 mV | Vcorr=  +1.831 mV | G2 (105.0) | Idx: 3757
+Vraw=+199.805 mV | Vcorr=  +1.903 mV | G2 (105.0) | Idx: 3758
+Vraw=+198.026 mV | Vcorr=  +1.886 mV | G2 (105.0) | Idx: 3759
+Vraw=+187.933 mV | Vcorr=  +1.790 mV | G2 (105.0) | Idx: 3760
+Vraw=+187.187 mV | Vcorr=  +1.783 mV | G2 (105.0) | Idx: 3761
+Vraw=+185.533 mV | Vcorr=  +1.767 mV | G2 (105.0) | Idx: 3762
+Vraw=+181.717 mV | Vcorr=  +1.731 mV | G2 (105.0) | Idx: 3763
+Vraw=+186.176 mV | Vcorr=  +1.773 mV | G2 (105.0) | Idx: 3764
+Vraw=+180.501 mV | Vcorr=  +1.719 mV | G2 (105.0) | Idx: 3765
+Vraw=+180.667 mV | Vcorr=  +1.721 mV | G2 (105.0) | Idx: 3766
+Vraw=+186.076 mV | Vcorr=  +1.772 mV | G2 (105.0) | Idx: 3767
+Vraw=+182.508 mV | Vcorr=  +1.738 mV | G2 (105.0) | Idx: 3768
+Vraw=+185.664 mV | Vcorr=  +1.768 mV | G2 (105.0) | Idx: 3769
+Vraw=+192.934 mV | Vcorr=  +1.837 mV | G2 (105.0) | Idx: 3770
+Vraw=+192.971 mV | Vcorr=  +1.838 mV | G2 (105.0) | Idx: 3771
+Vraw=+205.567 mV | Vcorr=  +1.958 mV | G2 (105.0) | Idx: 3772
+Vraw=+202.703 mV | Vcorr=  +1.931 mV | G2 (105.0) | Idx: 3773
+Vraw=+202.336 mV | Vcorr=  +1.927 mV | G2 (105.0) | Idx: 3774
+Vraw=+199.139 mV | Vcorr=  +1.897 mV | G2 (105.0) | Idx: 3775
+Vraw=+199.686 mV | Vcorr=  +1.902 mV | G2 (105.0) | Idx: 3776
+Vraw=+198.399 mV | Vcorr=  +1.890 mV | G2 (105.0) | Idx: 3777
+Vraw=+188.901 mV | Vcorr=  +1.799 mV | G2 (105.0) | Idx: 3778
+Vraw=+192.698 mV | Vcorr=  +1.835 mV | G2 (105.0) | Idx: 3779
+Vraw=+198.762 mV | Vcorr=  +1.893 mV | G2 (105.0) | Idx: 3780
+Vraw=+187.260 mV | Vcorr=  +1.783 mV | G2 (105.0) | Idx: 3781
+Vraw=+191.742 mV | Vcorr=  +1.826 mV | G2 (105.0) | Idx: 3782
+Vraw=+193.436 mV | Vcorr=  +1.842 mV | G2 (105.0) | Idx: 3783
+Vraw=+189.019 mV | Vcorr=  +1.800 mV | G2 (105.0) | Idx: 3784
+Vraw=+187.505 mV | Vcorr=  +1.786 mV | G2 (105.0) | Idx: 3785
+Vraw=+179.891 mV | Vcorr=  +1.713 mV | G2 (105.0) | Idx: 3786
+Vraw=+177.369 mV | Vcorr=  +1.689 mV | G2 (105.0) | Idx: 3787
+Vraw=+172.101 mV | Vcorr=  +1.639 mV | G2 (105.0) | Idx: 3788
+Vraw=+171.093 mV | Vcorr=  +1.629 mV | G2 (105.0) | Idx: 3789
+Vraw=+180.572 mV | Vcorr=  +1.720 mV | G2 (105.0) | Idx: 3790
+Vraw=+176.555 mV | Vcorr=  +1.681 mV | G2 (105.0) | Idx: 3791
+Vraw=+181.532 mV | Vcorr=  +1.729 mV | G2 (105.0) | Idx: 3792
+Vraw=+172.001 mV | Vcorr=  +1.638 mV | G2 (105.0) | Idx: 3793
+Vraw=+179.858 mV | Vcorr=  +1.713 mV | G2 (105.0) | Idx: 3794
+Vraw=+186.880 mV | Vcorr=  +1.780 mV | G2 (105.0) | Idx: 3795
+Vraw=+184.492 mV | Vcorr=  +1.757 mV | G2 (105.0) | Idx: 3796
+Vraw=+189.715 mV | Vcorr=  +1.807 mV | G2 (105.0) | Idx: 3797
+Vraw=+179.172 mV | Vcorr=  +1.706 mV | G2 (105.0) | Idx: 3798
+Vraw=+174.488 mV | Vcorr=  +1.662 mV | G2 (105.0) | Idx: 3799
+Vraw=+172.447 mV | Vcorr=  +1.642 mV | G2 (105.0) | Idx: 3800
+Vraw=+179.129 mV | Vcorr=  +1.706 mV | G2 (105.0) | Idx: 3801
+Vraw=+188.445 mV | Vcorr=  +1.795 mV | G2 (105.0) | Idx: 3802
+Vraw=+177.759 mV | Vcorr=  +1.693 mV | G2 (105.0) | Idx: 3803
+Vraw=+173.060 mV | Vcorr=  +1.648 mV | G2 (105.0) | Idx: 3804
+Vraw=+172.869 mV | Vcorr=  +1.646 mV | G2 (105.0) | Idx: 3805
+Vraw=+180.414 mV | Vcorr=  +1.718 mV | G2 (105.0) | Idx: 3806
+Vraw=+186.251 mV | Vcorr=  +1.774 mV | G2 (105.0) | Idx: 3807
+Vraw=+190.581 mV | Vcorr=  +1.815 mV | G2 (105.0) | Idx: 3808
+Vraw=+190.915 mV | Vcorr=  +1.818 mV | G2 (105.0) | Idx: 3809
+Vraw=+189.569 mV | Vcorr=  +1.805 mV | G2 (105.0) | Idx: 3810
+Vraw=+194.885 mV | Vcorr=  +1.856 mV | G2 (105.0) | Idx: 3811
+Vraw=+188.636 mV | Vcorr=  +1.797 mV | G2 (105.0) | Idx: 3812
+Vraw=+188.149 mV | Vcorr=  +1.792 mV | G2 (105.0) | Idx: 3813
+Vraw=+188.181 mV | Vcorr=  +1.792 mV | G2 (105.0) | Idx: 3814
+Vraw=+187.215 mV | Vcorr=  +1.783 mV | G2 (105.0) | Idx: 3815
+Vraw=+191.793 mV | Vcorr=  +1.827 mV | G2 (105.0) | Idx: 3816
+Vraw=+193.873 mV | Vcorr=  +1.846 mV | G2 (105.0) | Idx: 3817
+Vraw=+191.156 mV | Vcorr=  +1.821 mV | G2 (105.0) | Idx: 3818
+Vraw=+193.262 mV | Vcorr=  +1.841 mV | G2 (105.0) | Idx: 3819
+Vraw=+204.673 mV | Vcorr=  +1.949 mV | G2 (105.0) | Idx: 3820
+Vraw=+194.658 mV | Vcorr=  +1.854 mV | G2 (105.0) | Idx: 3821
+Vraw=+189.500 mV | Vcorr=  +1.805 mV | G2 (105.0) | Idx: 3822
+Vraw=+196.367 mV | Vcorr=  +1.870 mV | G2 (105.0) | Idx: 3823
+Vraw=+189.040 mV | Vcorr=  +1.800 mV | G2 (105.0) | Idx: 3824
+Vraw=+187.701 mV | Vcorr=  +1.788 mV | G2 (105.0) | Idx: 3825
+Vraw=+181.725 mV | Vcorr=  +1.731 mV | G2 (105.0) | Idx: 3826
+Vraw=+188.049 mV | Vcorr=  +1.791 mV | G2 (105.0) | Idx: 3827
+Vraw=+194.670 mV | Vcorr=  +1.854 mV | G2 (105.0) | Idx: 3828
+Vraw=+198.785 mV | Vcorr=  +1.893 mV | G2 (105.0) | Idx: 3829
+Vraw=+192.234 mV | Vcorr=  +1.831 mV | G2 (105.0) | Idx: 3830
+Vraw=+197.327 mV | Vcorr=  +1.879 mV | G2 (105.0) | Idx: 3831
+Vraw=+194.422 mV | Vcorr=  +1.852 mV | G2 (105.0) | Idx: 3832
+Vraw=+192.774 mV | Vcorr=  +1.836 mV | G2 (105.0) | Idx: 3833
+Vraw=+190.537 mV | Vcorr=  +1.815 mV | G2 (105.0) | Idx: 3834
+Vraw=+191.316 mV | Vcorr=  +1.822 mV | G2 (105.0) | Idx: 3835
+Vraw=+195.960 mV | Vcorr=  +1.866 mV | G2 (105.0) | Idx: 3836
+Vraw=+194.951 mV | Vcorr=  +1.857 mV | G2 (105.0) | Idx: 3837
+Vraw=+200.548 mV | Vcorr=  +1.910 mV | G2 (105.0) | Idx: 3838
+Vraw=+198.081 mV | Vcorr=  +1.886 mV | G2 (105.0) | Idx: 3839
+Vraw=+191.344 mV | Vcorr=  +1.822 mV | G2 (105.0) | Idx: 3840
+Vraw=+184.310 mV | Vcorr=  +1.755 mV | G2 (105.0) | Idx: 3841
+Vraw=+185.042 mV | Vcorr=  +1.762 mV | G2 (105.0) | Idx: 3842
+Vraw=+185.860 mV | Vcorr=  +1.770 mV | G2 (105.0) | Idx: 3843
+Vraw=+188.616 mV | Vcorr=  +1.796 mV | G2 (105.0) | Idx: 3844
+Vraw=+185.588 mV | Vcorr=  +1.768 mV | G2 (105.0) | Idx: 3845
+Vraw=+190.387 mV | Vcorr=  +1.813 mV | G2 (105.0) | Idx: 3846
+Vraw=+187.799 mV | Vcorr=  +1.789 mV | G2 (105.0) | Idx: 3847
+Vraw=+152.603 mV | Vcorr=  +1.453 mV | G2 (105.0) | Idx: 3848
+Vraw=+175.480 mV | Vcorr=  +1.671 mV | G2 (105.0) | Idx: 3849
+Vraw=+168.641 mV | Vcorr=  +1.606 mV | G2 (105.0) | Idx: 3850
+Vraw=+165.971 mV | Vcorr=  +1.581 mV | G2 (105.0) | Idx: 3851
+Vraw=+160.695 mV | Vcorr=  +1.530 mV | G2 (105.0) | Idx: 3852
+Vraw=+164.549 mV | Vcorr=  +1.567 mV | G2 (105.0) | Idx: 3853
+Vraw=+165.129 mV | Vcorr=  +1.573 mV | G2 (105.0) | Idx: 3854
+Vraw=+165.324 mV | Vcorr=  +1.575 mV | G2 (105.0) | Idx: 3855
+Vraw=+172.399 mV | Vcorr=  +1.642 mV | G2 (105.0) | Idx: 3856
+Vraw=+174.610 mV | Vcorr=  +1.663 mV | G2 (105.0) | Idx: 3857
+Vraw=+176.496 mV | Vcorr=  +1.681 mV | G2 (105.0) | Idx: 3858
+Vraw=+172.934 mV | Vcorr=  +1.647 mV | G2 (105.0) | Idx: 3859
+Vraw=+161.385 mV | Vcorr=  +1.537 mV | G2 (105.0) | Idx: 3860
+Vraw=+153.450 mV | Vcorr=  +1.461 mV | G2 (105.0) | Idx: 3861
+Vraw=+159.452 mV | Vcorr=  +1.519 mV | G2 (105.0) | Idx: 3862
+Vraw=+164.311 mV | Vcorr=  +1.565 mV | G2 (105.0) | Idx: 3863
+Vraw=+155.790 mV | Vcorr=  +1.484 mV | G2 (105.0) | Idx: 3864
+Vraw=+156.586 mV | Vcorr=  +1.491 mV | G2 (105.0) | Idx: 3865
+Vraw=+174.891 mV | Vcorr=  +1.666 mV | G2 (105.0) | Idx: 3866
+Vraw=+169.667 mV | Vcorr=  +1.616 mV | G2 (105.0) | Idx: 3867
+Vraw=+162.243 mV | Vcorr=  +1.545 mV | G2 (105.0) | Idx: 3868
+Vraw=+166.338 mV | Vcorr=  +1.584 mV | G2 (105.0) | Idx: 3869
+Vraw=+167.449 mV | Vcorr=  +1.595 mV | G2 (105.0) | Idx: 3870
+Vraw=+168.498 mV | Vcorr=  +1.605 mV | G2 (105.0) | Idx: 3871
+Vraw=+162.569 mV | Vcorr=  +1.548 mV | G2 (105.0) | Idx: 3872
+Vraw=+159.891 mV | Vcorr=  +1.523 mV | G2 (105.0) | Idx: 3873
+Vraw=+156.400 mV | Vcorr=  +1.490 mV | G2 (105.0) | Idx: 3874
+Vraw=+157.730 mV | Vcorr=  +1.502 mV | G2 (105.0) | Idx: 3875
+Vraw=+165.504 mV | Vcorr=  +1.576 mV | G2 (105.0) | Idx: 3876
+Vraw=+162.483 mV | Vcorr=  +1.547 mV | G2 (105.0) | Idx: 3877
+Vraw=+156.691 mV | Vcorr=  +1.492 mV | G2 (105.0) | Idx: 3878
+Vraw=+161.983 mV | Vcorr=  +1.543 mV | G2 (105.0) | Idx: 3879
+Vraw=+177.440 mV | Vcorr=  +1.690 mV | G2 (105.0) | Idx: 3880
+Vraw=+174.616 mV | Vcorr=  +1.663 mV | G2 (105.0) | Idx: 3881
+Vraw=+173.425 mV | Vcorr=  +1.652 mV | G2 (105.0) | Idx: 3882
+Vraw=+175.782 mV | Vcorr=  +1.674 mV | G2 (105.0) | Idx: 3883
+Vraw=+173.974 mV | Vcorr=  +1.657 mV | G2 (105.0) | Idx: 3884
+Vraw=+172.308 mV | Vcorr=  +1.641 mV | G2 (105.0) | Idx: 3885
+Vraw=+168.964 mV | Vcorr=  +1.609 mV | G2 (105.0) | Idx: 3886
+Vraw=+175.527 mV | Vcorr=  +1.672 mV | G2 (105.0) | Idx: 3887
+Vraw=+176.364 mV | Vcorr=  +1.680 mV | G2 (105.0) | Idx: 3888
+Vraw=+183.019 mV | Vcorr=  +1.743 mV | G2 (105.0) | Idx: 3889
+Vraw=+173.532 mV | Vcorr=  +1.653 mV | G2 (105.0) | Idx: 3890
+Vraw=+166.045 mV | Vcorr=  +1.581 mV | G2 (105.0) | Idx: 3891
+Vraw=+160.702 mV | Vcorr=  +1.530 mV | G2 (105.0) | Idx: 3892
+Vraw=+159.819 mV | Vcorr=  +1.522 mV | G2 (105.0) | Idx: 3893
+Vraw=+166.687 mV | Vcorr=  +1.587 mV | G2 (105.0) | Idx: 3894
+Vraw=+164.196 mV | Vcorr=  +1.564 mV | G2 (105.0) | Idx: 3895
+Vraw=+157.184 mV | Vcorr=  +1.497 mV | G2 (105.0) | Idx: 3896
+Vraw=+163.458 mV | Vcorr=  +1.557 mV | G2 (105.0) | Idx: 3897
+Vraw=+164.076 mV | Vcorr=  +1.563 mV | G2 (105.0) | Idx: 3898
+Vraw=+167.215 mV | Vcorr=  +1.593 mV | G2 (105.0) | Idx: 3899
+Vraw=+168.331 mV | Vcorr=  +1.603 mV | G2 (105.0) | Idx: 3900
+Vraw=+164.491 mV | Vcorr=  +1.567 mV | G2 (105.0) | Idx: 3901
+Vraw=+170.525 mV | Vcorr=  +1.624 mV | G2 (105.0) | Idx: 3902
+Vraw=+171.685 mV | Vcorr=  +1.635 mV | G2 (105.0) | Idx: 3903
+Vraw=+175.325 mV | Vcorr=  +1.670 mV | G2 (105.0) | Idx: 3904
+Vraw=+180.985 mV | Vcorr=  +1.724 mV | G2 (105.0) | Idx: 3905
+Vraw=+179.985 mV | Vcorr=  +1.714 mV | G2 (105.0) | Idx: 3906
+Vraw=+178.479 mV | Vcorr=  +1.700 mV | G2 (105.0) | Idx: 3907
+Vraw=+179.594 mV | Vcorr=  +1.710 mV | G2 (105.0) | Idx: 3908
+Vraw=+168.699 mV | Vcorr=  +1.607 mV | G2 (105.0) | Idx: 3909
+Vraw=+167.823 mV | Vcorr=  +1.598 mV | G2 (105.0) | Idx: 3910
+Vraw=+169.758 mV | Vcorr=  +1.617 mV | G2 (105.0) | Idx: 3911
+Vraw=+160.216 mV | Vcorr=  +1.526 mV | G2 (105.0) | Idx: 3912
+Vraw=+163.902 mV | Vcorr=  +1.561 mV | G2 (105.0) | Idx: 3913
+Vraw=+158.316 mV | Vcorr=  +1.508 mV | G2 (105.0) | Idx: 3914
+Vraw=+160.856 mV | Vcorr=  +1.532 mV | G2 (105.0) | Idx: 3915
+Vraw=+161.999 mV | Vcorr=  +1.543 mV | G2 (105.0) | Idx: 3916
+Vraw=+174.245 mV | Vcorr=  +1.659 mV | G2 (105.0) | Idx: 3917
+Vraw=+166.703 mV | Vcorr=  +1.588 mV | G2 (105.0) | Idx: 3918
+Vraw=+167.805 mV | Vcorr=  +1.598 mV | G2 (105.0) | Idx: 3919
+Vraw=+174.182 mV | Vcorr=  +1.659 mV | G2 (105.0) | Idx: 3920
+Vraw=+178.021 mV | Vcorr=  +1.695 mV | G2 (105.0) | Idx: 3921
+Vraw=+185.996 mV | Vcorr=  +1.771 mV | G2 (105.0) | Idx: 3922
+Vraw=+177.297 mV | Vcorr=  +1.689 mV | G2 (105.0) | Idx: 3923
+Vraw=+178.395 mV | Vcorr=  +1.699 mV | G2 (105.0) | Idx: 3924
+Vraw=+183.161 mV | Vcorr=  +1.744 mV | G2 (105.0) | Idx: 3925
+Vraw=+176.959 mV | Vcorr=  +1.685 mV | G2 (105.0) | Idx: 3926
+Vraw=+176.187 mV | Vcorr=  +1.678 mV | G2 (105.0) | Idx: 3927
+Vraw=+174.484 mV | Vcorr=  +1.662 mV | G2 (105.0) | Idx: 3928
+Vraw=+177.868 mV | Vcorr=  +1.694 mV | G2 (105.0) | Idx: 3929
+Vraw=+188.424 mV | Vcorr=  +1.795 mV | G2 (105.0) | Idx: 3930
+Vraw=+187.098 mV | Vcorr=  +1.782 mV | G2 (105.0) | Idx: 3931

@@ -4,6 +4,7 @@ Lê data.txt, idx.txt e current.txt e gera gráfico com:
   - Eixo X: corrente do eletroímã (current.txt)
   - Curva 1: campo magnético (valores de idx.txt)
   - Curva 2: Vraw médio por ponto de campo (data.txt + idx.txt)
+  - Barras de incerteza: desvio padrão do Vraw em cada ponto
 """
 
 import re
@@ -22,9 +23,9 @@ def parse_idx(path: str) -> dict[int, tuple[int, int]]:
         for linha in f:
             m = pattern.match(linha)
             if m:
-                campo = int(m.group(1))
+                campo  = int(m.group(1))
                 inicio = int(m.group(2))
-                fim = int(m.group(3))
+                fim    = int(m.group(3))
                 resultado[campo] = (inicio, fim)
     return resultado
 
@@ -38,7 +39,7 @@ def parse_current(path: str) -> dict[int, float]:
         for linha in f:
             m = pattern.match(linha)
             if m:
-                campo = int(m.group(1))
+                campo    = int(m.group(1))
                 corrente = float(m.group(2))
                 resultado[campo] = corrente
     return resultado
@@ -48,28 +49,28 @@ def parse_current(path: str) -> dict[int, float]:
 def parse_data(path: str) -> dict[int, float]:
     """Retorna {idx: Vraw_em_mV}"""
     resultado = {}
-    pattern = re.compile(r"Vraw\s*=\s*(-?[\d.]+)\s*mV.*Idx:\s*(\d+)", re.IGNORECASE)
+    pattern = re.compile(r"Vraw\s*=\s*([+-]?[\d.]+)\s*mV.*Idx:\s*(\d+)", re.IGNORECASE)
     with open(path, encoding="utf-8") as f:
         for linha in f:
             m = pattern.search(linha)
             if m:
                 vraw = float(m.group(1))
-                idx = int(m.group(2))
+                idx  = int(m.group(2))
                 resultado[idx] = vraw
     return resultado
 
 
-# ── Cálculo de Vraw médio por campo ──────────────────────────────────────────
+# ── Cálculo de Vraw médio ± desvio padrão por campo ──────────────────────────
 def calcular_vraw_por_campo(
     data: dict[int, float],
     idx_map: dict[int, tuple[int, int]],
-) -> dict[int, float]:
-    """Para cada campo, calcula a média dos Vraw dentro do intervalo de índices."""
+) -> dict[int, tuple[float, float]]:
+    """Retorna {campo: (media, desvio_padrao)}"""
     resultado = {}
     for campo, (inicio, fim) in idx_map.items():
         valores = [data[i] for i in range(inicio, fim + 1) if i in data]
         if valores:
-            resultado[campo] = float(np.mean(valores))
+            resultado[campo] = (float(np.mean(valores)), float(np.std(valores)))
         else:
             print(f"  Aviso: nenhum dado encontrado para campo={campo} "
                   f"(idx {inicio}–{fim})")
@@ -77,7 +78,7 @@ def calcular_vraw_por_campo(
 
 
 # ── Plot ─────────────────────────────────────────────────────────────────────
-def plot(correntes, campos, vraws):
+def plot(correntes, campos, vraws_media, vraws_std):
     fig, ax1 = plt.subplots(figsize=(10, 6))
     fig.patch.set_facecolor("#0f1117")
     ax1.set_facecolor("#181c27")
@@ -89,7 +90,7 @@ def plot(correntes, campos, vraws):
     lns1 = ax1.plot(
         correntes, campos,
         color=cor_campo, linewidth=2.2, marker="o", markersize=5,
-        label="Campo magnético (unidade original)",
+        label="Campo magnético",
     )
     ax1.set_xlabel("Corrente do eletroímã (A)", color="white", fontsize=12)
     ax1.set_ylabel("Campo magnético", color=cor_campo, fontsize=12)
@@ -98,13 +99,22 @@ def plot(correntes, campos, vraws):
     for spine in ax1.spines.values():
         spine.set_edgecolor("#3a3f55")
 
-    # --- Curva 2: Vraw (eixo Y direito) --------------------------------------
+    # --- Curva 2: Vraw com barra de incerteza (eixo Y direito) ---------------
     ax2 = ax1.twinx()
     ax2.set_facecolor("none")
-    lns2 = ax2.plot(
-        correntes, vraws,
-        color=cor_vraw, linewidth=2.2, marker="s", markersize=5,
-        linestyle="--", label="Vraw médio (mV)",
+
+    lns2 = ax2.errorbar(
+        correntes, vraws_media,
+        yerr=vraws_std,
+        color=cor_vraw, linewidth=2.2,
+        marker="s", markersize=5,
+        linestyle="--",
+        elinewidth=1.5,          # espessura das barras de erro
+        capsize=5,               # tamanho das tampinhas
+        capthick=1.5,
+        ecolor=cor_vraw,
+        alpha=0.9,
+        label="Vraw médio ± σ (mV)",
     )
     ax2.set_ylabel("Vraw (mV)", color=cor_vraw, fontsize=12)
     ax2.tick_params(axis="y", colors=cor_vraw)
@@ -116,11 +126,15 @@ def plot(correntes, campos, vraws):
     ax1.xaxis.set_minor_locator(ticker.AutoMinorLocator())
     ax1.yaxis.set_minor_locator(ticker.AutoMinorLocator())
 
-    todas_linhas = lns1 + lns2
-    labels = [l.get_label() for l in todas_linhas]
-    ax1.legend(todas_linhas, labels,
-               facecolor="#1e2235", edgecolor="#3a3f55",
-               labelcolor="white", fontsize=10, loc="upper left")
+    # errorbar retorna (line, caplines, barlinecols) — pega só a linha para legenda
+    handle_vraw = lns2[0]
+    handle_campo = lns1[0]
+    ax1.legend(
+        [handle_campo, handle_vraw],
+        [handle_campo.get_label(), handle_vraw.get_label()],
+        facecolor="#1e2235", edgecolor="#3a3f55",
+        labelcolor="white", fontsize=10, loc="upper left",
+    )
 
     plt.title(
         "Campo magnético e Vraw em função da corrente",
@@ -145,9 +159,9 @@ def main():
     currents = parse_current(current_path)
     data     = parse_data(data_path)
 
-    print(f"  idx.txt    → {len(idx_map)} pontos de campo")
+    print(f"  idx.txt     → {len(idx_map)} pontos de campo")
     print(f"  current.txt → {len(currents)} pontos de corrente")
-    print(f"  data.txt   → {len(data)} leituras de Vraw")
+    print(f"  data.txt    → {len(data)} leituras de Vraw")
 
     vraw_por_campo = calcular_vraw_por_campo(data, idx_map)
 
@@ -161,16 +175,18 @@ def main():
             "Verifique os arquivos."
         )
 
-    correntes = [currents[c]       for c in campos_validos]
-    campos    = [c                 for c in campos_validos]
-    vraws     = [vraw_por_campo[c] for c in campos_validos]
+    correntes   = [currents[c]              for c in campos_validos]
+    campos      = [c                        for c in campos_validos]
+    vraws_media = [vraw_por_campo[c][0]     for c in campos_validos]
+    vraws_std   = [vraw_por_campo[c][1]     for c in campos_validos]
 
-    print(f"\n{len(campos_validos)} pontos em comum para o gráfico.")
-    print(f"  Corrente : {min(correntes):.2f} A … {max(correntes):.2f} A")
-    print(f"  Campo    : {min(campos)} … {max(campos)}")
-    print(f"  Vraw     : {min(vraws):.4f} mV … {max(vraws):.4f} mV")
+    print(f"\n{len(campos_validos)} pontos para o gráfico.")
+    print(f"  Corrente : {min(correntes):.2f} A  …  {max(correntes):.2f} A")
+    print(f"  Campo    : {min(campos)}  …  {max(campos)}")
+    print(f"  Vraw     : {min(vraws_media):.4f} mV  …  {max(vraws_media):.4f} mV")
+    print(f"  σ Vraw   : {min(vraws_std):.4f} mV  …  {max(vraws_std):.4f} mV")
 
-    plot(correntes, campos, vraws)
+    plot(correntes, campos, vraws_media, vraws_std)
 
 
 if __name__ == "__main__":
